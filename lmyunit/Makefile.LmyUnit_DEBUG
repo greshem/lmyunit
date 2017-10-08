@@ -1,0 +1,47 @@
+################OPTION###################
+CCOMPILE = gcc
+CPPCOMPILE = g++
+COMPILEOPTION = -c -g -static
+INCLUDEDIR = 
+LINK = ar
+LINKOPTION = -r Debug/libUnitLib.a
+LIBDIRS = 
+OBJS = UnitCode/MThread.o UnitCode/MSystemInfo.o UnitCode/MString.o UnitCode/MSrvComm.o UnitCode/MSocket.o UnitCode/MRegister.o \
+	   UnitCode/MOptionTree.o UnitCode/MObject.o UnitCode/MMutex.o UnitCode/MLogFile.o UnitCode/MLZW.o UnitCode/MIniFile.o \
+	   UnitCode/MFile.o UnitCode/MExcelFile.o UnitCode/MDll.o UnitCode/MDbfFile.o UnitCode/MDateTime.o UnitCode/MDataStruct.o \
+	   UnitCode/MDES.o UnitCode/MCheckCode.o UnitCode/MBlockCompress.o UnitCode/MFinanceData.o
+OUTPUT = Debug/libUnitLib.a
+APPENDLIB = 
+PROC_OPTION = DEFINE=_PROC_ MODE=ORACLE LINES=true CODE=CPP
+ESQL_OPTION = -g
+################OPTION END################
+ESQL = esql
+PROC = proc
+$(OUTPUT):$(OBJS) $(APPENDLIB)
+	$(LINK) $(LINKOPTION) $(LIBDIRS)   $(OBJS) $(APPENDLIB)
+
+clean: 
+	rm -f $(OBJS)
+	rm -f $(OUTPUT)
+all: clean $(OUTPUT)
+.PRECIOUS:%.cpp %.c %.C
+.SUFFIXES:
+.SUFFIXES:  .c .o .cpp .ecpp .pc .ec .C
+
+.cpp.o:
+	$(CPPCOMPILE) -c -o $*.o $(COMPILEOPTION) $(INCLUDEDIR)  $*.cpp
+
+.c.o:
+	$(CCOMPILE) -c -o $*.o $(COMPILEOPTION) $(INCLUDEDIR) $*.c
+
+.C.o:
+	$(CPPCOMPILE) -c -o $*.o $(COMPILEOPTION) $(INCLUDEDIR) $*.C	
+
+.ecpp.C:
+	$(ESQL) -e $(ESQL_OPTION) $(INCLUDEDIR) $*.ecpp 
+	
+.ec.c:
+	$(ESQL) -e $(ESQL_OPTION) $(INCLUDEDIR) $*.ec
+	
+.pc.cpp:
+	$(PROC)  CPP_SUFFIX=cpp $(PROC_OPTION)  $*.pc

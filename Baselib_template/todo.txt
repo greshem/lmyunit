@@ -1,0 +1,4 @@
+
+#2011_03_30_16:30:26   星期三   add by greshem
+1. dump.hpp  dump 的时候  , 返回值是 void 打印到屏幕 返回值是 string 返回到 string 用于数据的分析.  
+	把dump 做成两个模板参数的样子. 

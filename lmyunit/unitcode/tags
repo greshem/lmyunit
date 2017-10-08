@@ -1,0 +1,1406 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AcceptThreadFun	MSrvComm.cpp	/^void * __stdcall MSrvCommUnit::AcceptThreadFun(void * In)$/;"	f	class:MSrvCommUnit
+AccessTime	MFile.h	/^	MDateTime				AccessTime;				\/\/访问时间$/;"	m
+ActiveEvent	MMutex.cpp	/^void MWaitEvent::ActiveEvent(void)$/;"	f	class:MWaitEvent
+AddLinkCount	MSrvComm.cpp	/^unsigned long MSrvCommLinkQueue::AddLinkCount(SOCKET SocketId,unsigned long ParentNo,char * IPAddr,unsigned long Port, unsigned short SrvPort, unsigned long LinkType)$/;"	f	class:MSrvCommLinkQueue
+AddLinkMsg	MSrvComm.cpp	/^int  MSrvCommRecvQueue::AddLinkMsg(tagSrvCommLinkMsg * Msg)$/;"	f	class:MSrvCommRecvQueue
+AddName	MIniFile.cpp	/^int  MIniFile::AddName(void)$/;"	f	class:MIniFile
+AddNode	MOptionTree.cpp	/^tagOptionTreeNode * MOptionTree::AddNode(tagOptionTreeNode * Parent,char * Name,unsigned char Type,unsigned short Size,unsigned short Count,char * SizeOfName,unsigned char Attr,char * Descript)$/;"	f	class:MOptionTree
+AddSection	MIniFile.cpp	/^int  MIniFile::AddSection(void)$/;"	f	class:MIniFile
+AddValue	MIniFile.cpp	/^int  MIniFile::AddValue(void)$/;"	f	class:MIniFile
+AddtionData	MDataStruct.h	/^		unsigned long			AddtionData;$/;"	m	struct:MHashTableSt::<anonymous>
+AddtionData	MSrvComm.h	/^	unsigned long					AddtionData;			\/\/附加数据[现在作为连接类型]$/;"	m
+AddtionData	MSrvComm.h	/^	unsigned long					AddtionData;$/;"	m
+Align_Code	MExcelFile.h	/^    unsigned char				Align_Code : 3;		\/\/对齐方式$/;"	m
+AppendRecord	MDbfFile.cpp	/^int  MMemoryDbfFile::AppendRecord(void)$/;"	f	class:MMemoryDbfFile
+AttchBuf	MFinanceData.cpp	/^void MFinanceBaseData::AttchBuf(char * InBuf,unsigned long InSize)$/;"	f	class:MFinanceBaseData
+AttchBufToRead	MFinanceData.cpp	/^void MFinanceData::AttchBufToRead(char * InBuf,unsigned long InSize)$/;"	f	class:MFinanceData
+AttchBufToWrite	MFinanceData.cpp	/^void MFinanceData::AttchBufToWrite(char * InBuf,unsigned long InSize)$/;"	f	class:MFinanceData
+AttchLock	MMutex.cpp	/^void MLocalSection::AttchLock(MCriticalSection * In)$/;"	f	class:MLocalSection
+AttchLockRead	MMutex.cpp	/^int  MLocalComplexSection::AttchLockRead(MComplexMrSwSection * section,unsigned long TimeOut)$/;"	f	class:MLocalComplexSection
+AttchLockWrite	MMutex.cpp	/^int  MLocalComplexSection::AttchLockWrite(MComplexMrSwSection * section,unsigned long TimeOut)$/;"	f	class:MLocalComplexSection
+Attr	MOptionTree.h	/^	int 					Attr;			\/\/属性$/;"	m
+BEGIN_LMYUNIT	MObject.h	119;"	d
+BOOL	MString.h	41;"	d
+BROADCAST_LINK_NO	MSrvComm.h	50;"	d
+BYTE	MString.h	38;"	d
+BiosDate	MSystemInfo.h	/^	char							BiosDate[20];						\/\/BIOS更新日期$/;"	m
+BiosVersion	MSystemInfo.h	/^	char							BiosVersion[30];                    \/\/BIOS版本$/;"	m
+BitToByte	MDES.cpp	/^void MDES64::BitToByte(unsigned char * InBuf,unsigned short BitCount,char * OutBuf)$/;"	f	class:MDES64
+Bottom_Border	MExcelFile.h	/^    unsigned char				Bottom_Border : 1;  \/\/边框下线$/;"	m
+ByteToBit	MDES.cpp	/^void MDES64::ByteToBit(char * InBuf,unsigned short BitCount,unsigned char * OutBuf)$/;"	f	class:MDES64
+CPUCount	MSystemInfo.h	/^	unsigned long		CPUCount;			\/\/CPU数量$/;"	m
+CPUFreq	MSystemInfo.h	/^	unsigned long		CPUFreq;			\/\/CPU平均频率（单位：MHZ）$/;"	m
+CPUPercent	MSystemInfo.h	/^	unsigned long		CPUPercent;			\/\/CPU利用率$/;"	m
+CellAttr	MExcelFile.h	/^	tagExcelCellAttr			CellAttr;			\/\/单元格属性$/;"	m
+Character	MLZW.h	/^	char									Character;$/;"	m
+CheckCode	MCheckCode.cpp	/^unsigned short MCRC16::CheckCode(char * InBuf,unsigned short InSize)$/;"	f	class:MCRC16
+CheckCode	MCheckCode.cpp	/^unsigned short MConCheckCode::CheckCode(char * InBuf,unsigned short InSize)$/;"	f	class:MConCheckCode
+CheckCode	MSrvComm.h	/^    unsigned short                  CheckCode;				\/\/数据包头部校验码$/;"	m
+CheckThreadRefreshTime	MThread.cpp	/^void MThread::CheckThreadRefreshTime(tagFunInterface_ThreadWriteReport * In)$/;"	f	class:MThread
+ChildCount	MOptionTree.h	/^	unsigned long			ChildCount;		\/\/该节点的字接点数量$/;"	m
+ChildPtr	MIniFile.h	/^	tagIniFileValue			*	ChildPtr;$/;"	m	struct:__INIFILESECTION
+ChildType	MSrvComm.h	/^	unsigned char	                ChildType;				\/\/子类型$/;"	m
+ClassName	MObject.h	/^	const char						*	ClassName;							\/\/出错类名$/;"	m
+Clear	MDataStruct.cpp	/^void MCharLoopGroupMt::Clear(void)$/;"	f	class:MCharLoopGroupMt
+Clear	MDataStruct.cpp	/^void MCharLoopGroupSt::Clear(void)$/;"	f	class:MCharLoopGroupSt
+Clear	MDataStruct.h	/^template<class templateRecord> void MLoopGroupMt<templateRecord>::Clear(void)$/;"	f	class:MLoopGroupMt
+Clear	MDataStruct.h	/^template<class templateRecord> void MLoopGroupSt<templateRecord>::Clear(void)$/;"	f	class:MLoopGroupSt
+Clear	MIniFile.cpp	/^void MIniFile::Clear(void)$/;"	f	class:MIniFile
+Close	MDbfFile.cpp	/^void MMemoryDbfFile::Close(void)$/;"	f	class:MMemoryDbfFile
+Close	MFile.cpp	/^void MFile::Close(void)$/;"	f	class:MFile
+Close	MIniFile.cpp	/^void MIniFile::Close(void)$/;"	f	class:MIniFile
+CloseDll	MDll.cpp	/^void MDll::CloseDll(void)$/;"	f	class:MDll
+CloseFile	MExcelFile.cpp	/^void MExcelFile::CloseFile(void)$/;"	f	class:MExcelFile
+CloseFindFile	MFile.cpp	/^void MFindFile::CloseFindFile(void)$/;"	f	class:MFindFile
+CloseKey	MRegister.cpp	/^void MRegister::CloseKey(void)$/;"	f	class:MRegister
+CloseLink	MSrvComm.cpp	/^int  MSrvCommLinkQueue::CloseLink(unsigned short Serial,unsigned long LinkNo,unsigned char CloseType)$/;"	f	class:MSrvCommLinkQueue
+CloseLink	MSrvComm.cpp	/^int  MSrvCommSendGroup::CloseLink(unsigned long LinkNo)$/;"	f	class:MSrvCommSendGroup
+CloseLink	MSrvComm.cpp	/^int  MSrvCommSendQueue::CloseLink(unsigned long LinkNo)$/;"	f	class:MSrvCommSendQueue
+CloseLink	MSrvComm.cpp	/^int  MSrvCommUnit::CloseLink(unsigned long LinkNo,bool Immidately)$/;"	f	class:MSrvCommUnit
+CloseServerLink	MSrvComm.cpp	/^int  MSrvCommAcceptQueue::CloseServerLink(unsigned long LinkNo)$/;"	f	class:MSrvCommAcceptQueue
+CloseType	MSrvComm.h	/^	unsigned char					CloseType;$/;"	m
+CodeValue	MLZW.h	/^	short									CodeValue;$/;"	m
+Column	MExcelFile.h	/^	unsigned short				Column;				\/\/列$/;"	m
+CompressBuf	MBlockCompress.cpp	/^int  MBlockDataCompress::CompressBuf(char * InBuf,unsigned short Offset,unsigned short BlockSize,unsigned short BlockCount,char * OutBuf,unsigned short OutSize)$/;"	f	class:MBlockDataCompress
+CompressBuf	MLZW.cpp	/^int  MLZW4096::CompressBuf(char * InBuf,unsigned short InSize,char * OutBuf,unsigned short OutSize)$/;"	f	class:MLZW4096
+Content	MIniFile.h	/^	char						Content[512];$/;"	m	struct:__INIFILESECTION
+Content	MIniFile.h	/^	char						Content[512];$/;"	m	struct:__INIFILEVALUE
+Content	MObject.h	/^	const char						*	Content;							\/\/错误内容$/;"	m
+ContentSize	MIniFile.h	/^	unsigned short				ContentSize;$/;"	m	struct:__INIFILESECTION
+ContentSize	MIniFile.h	/^	unsigned short				ContentSize;$/;"	m	struct:__INIFILEVALUE
+ContentSize	MLogFile.h	/^	unsigned short				ContentSize;		\/\/内容长度$/;"	m
+CopyFile	MFile.cpp	/^int  MFile::CopyFile(MString SourceFile,MString NewFile,bool FailIfExists)$/;"	f	class:MFile
+Count	MOptionTree.h	/^	unsigned short			Count;			\/\/成员数组的count（也就是数组的大小），不是树组则为1$/;"	m
+Create	MDbfFile.cpp	/^int	 MMemoryDbfFile::Create( const char* szFileName, unsigned short iRecordSize, $/;"	f	class:MMemoryDbfFile
+Create	MFile.cpp	/^int  MFile::Create(MString FileName)$/;"	f	class:MFile
+Create	MIniFile.cpp	/^int  MIniFile::Create(MString FileName)$/;"	f	class:MIniFile
+CreateDirectory	MFile.cpp	/^int  MFile::CreateDirectory(MString FileName)$/;"	f	class:MFile
+CreateDirectoryTree	MFile.cpp	/^int  MFile::CreateDirectoryTree(MString DirTreeName)$/;"	f	class:MFile
+CreateFile	MExcelFile.cpp	/^int  MExcelFile::CreateFile(MString FileName)$/;"	f	class:MExcelFile
+CreateKey	MRegister.cpp	/^int  MRegister::CreateKey(HKEY RootKey,MString Key)$/;"	f	class:MRegister
+CreateObject	MObject.cpp	/^MObject * MObject::CreateObject(void)$/;"	f	class:MObject
+CreateServerPort	MSrvComm.cpp	/^int  MSrvCommAcceptQueue::CreateServerPort(unsigned short* pListenPort,unsigned long * LinkNo,unsigned short ListenQueueCount)$/;"	f	class:MSrvCommAcceptQueue
+CreateServerPort	MSrvComm.cpp	/^int  MSrvCommUnit::CreateServerPort(unsigned short* pListenPort,unsigned long * LinkNo,unsigned short ListenQueueCount)$/;"	f	class:MSrvCommUnit
+CreateTime	MFile.h	/^	MDateTime				CreateTime;				\/\/创建时间$/;"	m
+CryptBlock	MDES.cpp	/^void MDES64::CryptBlock(unsigned char * InBuf,unsigned char * OutBuf,char * Key,unsigned char Type)$/;"	f	class:MDES64
+DCDStatus	MSrvComm.h	/^	unsigned char					DCDStatus;				\/\/DCD状态(仅2.X协议有效)$/;"	m
+DCDTime	MSrvComm.h	/^	unsigned short					DCDTime;				\/\/DCD时间(HH * 60 + MM格式)$/;"	m
+DECLARE_LMYUNIT	MObject.h	110;"	d
+DWORD	MString.h	30;"	d
+DWORD	MString.h	40;"	d
+DataAddr	MDbfFile.h	/^    unsigned short          DataAddr;       \/\/数据区开始位置$/;"	m
+DataSize	MSrvComm.h	/^    unsigned short                  DataSize;				\/\/数据长度（不包含数据包头部）$/;"	m
+DataStatus	MSrvComm.h	/^    unsigned char                   DataStatus;				\/\/数据状态（包含压缩、加密）$/;"	m
+DateTime	MLogFile.h	/^	MDateTime					DateTime;			\/\/纪录时间$/;"	m
+DateTime	MLogFile.h	/^	char						DateTime[21];		\/\/记录时间，如(2004.03.28 15:30:20)$/;"	m
+DateTimeToString	MDateTime.cpp	/^MString MDateTime::DateTimeToString(void)$/;"	f	class:MDateTime
+DateTimeToTimet	MDateTime.cpp	/^long MDateTime::DateTimeToTimet(void)$/;"	f	class:MDateTime
+DateToLong	MDateTime.cpp	/^unsigned long MDateTime::DateToLong(void)$/;"	f	class:MDateTime
+DateToString	MDateTime.cpp	/^MString MDateTime::DateToString(void)$/;"	f	class:MDateTime
+DecSize	MDbfFile.h	/^    unsigned char           DecSize;        \/\/小数位数$/;"	m
+DecodeDate	MDateTime.cpp	/^void MDateTime::DecodeDate(unsigned short * year,unsigned short * month,unsigned short * day)$/;"	f	class:MDateTime
+DecodeString	MLZW.cpp	/^unsigned long MLZW4096::DecodeString(unsigned long Count,unsigned long Code)$/;"	f	class:MLZW4096
+DecodeTime	MDateTime.cpp	/^void MDateTime::DecodeTime(unsigned short * hour,unsigned short * min,unsigned short * sec)$/;"	f	class:MDateTime
+DecryptBuf	MDES.cpp	/^int  M3DES64::DecryptBuf(char * InBuf,unsigned short InSize,char * OutBuf,char * Key)$/;"	f	class:M3DES64
+DecryptBuf	MDES.cpp	/^int  MDES64::DecryptBuf(char * InBuf,unsigned short InSize,char * OutBuf,char * Key)$/;"	f	class:MDES64
+DelRecord	MDbfFile.cpp	/^int  MMemoryDbfFile::DelRecord(void)$/;"	f	class:MMemoryDbfFile
+DeleteData	MDataStruct.h	/^template<class templateRecord> int  MHashTableMt<templateRecord>::DeleteData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableMt
+DeleteData	MDataStruct.h	/^template<class templateRecord> int  MHashTableSt<templateRecord>::DeleteData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableSt
+DeleteDirectory	MFile.cpp	/^int  MFile::DeleteDirectory(MString FileName)$/;"	f	class:MFile
+DeleteFile	MFile.cpp	/^int  MFile::DeleteFile(MString FileName)$/;"	f	class:MFile
+Descrip	MOptionTree.h	/^	char					Descrip[128];	\/\/文字描述	$/;"	m
+Description	MSystemInfo.h	/^	char				Description[100];   \/\/系统描述$/;"	m
+END_LMYUNIT	MObject.h	133;"	d
+ERROR_DEFINE	MObject.h	137;"	d
+ERROR_MBLOCKDATACOMPRESS_CANTDO	MBlockCompress.h	31;"	d
+ERROR_MBLOCKDATACOMPRESS_PARAM	MBlockCompress.h	30;"	d
+ERROR_MCHARLOOPGROUPST_EMPTY	MDataStruct.h	114;"	d
+ERROR_MCHARLOOPGROUPST_FULL	MDataStruct.h	113;"	d
+ERROR_MCHARLOOPGROUPST_NOMEMORY	MDataStruct.h	112;"	d
+ERROR_MCOMPLEXMRSWSECTION_READFAL	MMutex.h	109;"	d
+ERROR_MCOMPLEXMRSWSECTION_WRITEFAL	MMutex.h	110;"	d
+ERROR_MDATETIME_INVALID	MDateTime.h	37;"	d
+ERROR_MHASHTABLEST_EMPTY	MObject.h	76;"	d
+ERROR_MHASHTABLEST_FULL	MObject.h	75;"	d
+ERROR_MHASHTABLEST_NODATA	MObject.h	77;"	d
+ERROR_MHASHTABLEST_NOMEMORY	MObject.h	74;"	d
+ERROR_MINIFILE_FILELENGTH	MIniFile.h	55;"	d
+ERROR_MINIFILE_INVALIDSTATUS	MIniFile.h	53;"	d
+ERROR_MINIFILE_NOMEMORY	MIniFile.h	54;"	d
+ERROR_MLOGFILE_FILEHEAD	MLogFile.h	93;"	d
+ERROR_MLOOPGROUPST_EMPTY	MObject.h	72;"	d
+ERROR_MLOOPGROUPST_FULL	MObject.h	71;"	d
+ERROR_MLOOPGROUPST_NOMEMORY	MObject.h	70;"	d
+ERROR_MLZW4096_INSIDEPARAM	MLZW.h	49;"	d
+ERROR_MMD5_NOMEMORY	MCheckCode.h	45;"	d
+ERROR_MMEMORYDBFFILE_DBFHEAD	MDbfFile.h	67;"	d
+ERROR_MMEMORYDBFFILE_INVALIDFIELD	MDbfFile.h	66;"	d
+ERROR_MMEMORYDBFFILE_NOFIND	MDbfFile.h	70;"	d
+ERROR_MMEMORYDBFFILE_NOINSTANCE	MDbfFile.h	65;"	d
+ERROR_MMEMORYDBFFILE_NOMEMORY	MDbfFile.h	68;"	d
+ERROR_MMEMORYDBFFILE_PARAM	MDbfFile.h	69;"	d
+ERROR_MMRSWSECTION_READFAL	MMutex.h	63;"	d
+ERROR_MMRSWSECTION_WRITEFAL	MMutex.h	64;"	d
+ERROR_MOPTIONTREE_NOMEMORY	MOptionTree.h	57;"	d
+ERROR_MOPTIONTREE_OUTBUFSIZE	MOptionTree.h	58;"	d
+ERROR_MRESOURCERECORDST_EMPTY	MDataStruct.h	71;"	d
+ERROR_MRESOURCERECORDST_FULL	MDataStruct.h	70;"	d
+ERROR_MRESOURCERECORDST_NOMEMORY	MDataStruct.h	69;"	d
+ERROR_MSRVCOMMLINKQUEUE_CHECKCODE	MSrvComm.h	183;"	d
+ERROR_MSRVCOMMLINKQUEUE_FRAMEHEAD	MSrvComm.h	176;"	d
+ERROR_MSRVCOMMLINKQUEUE_INVALIDLINK	MSrvComm.h	174;"	d
+ERROR_MSRVCOMMLINKQUEUE_NODATA	MSrvComm.h	175;"	d
+ERROR_MSRVCOMMLINKQUEUE_NOMEMORY	MSrvComm.h	178;"	d
+ERROR_MSRVCOMMLINKQUEUE_PARAM	MSrvComm.h	184;"	d
+ERROR_MSRVCOMMLINKQUEUE_PARAMERROR	MSrvComm.h	182;"	d
+ERROR_MSRVCOMMLINKQUEUE_RECVTIMEOUT	MSrvComm.h	181;"	d
+ERROR_MSRVCOMMLINKQUEUE_SENDFULL	MSrvComm.h	177;"	d
+ERROR_MSRVCOMMLINKQUEUE_SENDTIMEOUT	MSrvComm.h	180;"	d
+ERROR_MSRVCOMMLINKQUEUE_SRVPORT	MSrvComm.h	179;"	d
+ERROR_MSTRING_INVALIDOFFSET	MString.h	58;"	d
+ERROR_MSTRING_NOSUBSTRING	MString.h	57;"	d
+ERROR_SYSTEM	MObject.h	56;"	d
+ERROR_SYSTEM	MObject.h	63;"	d
+ERROR_SYSTEM_BASECODE	MObject.h	55;"	d
+ERROR_SYSTEM_BASECODE	MObject.h	62;"	d
+ERROR_USER	MObject.h	58;"	d
+ERROR_USER	MObject.h	65;"	d
+ERROR_USER_BASECODE	MObject.h	57;"	d
+ERROR_USER_BASECODE	MObject.h	64;"	d
+EXCELCELL_BOTTOMLINE	MExcelFile.h	/^	EXCELCELL_BOTTOMLINE = 0x00000020,				\/\/边框下线$/;"	e
+EXCELCELL_CENTERALIGN	MExcelFile.h	/^	EXCELCELL_CENTERALIGN = 0x00000400,				\/\/中对齐$/;"	e
+EXCELCELL_FONT1	MExcelFile.h	/^	EXCELCELL_FONT1 = 0x00000000,					\/\/字体1号$/;"	e
+EXCELCELL_FONT2	MExcelFile.h	/^	EXCELCELL_FONT2 = 0x00000004,					\/\/字体2号$/;"	e
+EXCELCELL_FONT3	MExcelFile.h	/^	EXCELCELL_FONT3 = 0x00000008,					\/\/字体3号$/;"	e
+EXCELCELL_FONT4	MExcelFile.h	/^	EXCELCELL_FONT4 = 0x0000000C,					\/\/字体4号$/;"	e
+EXCELCELL_HIDDEN	MExcelFile.h	/^	EXCELCELL_HIDDEN = 0x00000001,					\/\/隐藏标记$/;"	e
+EXCELCELL_LEFTALIGN	MExcelFile.h	/^	EXCELCELL_LEFTALIGN = 0x00000200,				\/\/左对齐$/;"	e
+EXCELCELL_LEFTLINE	MExcelFile.h	/^	EXCELCELL_LEFTLINE = 0x00000100,				\/\/边框左线$/;"	e
+EXCELCELL_LOCKED	MExcelFile.h	/^	EXCELCELL_LOCKED = 0x00000002,					\/\/加锁标记$/;"	e
+EXCELCELL_NORMALALIGN	MExcelFile.h	/^	EXCELCELL_NORMALALIGN = 0x00000000,				\/\/普通对齐$/;"	e
+EXCELCELL_RIGHTALIGN	MExcelFile.h	/^	EXCELCELL_RIGHTALIGN = 0x00000600,				\/\/右对齐$/;"	e
+EXCELCELL_RIGHTLINE	MExcelFile.h	/^	EXCELCELL_RIGHTLINE = 0x00000080,				\/\/边框右线$/;"	e
+EXCELCELL_SHADED	MExcelFile.h	/^	EXCELCELL_SHADED = 0x00000010,					\/\/阴影标记$/;"	e
+EXCELCELL_TOPLINE	MExcelFile.h	/^	EXCELCELL_TOPLINE = 0x00000040,					\/\/边框上线$/;"	e
+EXCELFONT_BOLD	MExcelFile.h	/^	EXCELFONT_BOLD = 0x0100,						\/\/粗体$/;"	e
+EXCELFONT_ITALIC	MExcelFile.h	/^	EXCELFONT_ITALIC = 0x0200,						\/\/斜体$/;"	e
+EXCELFONT_STRIKEOUT	MExcelFile.h	/^	EXCELFONT_STRIKEOUT = 0x0800,					\/\/删除线$/;"	e
+EXCELFONT_UNDERLINE	MExcelFile.h	/^	EXCELFONT_UNDERLINE = 0x0400,					\/\/下划线$/;"	e
+EncryptBuf	MDES.cpp	/^int  M3DES64::EncryptBuf(char * InBuf,unsigned short InSize,char * OutBuf,char * Key)$/;"	f	class:M3DES64
+EncryptBuf	MDES.cpp	/^int  MDES64::EncryptBuf(char * InBuf,unsigned short InSize,char * OutBuf,char * Key)$/;"	f	class:MDES64
+EndofAnsys	MIniFile.cpp	/^void MIniFile::EndofAnsys(char * InBuf,unsigned long No)$/;"	f	class:MIniFile
+ErrorCode	MObject.h	/^	unsigned long						ErrorCode;							\/\/错误编号$/;"	m
+ErrorCode	MSrvComm.h	/^    unsigned short                  ErrorCode;				\/\/数据包返回码$/;"	m
+ErrorFlag	MLogFile.h	/^	char						ErrorFlag;				\/\/允许错误$/;"	m
+ErrorFlagMarket	MLogFile.h	/^	char						ErrorFlagMarket[20];	\/\/允许错误纪录：$/;"	m
+ExpandBuf	MBlockCompress.cpp	/^int  MBlockDataCompress::ExpandBuf(char * InBuf,unsigned short InSize,char * OutBuf,unsigned short OutSize)$/;"	f	class:MBlockDataCompress
+ExpandBuf	MLZW.cpp	/^int  MLZW4096::ExpandBuf(char * InBuf,unsigned short InSize,char * OutBuf,unsigned short OutSize)$/;"	f	class:MLZW4096
+F	MCheckCode.cpp	/^DWORD  MMD5::F(DWORD x,DWORD y,DWORD z)$/;"	f	class:MMD5
+FALSE	MString.h	42;"	d
+FF	MCheckCode.cpp	/^void  MMD5::FF(DWORD &A,DWORD B,DWORD C,DWORD D,DWORD X,unsigned char S,DWORD T)$/;"	f	class:MMD5
+FFunction	MDES.cpp	/^void MDES64::FFunction(unsigned char * InBuf,unsigned char * KeyBuf)$/;"	f	class:MDES64
+FieldName	MDbfFile.h	/^    char                    FieldName[11];  \/\/字段名称$/;"	m
+FieldOffset	MDbfFile.h	/^    unsigned long           FieldOffset;    \/\/对于每一条纪录的偏移量$/;"	m
+FieldSize	MDbfFile.h	/^    unsigned char           FieldSize;      \/\/字段长度$/;"	m
+FieldType	MDbfFile.h	/^    char                    FieldType;      \/\/字段类型 C 字符 N 数字 L D 日期$/;"	m
+FindChildNode	MLZW.cpp	/^unsigned long  MLZW4096::FindChildNode(long ParentCode,long ChildCode)$/;"	f	class:MLZW4096
+FindData	MDataStruct.h	/^template<class templateRecord> int  MHashTableMt<templateRecord>::FindData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableMt
+FindData	MDataStruct.h	/^template<class templateRecord> int  MHashTableSt<templateRecord>::FindData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableSt
+FindFieldName	MDbfFile.cpp	/^int  MMemoryDbfFile::FindFieldName(char * FieldName)$/;"	f	class:MMemoryDbfFile
+FindFirstFile	MFile.cpp	/^int  MFindFile::FindFirstFile(char * FileName,tagFileFindFileInfo * Out)$/;"	f	class:MFindFile
+FindName	MIniFile.cpp	/^tagIniFileValue * MIniFile::FindName(char * Name,tagIniFileValue ** LastNamePtr)$/;"	f	class:MIniFile
+FindNextFile	MFile.cpp	/^int  MFindFile::FindNextFile(tagFileFindFileInfo * Out)$/;"	f	class:MFindFile
+FindRecord	MDbfFile.cpp	/^int  MMemoryDbfFile::FindRecord(char * FieldName,char * Value)$/;"	f	class:MMemoryDbfFile
+FindRecord	MDbfFile.cpp	/^int  MMemoryDbfFile::FindRecord(unsigned short FieldNo,char * Value)$/;"	f	class:MMemoryDbfFile
+FindSection	MIniFile.cpp	/^tagIniFileSection * MIniFile::FindSection(char * Section,tagIniFileSection ** LastSectionPtr)$/;"	f	class:MIniFile
+FindingString	MFile.cpp	/^int MFindFile::FindingString(const char* lpszSour, const char* lpszFind, int nStart \/* = 0 *\/)$/;"	f	class:MFindFile
+First	MDbfFile.cpp	/^int  MMemoryDbfFile::First(void)$/;"	f	class:MMemoryDbfFile
+First	MLogFile.h	/^	char						First[10];				\/\/第一条纪录$/;"	m
+FirstColumn	MExcelFile.h	/^	unsigned char				FirstColumn;		\/\/起始列$/;"	m
+FirstColumn	MExcelFile.h	/^	unsigned short				FirstColumn;		\/\/起始列号$/;"	m
+FirstMarket	MLogFile.h	/^	char						FirstMarket[20];		\/\/第一条纪录位置：$/;"	m
+FirstRow	MExcelFile.h	/^	unsigned short				FirstRow;			\/\/起始行号$/;"	m
+Flush	MDbfFile.cpp	/^int  MMemoryDbfFile::Flush(void)$/;"	f	class:MMemoryDbfFile
+Flush	MFile.cpp	/^void MFile::Flush(void)$/;"	f	class:MFile
+FontAttr	MExcelFile.h	/^	unsigned short				FontAttr;			\/\/字体属性$/;"	m
+FontHeight	MExcelFile.h	/^	unsigned short				FontHeight;			\/\/字体高度[1--20]$/;"	m
+FontName	MExcelFile.h	/^	char						FontName[256];		\/\/字体长度$/;"	m
+FontNameLength	MExcelFile.h	/^	unsigned char				FontNameLength;		\/\/字体名称长度$/;"	m
+Font_Num	MExcelFile.h	/^    unsigned char				Font_Num : 2;		\/\/字体标记$/;"	m
+FormatString	MString.cpp	/^void MString::FormatString(const char * Format,...)$/;"	f	class:MString
+Format_Code	MExcelFile.h	/^    unsigned char				Format_Code : 6;    \/\/单元格式$/;"	m
+FrameCount	MSrvComm.h	/^    unsigned short                  FrameCount;				\/\/连续数据包数量$/;"	m
+FrameNo	MSrvComm.h	/^    unsigned short                  FrameNo;				\/\/连续数据包编号（从0开始编号）$/;"	m
+Frequency	MSystemInfo.h	/^    unsigned long                   Frequency;                          \/\/处理器频率[MHZ]$/;"	m
+Front	MDbfFile.h	/^	struct __DBFRECORD	*	Front;$/;"	m	struct:__DBFRECORD
+G	MCheckCode.cpp	/^DWORD  MMD5::G(DWORD x,DWORD y,DWORD z)$/;"	f	class:MMD5
+GG	MCheckCode.cpp	/^void  MMD5::GG(DWORD &A,DWORD B,DWORD C,DWORD D,DWORD X,unsigned char S,DWORD T)$/;"	f	class:MMD5
+GetAccessDateTime	MFile.cpp	/^MDateTime MFile::GetAccessDateTime(void)$/;"	f	class:MFile
+GetAddtionData	MThread.cpp	/^unsigned long MThread::GetAddtionData(void)$/;"	f	class:MThread
+GetApplicationFilePath	MSystemInfo.cpp	/^MString MSystemInfo::GetApplicationFilePath(void)$/;"	f	class:MSystemInfo
+GetBIOSInfo	MSystemInfo.cpp	/^int  MSystemInfo::GetBIOSInfo(tagSystemInfoBIOSInfo * Out)$/;"	f	class:MSystemInfo
+GetBaseClass	MObject.cpp	/^MRuntimeClass * MRuntimeClass::GetBaseClass(void)$/;"	f	class:MRuntimeClass
+GetBit	MFinanceData.cpp	7;"	d	file:
+GetBit64	MFinanceData.cpp	8;"	d	file:
+GetBitFromBuf	MLZW.cpp	/^int  MLZW4096::GetBitFromBuf(char * InBuf,unsigned short InSize,unsigned long BitOffset,unsigned long * Value,unsigned long BitSize)$/;"	f	class:MLZW4096
+GetBitString	MFinanceData.cpp	9;"	d	file:
+GetCPUInfo	MSystemInfo.cpp	/^int  MSystemInfo::GetCPUInfo(tagSystemInfoCpuInfo * Out,unsigned short InSize)$/;"	f	class:MSystemInfo
+GetCPUPercent	MSystemInfo.cpp	/^int  MSystemInfo::GetCPUPercent(void)$/;"	f	class:MSystemInfo
+GetClassName	MObject.cpp	/^const char * MRuntimeClass::GetClassName(void)$/;"	f	class:MRuntimeClass
+GetCommSendFluxValue	MSrvComm.cpp	/^float MSrvCommUnit::GetCommSendFluxValue(void)$/;"	f	class:MSrvCommUnit
+GetCount	MDataStruct.h	/^template<class templateRecord> unsigned short MLoopGroupMt<templateRecord>::GetCount(void)$/;"	f	class:MLoopGroupMt
+GetCount	MDataStruct.h	/^template<class templateRecord> unsigned short MLoopGroupSt<templateRecord>::GetCount(void)$/;"	f	class:MLoopGroupSt
+GetCreateDateTime	MFile.cpp	/^MDateTime MFile::GetCreateDateTime(void)$/;"	f	class:MFile
+GetCurRecord	MDbfFile.cpp	/^int  MMemoryDbfFile::GetCurRecord(void)$/;"	f	class:MMemoryDbfFile
+GetCurSize	MFinanceData.cpp	/^int  MFinanceData::GetCurSize(void)$/;"	f	class:MFinanceData
+GetCurTickCount	MDateTime.cpp	/^void MCounter::GetCurTickCount(void)$/;"	f	class:MCounter
+GetCurrentDirectory	MFile.cpp	/^MString MFile::GetCurrentDirectory(void)$/;"	f	class:MFile
+GetData	MDataStruct.cpp	/^int  MCharLoopGroupMt::GetData(char * OutBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupMt
+GetData	MDataStruct.cpp	/^int  MCharLoopGroupSt::GetData(char * OutBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupSt
+GetData	MDataStruct.h	/^template<class templateRecord> int  MLoopGroupMt<templateRecord>::GetData(templateRecord * Out)$/;"	f	class:MLoopGroupMt
+GetData	MDataStruct.h	/^template<class templateRecord> int  MLoopGroupSt<templateRecord>::GetData(templateRecord * Out)$/;"	f	class:MLoopGroupSt
+GetData	MFinanceData.h	/^template<class templateRecord> templateRecord MFD_CStandType<templateRecord>::GetData(void)$/;"	f	class:MFD_CStandType
+GetData	MFinanceData.h	/^template<class templateRecord> templateRecord MFinanceNumBaseData<templateRecord>::GetData(void)$/;"	f	class:MFinanceNumBaseData
+GetData	MFinanceData.h	/^template<int stringsize> void MFD_String<stringsize>::GetData(char * OutBuf)$/;"	f	class:MFD_String
+GetData	MFinanceData.h	/^template<int stringsize> void MFD_ZeroString<stringsize>::GetData(char * OutBuf)$/;"	f	class:MFD_ZeroString
+GetData	MSrvComm.cpp	/^int  MSrvCommRecvGroup::GetData(unsigned long LinkNo,tagFrameHead * OutHead,char * OutBuf,unsigned short InSize)$/;"	f	class:MSrvCommRecvGroup
+GetDayOfWork	MDateTime.cpp	/^int  MDateTime::GetDayOfWork(void)$/;"	f	class:MDateTime
+GetDayOfYear	MDateTime.cpp	/^int  MDateTime::GetDayOfYear(void)$/;"	f	class:MDateTime
+GetDllFunction	MDll.cpp	/^void * MDll::GetDllFunction(MString FunctionName)$/;"	f	class:MDll
+GetDuration	MDateTime.cpp	/^long MDateTime::GetDuration(void)$/;"	f	class:MDateTime
+GetDuration	MDateTime.cpp	/^unsigned long MCounter::GetDuration(void)$/;"	f	class:MCounter
+GetDurationString	MDateTime.cpp	/^MString MCounter::GetDurationString(void)$/;"	f	class:MCounter
+GetDurationString	MDateTime.cpp	/^MString MDateTime::GetDurationString(void)$/;"	f	class:MDateTime
+GetErrorString	MObject.cpp	/^MString MErrorCode::GetErrorString(unsigned long ErrorCode)$/;"	f	class:MErrorCode
+GetExportBuf	MOptionTree.cpp	/^int  MOptionTree::GetExportBuf(unsigned short Offset,char * OutBuf,unsigned short InSize)$/;"	f	class:MOptionTree
+GetExportBufSize	MOptionTree.cpp	/^unsigned short MOptionTree::GetExportBufSize(void)$/;"	f	class:MOptionTree
+GetFileAttributes	MFile.cpp	/^unsigned long MFile::GetFileAttributes(MString FileName)$/;"	f	class:MFile
+GetFileLength	MFile.cpp	/^unsigned long MFile::GetFileLength(void)$/;"	f	class:MFile
+GetLastError	MString.h	37;"	d
+GetLinkAddtionData	MSrvComm.cpp	/^int  MSrvCommLinkQueue::GetLinkAddtionData(unsigned short Serial,unsigned long LinkNo,unsigned long * AddtionData)$/;"	f	class:MSrvCommLinkQueue
+GetLinkAddtionData	MSrvComm.cpp	/^int  MSrvCommUnit::GetLinkAddtionData(unsigned long LinkNo,unsigned long * AddtionData)$/;"	f	class:MSrvCommUnit
+GetLinkCount	MSrvComm.cpp	/^unsigned short MSrvCommLinkQueue::GetLinkCount(void)$/;"	f	class:MSrvCommLinkQueue
+GetLinkCount	MSrvComm.cpp	/^unsigned short MSrvCommUnit::GetLinkCount(void)$/;"	f	class:MSrvCommUnit
+GetLinkInfo	MSrvComm.cpp	/^int  MSrvCommLinkQueue::GetLinkInfo(unsigned short Serial,unsigned long LinkNo,tagSrvCommLinkQueue * Out)$/;"	f	class:MSrvCommLinkQueue
+GetLinkInfo	MSrvComm.cpp	/^int  MSrvCommUnit::GetLinkInfo(unsigned long LinkNo,tagSrvCommLinkQueue * Out)$/;"	f	class:MSrvCommUnit
+GetLinkUnitInfo	MSrvComm.cpp	/^int  MSrvCommLinkQueue::GetLinkUnitInfo(tagSrvCommLinkQueue * Out,unsigned short InSize)$/;"	f	class:MSrvCommLinkQueue
+GetLinkUnitInfo	MSrvComm.cpp	/^int  MSrvCommUnit::GetLinkUnitInfo(unsigned short UnitNo,tagSrvCommLinkQueue * Out,unsigned short InSize)$/;"	f	class:MSrvCommUnit
+GetLogInfo	MLogFile.cpp	/^int  MLogFile::GetLogInfo(unsigned char * Type,MString * Source,MString * Content,MDateTime * DateTime)$/;"	f	class:MLogFile
+GetMemoryInfo	MSystemInfo.cpp	/^int  MSystemInfo::GetMemoryInfo(tagSystemInfoMemoryInfo * Out)$/;"	f	class:MSystemInfo
+GetMemoryPercent	MSystemInfo.cpp	/^int  MSystemInfo::GetMemoryPercent(void)$/;"	f	class:MSystemInfo
+GetRecvAmount	MSrvComm.cpp	/^float MSrvCommUnit::GetRecvAmount(void)$/;"	f	class:MSrvCommUnit
+GetRecvCommBand	MSrvComm.cpp	/^unsigned long MSrvCommUnit::GetRecvCommBand(void)$/;"	f	class:MSrvCommUnit
+GetResource	MDataStruct.cpp	/^int  MResourceRecordMt::GetResource(void)$/;"	f	class:MResourceRecordMt
+GetResource	MDataStruct.cpp	/^int  MResourceRecordSt::GetResource(void)$/;"	f	class:MResourceRecordSt
+GetRuntimeClass	MObject.cpp	/^MRuntimeClass * MObject::GetRuntimeClass(void)$/;"	f	class:MObject
+GetSectionCount	MIniFile.cpp	/^int  MIniFile::GetSectionCount(void)$/;"	f	class:MIniFile
+GetSectionName	MIniFile.cpp	/^MString MIniFile::GetSectionName(unsigned short Serial)$/;"	f	class:MIniFile
+GetSelectSocketInfo	MSrvComm.cpp	/^int  MSrvCommAcceptQueue::GetSelectSocketInfo(tagSrvCommAcceptQueue * Out,unsigned short InSize)$/;"	f	class:MSrvCommAcceptQueue
+GetSelectSocketInfo	MSrvComm.cpp	/^int  MSrvCommLinkQueue::GetSelectSocketInfo(tagSrvCommSelectLinkInfo * Out,unsigned short InSize)$/;"	f	class:MSrvCommLinkQueue
+GetSelectSocketInfo	MSrvComm.cpp	/^int  MSrvCommSendQueue::GetSelectSocketInfo(tagSrvCommSelectLinkInfo * Out,unsigned short InSize)$/;"	f	class:MSrvCommSendQueue
+GetSendAmount	MSrvComm.cpp	/^float MSrvCommUnit::GetSendAmount(void)$/;"	f	class:MSrvCommUnit
+GetSendCommBand	MSrvComm.cpp	/^unsigned long MSrvCommUnit::GetSendCommBand(void)$/;"	f	class:MSrvCommUnit
+GetSystemHardWareInfo	MSystemInfo.cpp	/^int  MSystemInfo::GetSystemHardWareInfo(tagHardWareInfo * Out)$/;"	f	class:MSystemInfo
+GetTickCount	MDateTime.cpp	/^unsigned long MCounter::GetTickCount()$/;"	f	class:MCounter
+GetUnitCount	MSrvComm.cpp	/^unsigned short MSrvCommUnit::GetUnitCount(void)$/;"	f	class:MSrvCommUnit
+GetUpdateDateTime	MFile.cpp	/^MDateTime MFile::GetUpdateDateTime(void)$/;"	f	class:MFile
+GetWaitRequestCount	MSrvComm.cpp	/^unsigned long MSrvCommUnit::GetWaitRequestCount(void)$/;"	f	class:MSrvCommUnit
+GetWaitRequestCount	MSrvComm.cpp	/^unsigned short MSrvCommRecvGroup::GetWaitRequestCount(void)$/;"	f	class:MSrvCommRecvGroup
+GetWaitRequestCount	MSrvComm.cpp	/^unsigned short MSrvCommRecvQueue::GetWaitRequestCount(void)$/;"	f	class:MSrvCommRecvQueue
+H	MCheckCode.cpp	/^DWORD  MMD5::H(DWORD x,DWORD y,DWORD z)$/;"	f	class:MMD5
+HH	MCheckCode.cpp	/^void  MMD5::HH(DWORD &A,DWORD B,DWORD C,DWORD D,DWORD X,unsigned char S,DWORD T)$/;"	f	class:MMD5
+Height	MExcelFile.h	/^	unsigned short				Height;				\/\/却省行高度[1--20]$/;"	m
+Hidden	MExcelFile.h	/^	unsigned char				Hidden : 1;			\/\/隐藏标记$/;"	m
+I	MCheckCode.cpp	/^DWORD  MMD5::I(DWORD x,DWORD y,DWORD z)$/;"	f	class:MMD5
+II	MCheckCode.cpp	/^void  MMD5::II(DWORD &A,DWORD B,DWORD C,DWORD D,DWORD X,unsigned char S,DWORD T)$/;"	f	class:MMD5
+INVALID_LINK_NO	MSrvComm.h	49;"	d
+INVALID_SOCKET	MString.h	34;"	d
+IPAddr	MSrvComm.h	/^	char							IPAddr[16];				\/\/IP地址$/;"	m
+IPAddr	MSrvComm.h	/^	char							IPAddr[16];$/;"	m
+Indentify	MSystemInfo.h	/^	char							Indentify[30];                      \/\/系统标示$/;"	m
+Indentify	MSystemInfo.h	/^	char                            Indentify[50];                      \/\/处理器标示$/;"	m
+Index	MDataStruct.h	/^		templateRecord			Index;$/;"	m	struct:MHashTableSt::<anonymous>
+InfoFlag	MLogFile.h	/^	char						InfoFlag;				\/\/允许信息$/;"	m
+InfoFlagMarket	MLogFile.h	/^	char						InfoFlagMarket[20];		\/\/允许信息纪录：$/;"	m
+Init	MIniFile.cpp	/^void MIniFile::Init(void)$/;"	f	class:MIniFile
+Initialize	MLZW.cpp	/^void MLZW4096::Initialize(void)$/;"	f	class:MLZW4096
+InsertRecord	MDbfFile.cpp	/^int	 MMemoryDbfFile::InsertRecord(void)$/;"	f	class:MMemoryDbfFile
+Instance	MDataStruct.cpp	/^int  MCharLoopGroupMt::Instance(unsigned short MaxCount)$/;"	f	class:MCharLoopGroupMt
+Instance	MDataStruct.cpp	/^int  MCharLoopGroupSt::Instance(unsigned short MaxCount)$/;"	f	class:MCharLoopGroupSt
+Instance	MDataStruct.cpp	/^int  MResourceRecordMt::Instance(unsigned short MaxCount)$/;"	f	class:MResourceRecordMt
+Instance	MDataStruct.cpp	/^int  MResourceRecordSt::Instance(unsigned short MaxCount)$/;"	f	class:MResourceRecordSt
+Instance	MDataStruct.h	/^template<class templateRecord> int  MHashTableMt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MHashTableMt
+Instance	MDataStruct.h	/^template<class templateRecord> int  MHashTableSt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MHashTableSt
+Instance	MDataStruct.h	/^template<class templateRecord> int  MLoopGroupMt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MLoopGroupMt
+Instance	MDataStruct.h	/^template<class templateRecord> int  MLoopGroupSt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MLoopGroupSt
+Instance	MLogFile.cpp	/^int  MLogFile::Instance(MString FileName,unsigned short MaxRecord)$/;"	f	class:MLogFile
+Instance	MMutex.cpp	/^int	 MSemaphore::Instance( long lInitialCount, long lMaxCount )$/;"	f	class:MSemaphore
+Instance	MMutex.cpp	/^int  MWaitEvent::Instance(void)$/;"	f	class:MWaitEvent
+Instance	MOptionTree.cpp	/^int  MOptionTree::Instance(unsigned short MaxRecord)$/;"	f	class:MOptionTree
+Instance	MSrvComm.cpp	/^int  MSrvCommAcceptQueue::Instance(unsigned short MaxRecord)$/;"	f	class:MSrvCommAcceptQueue
+Instance	MSrvComm.cpp	/^int  MSrvCommLinkQueue::Instance(MSrvCommSubUnit * Parent,unsigned long LinkTimeOut)$/;"	f	class:MSrvCommLinkQueue
+Instance	MSrvComm.cpp	/^int  MSrvCommRecvGroup::Instance(void)$/;"	f	class:MSrvCommRecvGroup
+Instance	MSrvComm.cpp	/^int  MSrvCommRecvQueue::Instance(MSrvCommSubUnit * Parent)$/;"	f	class:MSrvCommRecvQueue
+Instance	MSrvComm.cpp	/^int  MSrvCommRecvTable::Instance(MSrvCommSubUnit * Parent)$/;"	f	class:MSrvCommRecvTable
+Instance	MSrvComm.cpp	/^int  MSrvCommSendGroup::Instance(MSrvCommSendQueue * Parent)$/;"	f	class:MSrvCommSendGroup
+Instance	MSrvComm.cpp	/^int  MSrvCommSendQueue::Instance(MSrvCommSubUnit * Parent)$/;"	f	class:MSrvCommSendQueue
+Instance	MSrvComm.cpp	/^int  MSrvCommSubUnit::Instance(unsigned short UnitSerial,MSrvCommUnit * Parent,unsigned long LinkTimeOut)$/;"	f	class:MSrvCommSubUnit
+Instance	MSrvComm.cpp	/^int  MSrvCommUnit::Instance(unsigned short MaxLinkCount, unsigned short ListenPortCnt ,unsigned long LinkTimeOut )$/;"	f	class:MSrvCommUnit
+InstanceCommCondition	MSocket.cpp	/^int  MSocket::InstanceCommCondition(void)$/;"	f	class:MSocket
+IsActive	MThread.cpp	/^bool MThread::IsActive(void)$/;"	f	class:MThread
+IsDel	MDbfFile.cpp	/^bool MMemoryDbfFile::IsDel(void)$/;"	f	class:MMemoryDbfFile
+IsEmpty	MDataStruct.cpp	/^bool MCharLoopGroupSt::IsEmpty(void)$/;"	f	class:MCharLoopGroupSt
+IsEmpty	MDataStruct.h	/^template<class templateRecord> bool MLoopGroupMt<templateRecord>::IsEmpty(void)$/;"	f	class:MLoopGroupMt
+IsEmpty	MDataStruct.h	/^template<class templateRecord> bool MLoopGroupSt<templateRecord>::IsEmpty(void)$/;"	f	class:MLoopGroupSt
+IsEmpty	MDateTime.cpp	/^bool MCounter::IsEmpty(void)$/;"	f	class:MCounter
+IsEmpty	MSrvComm.cpp	/^bool MSrvCommRecvGroup::IsEmpty(unsigned long * LinkNo)$/;"	f	class:MSrvCommRecvGroup
+IsEmpty	MSrvComm.cpp	/^bool MSrvCommSendGroup::IsEmpty(unsigned long * LinkNo,SOCKET * SocketId)$/;"	f	class:MSrvCommSendGroup
+IsEmpty	MThread.cpp	/^bool MThread::IsEmpty(void)$/;"	f	class:MThread
+IsExist	MFile.cpp	/^bool MFile::IsExist(MString FileName)$/;"	f	class:MFile
+IsFull	MDataStruct.h	/^template<class templateRecord> bool MLoopGroupMt<templateRecord>::IsFull(void)$/;"	f	class:MLoopGroupMt
+IsFull	MDataStruct.h	/^template<class templateRecord> bool MLoopGroupSt<templateRecord>::IsFull(void)$/;"	f	class:MLoopGroupSt
+Last	MDbfFile.cpp	/^int  MMemoryDbfFile::Last(void)$/;"	f	class:MMemoryDbfFile
+Last	MLogFile.h	/^	char						Last[10];				\/\/最后一条纪录$/;"	m
+LastColumn	MExcelFile.h	/^	unsigned char				LastColumn;			\/\/结束列$/;"	m
+LastColumn	MExcelFile.h	/^	unsigned short				LastColumn;			\/\/结束列号$/;"	m
+LastMarket	MLogFile.h	/^	char						LastMarket[20];			\/\/最后一条纪录位置：$/;"	m
+LastRow	MExcelFile.h	/^	unsigned short				LastRow;			\/\/结束行号$/;"	m
+Left_Border	MExcelFile.h	/^    unsigned char				Left_Border : 1;	\/\/边框左线$/;"	m
+Length	MExcelFile.h	/^	unsigned short				Length;				\/\/纪录长度$/;"	m
+Length	MString.cpp	/^unsigned int MString::Length(void)$/;"	f	class:MString
+LinkCount	MSrvComm.h	/^	unsigned short					LinkCount;$/;"	m
+LinkMsg	MSrvComm.h	/^	tagSrvCommLinkMsg				LinkMsg[MSRVCOMM_UNIT_LINK_COUNT];$/;"	m
+LinkNo	MSrvComm.h	/^	unsigned long					LinkNo;					\/\/连接号$/;"	m
+LinkNo	MSrvComm.h	/^	unsigned long					LinkNo;$/;"	m
+LinkNo	MSrvComm.h	/^	unsigned long					LinkNo[MSRVCOMM_UNIT_LINK_COUNT];$/;"	m
+LinkTime	MSrvComm.h	/^	MCounter						LinkTime;				\/\/连接时间$/;"	m
+LinkType	MSrvComm.h	/^	unsigned long					LinkType;				\/\/连接类型$/;"	m
+LinkType	MSrvComm.h	/^	unsigned long					LinkType;$/;"	m
+LoadDll	MDll.cpp	/^int  MDll::LoadDll(MString DllPath)$/;"	f	class:MDll
+Lock	MMutex.cpp	/^bool MSemaphore::Lock( unsigned long lTimeOut )$/;"	f	class:MSemaphore
+Lock	MMutex.cpp	/^void MCriticalSection::Lock(void)$/;"	f	class:MCriticalSection
+LockFile	MFile.cpp	/^int  MFile::LockFile(long Offset,unsigned long Size)$/;"	f	class:MFile
+LockRead	MMutex.cpp	/^int  MComplexMrSwSection::LockRead(unsigned long TimeOut)$/;"	f	class:MComplexMrSwSection
+LockRead	MMutex.cpp	/^int  MMrSwSection::LockRead(unsigned short TryTime)$/;"	f	class:MMrSwSection
+LockWrite	MMutex.cpp	/^int  MComplexMrSwSection::LockWrite(unsigned long TimeOut)$/;"	f	class:MComplexMrSwSection
+LockWrite	MMutex.cpp	/^int  MMrSwSection::LockWrite(unsigned short TryTime)$/;"	f	class:MMrSwSection
+Locked	MExcelFile.h	/^    unsigned char				Locked : 1;			\/\/加锁标记$/;"	m
+LogFalFlag	MLogFile.h	/^	char						LogFalFlag;				\/\/允许审核失败$/;"	m
+LogFalFlagMarket	MLogFile.h	/^	char						LogFalFlagMarket[20];	\/\/允许审核失败纪录：$/;"	m
+LogSucFlag	MLogFile.h	/^	char						LogSucFlag;				\/\/允许审核成功$/;"	m
+LogSucFlagMarket	MLogFile.h	/^	char						LogSucFlagMarket[20];	\/\/允许审核成功纪录：$/;"	m
+LogType	MLogFile.h	/^	char						LogType[10];		\/\/类型$/;"	m
+LogType	MLogFile.h	/^	unsigned char				LogType;			\/\/类型$/;"	m
+Lower	MString.cpp	/^void MString::Lower(void)$/;"	f	class:MString
+M3DES64	MDES.cpp	/^M3DES64::M3DES64(void)$/;"	f	class:M3DES64
+M3DES64	MDES.h	/^class M3DES64 : public MDES64$/;"	c
+MAX_COMMDATAFRAME_SIZE	MSrvComm.h	48;"	d
+MAX_DATAFRAME_SIZE	MSrvComm.h	47;"	d
+MAX_FRAME_SIZE	MSrvComm.h	46;"	d
+MAX_THREAD_REFRESHTIME	MThread.h	21;"	d
+MBlockDataCompress	MBlockCompress.cpp	/^MBlockDataCompress::MBlockDataCompress(void)$/;"	f	class:MBlockDataCompress
+MBlockDataCompress	MBlockCompress.h	/^class MBlockDataCompress : public MObject$/;"	c
+MCRC16	MCheckCode.cpp	/^MCRC16::MCRC16(void)$/;"	f	class:MCRC16
+MCRC16	MCheckCode.h	/^class MCRC16 : public MObject$/;"	c
+MCharLoopGroupMt	MDataStruct.cpp	/^MCharLoopGroupMt::MCharLoopGroupMt(void)$/;"	f	class:MCharLoopGroupMt
+MCharLoopGroupMt	MDataStruct.h	/^class MCharLoopGroupMt : public MCharLoopGroupSt$/;"	c
+MCharLoopGroupSt	MDataStruct.cpp	/^MCharLoopGroupSt::MCharLoopGroupSt(void)$/;"	f	class:MCharLoopGroupSt
+MCharLoopGroupSt	MDataStruct.h	/^class MCharLoopGroupSt : public MObject$/;"	c
+MComplexMrSwSection	MMutex.cpp	/^MComplexMrSwSection::MComplexMrSwSection(void)$/;"	f	class:MComplexMrSwSection
+MComplexMrSwSection	MMutex.h	/^class MComplexMrSwSection : public MObject$/;"	c
+MConCheckCode	MCheckCode.cpp	/^MConCheckCode::MConCheckCode(void)$/;"	f	class:MConCheckCode
+MConCheckCode	MCheckCode.h	/^class MConCheckCode : public MObject$/;"	c
+MCounter	MDateTime.cpp	/^MCounter::MCounter(void)$/;"	f	class:MCounter
+MCounter	MDateTime.h	/^class MCounter : public MObject$/;"	c
+MCriticalSection	MMutex.cpp	/^MCriticalSection::MCriticalSection(void)$/;"	f	class:MCriticalSection
+MCriticalSection	MMutex.h	/^class MCriticalSection : public MObject$/;"	c
+MD5	MCheckCode.cpp	/^int  MMD5::MD5(const char * InBuf,int InSize,char OutBuf[16])$/;"	f	class:MMD5
+MDES64	MDES.cpp	/^MDES64::MDES64(void)$/;"	f	class:MDES64
+MDES64	MDES.h	/^class MDES64 : public MObject$/;"	c
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(const MDateTime & In)$/;"	f	class:MDateTime
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(unsigned long Date,unsigned long Time)$/;"	f	class:MDateTime
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(unsigned long In)$/;"	f	class:MDateTime
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(unsigned short Hour,unsigned short Min,unsigned short Sec,unsigned short MSec)$/;"	f	class:MDateTime
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(unsigned short Year,unsigned short Month,unsigned short Day)$/;"	f	class:MDateTime
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(unsigned short Year,unsigned short Month,unsigned short Day,unsigned short Hour,unsigned short Min,unsigned short Sec)$/;"	f	class:MDateTime
+MDateTime	MDateTime.cpp	/^MDateTime::MDateTime(void)$/;"	f	class:MDateTime
+MDateTime	MDateTime.h	/^class MDateTime : public MObject$/;"	c
+MDll	MDll.cpp	/^MDll::MDll(void)$/;"	f	class:MDll
+MDll	MDll.h	/^class MDll : public MObject$/;"	c
+MErrorCode	MObject.cpp	/^MErrorCode::MErrorCode(tagErrorCodeInfo * ErrorTable)$/;"	f	class:MErrorCode
+MErrorCode	MObject.h	/^class MErrorCode$/;"	c
+MExcelFile	MExcelFile.cpp	/^MExcelFile::MExcelFile(void)$/;"	f	class:MExcelFile
+MExcelFile	MExcelFile.h	/^class MExcelFile : public MFile$/;"	c
+MFD_Amount	MFinanceData.cpp	/^MFD_Amount::MFD_Amount(void)$/;"	f	class:MFD_Amount
+MFD_Amount	MFinanceData.h	/^class MFD_Amount : public MFinanceNumBaseData<float>$/;"	c
+MFD_Bool	MFinanceData.cpp	/^MFD_Bool::MFD_Bool(void)$/;"	f	class:MFD_Bool
+MFD_Bool	MFinanceData.h	/^class MFD_Bool : public MFinanceNumBaseData<unsigned char>$/;"	c
+MFD_CStandType	MFinanceData.h	/^template<class templateRecord> MFD_CStandType<templateRecord>::MFD_CStandType(void)$/;"	f	class:MFD_CStandType
+MFD_CStandType	MFinanceData.h	/^template<class templateRecord> class MFD_CStandType : public MFinanceBaseData$/;"	c
+MFD_Char	MFinanceData.h	/^typedef MFD_CStandType<char>					MFD_Char;$/;"	t
+MFD_Date	MFinanceData.cpp	/^MFD_Date::MFD_Date(void)$/;"	f	class:MFD_Date
+MFD_Date	MFinanceData.h	/^class MFD_Date : public MFinanceNumBaseData<unsigned long>$/;"	c
+MFD_Double	MFinanceData.h	/^typedef MFD_CStandType<double>					MFD_Double;$/;"	t
+MFD_Float	MFinanceData.h	/^typedef MFD_CStandType<float>					MFD_Float;$/;"	t
+MFD_HighAmount	MFinanceData.h	/^typedef MFD_TotalVolume MFD_HighAmount;$/;"	t
+MFD_Long	MFinanceData.h	/^typedef MFD_CStandType<long>					MFD_Long;$/;"	t
+MFD_MarketID	MFinanceData.cpp	/^MFD_MarketID::MFD_MarketID(void)$/;"	f	class:MFD_MarketID
+MFD_MarketID	MFinanceData.h	/^class MFD_MarketID : public MFinanceNumBaseData<unsigned char>$/;"	c
+MFD_MarketStatus	MFinanceData.h	/^typedef MFD_MarketID							MFD_MarketStatus;$/;"	t
+MFD_Price	MFinanceData.cpp	/^MFD_Price::MFD_Price(void)$/;"	f	class:MFD_Price
+MFD_Price	MFinanceData.h	/^class MFD_Price : public MFinanceNumBaseData<unsigned long>$/;"	c
+MFD_PriceRate	MFinanceData.cpp	/^MFD_PriceRate::MFD_PriceRate(void)$/;"	f	class:MFD_PriceRate
+MFD_PriceRate	MFinanceData.h	/^class MFD_PriceRate : public MFinanceNumBaseData<unsigned short>$/;"	c
+MFD_Records	MFinanceData.cpp	/^MFD_Records::MFD_Records(void)$/;"	f	class:MFD_Records
+MFD_Records	MFinanceData.h	/^class MFD_Records : public MFinanceNumBaseData<unsigned long>$/;"	c
+MFD_Short	MFinanceData.h	/^typedef MFD_CStandType<short>					MFD_Short;$/;"	t
+MFD_SignSubPrice	MFinanceData.cpp	/^MFD_SignSubPrice::MFD_SignSubPrice(void)$/;"	f	class:MFD_SignSubPrice
+MFD_SignSubPrice	MFinanceData.h	/^class MFD_SignSubPrice : public MFinanceNumBaseData<long>$/;"	c
+MFD_SignSubVolume	MFinanceData.cpp	/^MFD_SignSubVolume::MFD_SignSubVolume(void)$/;"	f	class:MFD_SignSubVolume
+MFD_SignSubVolume	MFinanceData.h	/^class MFD_SignSubVolume : public MFinanceNumBaseData<double>$/;"	c
+MFD_String	MFinanceData.h	/^template<int stringsize> MFD_String<stringsize>::MFD_String(void)$/;"	f	class:MFD_String
+MFD_String	MFinanceData.h	/^template<int stringsize> class MFD_String : public MFinanceBaseData$/;"	c
+MFD_SubPrice	MFinanceData.cpp	/^MFD_SubPrice::MFD_SubPrice(void)$/;"	f	class:MFD_SubPrice
+MFD_SubPrice	MFinanceData.h	/^class MFD_SubPrice : public MFinanceNumBaseData<unsigned long>$/;"	c
+MFD_SubULong	MFinanceData.cpp	/^MFD_SubULong::MFD_SubULong(void)$/;"	f	class:MFD_SubULong
+MFD_SubULong	MFinanceData.h	/^class MFD_SubULong : public MFinanceNumBaseData<unsigned long>$/;"	c
+MFD_SubVolume	MFinanceData.cpp	/^MFD_SubVolume::MFD_SubVolume(void)$/;"	f	class:MFD_SubVolume
+MFD_SubVolume	MFinanceData.h	/^class MFD_SubVolume : public MFinanceNumBaseData<double>$/;"	c
+MFD_Time	MFinanceData.cpp	/^MFD_Time::MFD_Time(void)$/;"	f	class:MFD_Time
+MFD_Time	MFinanceData.h	/^class MFD_Time : public MFinanceNumBaseData<unsigned long>$/;"	c
+MFD_TimeZoom	MFinanceData.cpp	/^MFD_TimeZoom::MFD_TimeZoom(void)$/;"	f	class:MFD_TimeZoom
+MFD_TimeZoom	MFinanceData.h	/^class MFD_TimeZoom : public MFinanceNumBaseData<char>$/;"	c
+MFD_TotalVolume	MFinanceData.cpp	/^MFD_TotalVolume::MFD_TotalVolume(void)$/;"	f	class:MFD_TotalVolume
+MFD_TotalVolume	MFinanceData.h	/^class MFD_TotalVolume : public MFinanceNumBaseData<double>$/;"	c
+MFD_UChar	MFinanceData.h	/^typedef MFD_CStandType<unsigned char>			MFD_UChar;$/;"	t
+MFD_ULong	MFinanceData.h	/^typedef MFD_CStandType<unsigned long>			MFD_ULong;$/;"	t
+MFD_UShort	MFinanceData.h	/^typedef MFD_CStandType<unsigned short>			MFD_UShort;$/;"	t
+MFD_WareSerial	MFinanceData.cpp	/^MFD_WareSerial::MFD_WareSerial(void)$/;"	f	class:MFD_WareSerial
+MFD_WareSerial	MFinanceData.h	/^class MFD_WareSerial : public MFinanceNumBaseData<unsigned short>$/;"	c
+MFD_WareType	MFinanceData.cpp	/^MFD_WareType::MFD_WareType(void)$/;"	f	class:MFD_WareType
+MFD_WareType	MFinanceData.h	/^class MFD_WareType : public MFinanceNumBaseData<unsigned char>$/;"	c
+MFD_ZeroString	MFinanceData.h	/^template<int stringsize> MFD_ZeroString<stringsize>::MFD_ZeroString(void)$/;"	f	class:MFD_ZeroString
+MFD_ZeroString	MFinanceData.h	/^template<int stringsize> class MFD_ZeroString : public MFinanceBaseData$/;"	c
+MFILE_ATTR_ARCHIVE	MFile.h	/^	MFILE_ATTR_ARCHIVE = 0x20,															\/\/存档文件$/;"	e
+MFILE_ATTR_DIRECTORY	MFile.h	/^	MFILE_ATTR_DIRECTORY = 0x10,														\/\/目录$/;"	e
+MFILE_ATTR_HIDDEN	MFile.h	/^	MFILE_ATTR_HIDDEN = 0x02,															\/\/隐藏文件$/;"	e
+MFILE_ATTR_NORMAL	MFile.h	/^	MFILE_ATTR_NORMAL = 0x00,															\/\/普通文件$/;"	e
+MFILE_ATTR_READONLY	MFile.h	/^	MFILE_ATTR_READONLY = 0x01,															\/\/只读文件$/;"	e
+MFILE_ATTR_SYSTEM	MFile.h	/^	MFILE_ATTR_SYSTEM = 0x04,															\/\/系统文件$/;"	e
+MFILE_ATTR_VOLUME	MFile.h	/^	MFILE_ATTR_VOLUME = 0x08,															\/\/卷标$/;"	e
+MFILE_OPENMODE_NOTHING	MFile.h	/^	MFILE_OPENMODE_NOTHING = 0x00,														\/\/不允许共享$/;"	e
+MFILE_OPENMODE_READ	MFile.h	/^	MFILE_OPENMODE_READ = 0x01,															\/\/打开文件读取$/;"	e
+MFILE_OPENMODE_READWRITE	MFile.h	/^	MFILE_OPENMODE_READWRITE = MFILE_OPENMODE_READ | MFILE_OPENMODE_WRITE,				\/\/打开文件读写$/;"	e
+MFILE_OPENMODE_SHAREALL	MFile.h	/^	MFILE_OPENMODE_SHAREALL = MFILE_OPENMODE_SHAREREAD | MFILE_OPENMODE_SHAREWRITE,		\/\/允许共享读写$/;"	e
+MFILE_OPENMODE_SHAREREAD	MFile.h	/^	MFILE_OPENMODE_SHAREREAD = 0x04,													\/\/允许共享读$/;"	e
+MFILE_OPENMODE_SHAREWRITE	MFile.h	/^	MFILE_OPENMODE_SHAREWRITE = 0x08,													\/\/允许共享写$/;"	e
+MFILE_OPENMODE_WRITE	MFile.h	/^	MFILE_OPENMODE_WRITE = 0x02,														\/\/打开文件写$/;"	e
+MFINANCEDATA_ERR_EMPTY	MFinanceData.h	25;"	d
+MFINANCEDATA_ERR_FULL	MFinanceData.h	24;"	d
+MFINANCEDATA_ERR_NOMEMORY	MFinanceData.h	26;"	d
+MFINANCEDATA_MAX_SIZE	MFinanceData.h	28;"	d
+MFile	MFile.cpp	/^MFile::MFile(void)$/;"	f	class:MFile
+MFile	MFile.h	/^class MFile : public MObject$/;"	c
+MFinanceBaseData	MFinanceData.cpp	/^MFinanceBaseData::MFinanceBaseData(void)$/;"	f	class:MFinanceBaseData
+MFinanceBaseData	MFinanceData.h	/^class MFinanceBaseData$/;"	c
+MFinanceData	MFinanceData.cpp	/^MFinanceData::MFinanceData(void)$/;"	f	class:MFinanceData
+MFinanceData	MFinanceData.h	/^class MFinanceData$/;"	c
+MFinanceNumBaseData	MFinanceData.h	/^template<class templateRecord> MFinanceNumBaseData<templateRecord>::MFinanceNumBaseData(void)$/;"	f	class:MFinanceNumBaseData
+MFinanceNumBaseData	MFinanceData.h	/^template<class templateRecord> class MFinanceNumBaseData : public MFinanceBaseData$/;"	c
+MFindFile	MFile.cpp	/^MFindFile::MFindFile(void)$/;"	f	class:MFindFile
+MFindFile	MFile.h	/^class MFindFile$/;"	c
+MHashTableMt	MDataStruct.h	/^template<class templateRecord> MHashTableMt<templateRecord>::MHashTableMt(void)$/;"	f	class:MHashTableMt
+MHashTableMt	MDataStruct.h	/^template<class templateRecord>class MHashTableMt : public MHashTableSt<templateRecord>$/;"	c
+MHashTableSt	MDataStruct.h	/^template<class templateRecord> MHashTableSt<templateRecord>::MHashTableSt(void)$/;"	f	class:MHashTableSt
+MHashTableSt	MDataStruct.h	/^template<class templateRecord>class MHashTableSt$/;"	c
+MIniFile	MIniFile.cpp	/^MIniFile::MIniFile(void)$/;"	f	class:MIniFile
+MIniFile	MIniFile.h	/^class MIniFile : public MFile$/;"	c
+MLOGFILE_MEMORY_SIZE	MLogFile.h	91;"	d
+MLOGTYPE_ERROR	MLogFile.h	/^	MLOGTYPE_ERROR,										\/\/错误日志$/;"	e
+MLOGTYPE_INFO	MLogFile.h	/^	MLOGTYPE_INFO,										\/\/信息日志$/;"	e
+MLOGTYPE_LOGFAL	MLogFile.h	/^	MLOGTYPE_LOGFAL,									\/\/失败审核$/;"	e
+MLOGTYPE_LOGSUC	MLogFile.h	/^	MLOGTYPE_LOGSUC,									\/\/成功审核$/;"	e
+MLOGTYPE_VIEW	MLogFile.h	/^	MLOGTYPE_VIEW = 0,									\/\/流水日志$/;"	e
+MLOGTYPE_WARNING	MLogFile.h	/^	MLOGTYPE_WARNING,									\/\/警告日志$/;"	e
+MLZW4096	MLZW.cpp	/^MLZW4096::MLZW4096(void)$/;"	f	class:MLZW4096
+MLZW4096	MLZW.h	/^class MLZW4096 : public MObject$/;"	c
+MLZW4096_BITS	MLZW.h	32;"	d
+MLZW4096_BUMPCODE	MLZW.h	36;"	d
+MLZW4096_END	MLZW.h	35;"	d
+MLZW4096_FIRSTCODE	MLZW.h	37;"	d
+MLZW4096_MAXCODE	MLZW.h	33;"	d
+MLZW4096_TABLESIZE	MLZW.h	34;"	d
+MLZW4096_UNUSER	MLZW.h	38;"	d
+MLocalComplexSection	MMutex.cpp	/^MLocalComplexSection::MLocalComplexSection(void)$/;"	f	class:MLocalComplexSection
+MLocalComplexSection	MMutex.h	/^class MLocalComplexSection$/;"	c
+MLocalSection	MMutex.cpp	/^MLocalSection::MLocalSection(void)$/;"	f	class:MLocalSection
+MLocalSection	MMutex.h	/^class MLocalSection$/;"	c
+MLock	MMutex.cpp	/^MCriticalSection::MLock::MLock(MCriticalSection& section )$/;"	f	class:MCriticalSection::MLock
+MLock	MMutex.cpp	/^MSemaphore::MLock::MLock( MSemaphore& sem, bool& rlt, unsigned long lTimeOut ):m_sem( sem )$/;"	f	class:MSemaphore::MLock
+MLock	MMutex.h	/^	class MLock$/;"	c	class:MCriticalSection
+MLock	MMutex.h	/^	class MLock$/;"	c	class:MSemaphore
+MLogFile	MLogFile.cpp	/^MLogFile::MLogFile(void)$/;"	f	class:MLogFile
+MLogFile	MLogFile.h	/^class MLogFile : public MFile$/;"	c
+MLoopGroupMt	MDataStruct.h	/^template<class templateRecord> MLoopGroupMt<templateRecord>::MLoopGroupMt(void)$/;"	f	class:MLoopGroupMt
+MLoopGroupMt	MDataStruct.h	/^template<class templateRecord>class MLoopGroupMt : public MLoopGroupSt<templateRecord>$/;"	c
+MLoopGroupSt	MDataStruct.h	/^template<class templateRecord> MLoopGroupSt<templateRecord>::MLoopGroupSt(void)$/;"	f	class:MLoopGroupSt
+MLoopGroupSt	MDataStruct.h	/^template<class templateRecord>class MLoopGroupSt$/;"	c
+MMD5	MCheckCode.cpp	/^MMD5::MMD5(void)$/;"	f	class:MMD5
+MMD5	MCheckCode.h	/^class MMD5 : public MObject$/;"	c
+MMemoryDbfFile	MDbfFile.cpp	/^MMemoryDbfFile::MMemoryDbfFile(void)$/;"	f	class:MMemoryDbfFile
+MMemoryDbfFile	MDbfFile.h	/^class MMemoryDbfFile : public MFile$/;"	c
+MMrSwSection	MMutex.cpp	/^MMrSwSection::MMrSwSection(void)$/;"	f	class:MMrSwSection
+MMrSwSection	MMutex.h	/^class MMrSwSection : public MObject$/;"	c
+MObject	MObject.cpp	/^MObject::MObject(void)$/;"	f	class:MObject
+MObject	MObject.h	/^class MObject$/;"	c
+MOptionTree	MOptionTree.cpp	/^MOptionTree::MOptionTree(void)$/;"	f	class:MOptionTree
+MOptionTree	MOptionTree.h	/^class MOptionTree : public MObject$/;"	c
+MRLock	MMutex.cpp	/^MComplexMrSwSection::MRLock::MRLock(MComplexMrSwSection& section, int& nRlt, unsigned long nTO ) $/;"	f	class:MComplexMrSwSection::MRLock
+MRLock	MMutex.cpp	/^MMrSwSection::MRLock::MRLock(MMrSwSection& section, int& nRlt,  unsigned short nTry ) $/;"	f	class:MMrSwSection::MRLock
+MRLock	MMutex.h	/^	class MRLock$/;"	c	class:MComplexMrSwSection
+MRLock	MMutex.h	/^	class MRLock$/;"	c	class:MMrSwSection
+MRegister	MRegister.cpp	/^MRegister::MRegister(void)$/;"	f	class:MRegister
+MRegister	MRegister.h	/^class MRegister : public MObject$/;"	c
+MResourceRecordMt	MDataStruct.cpp	/^MResourceRecordMt::MResourceRecordMt(void)$/;"	f	class:MResourceRecordMt
+MResourceRecordMt	MDataStruct.h	/^class MResourceRecordMt : public MResourceRecordSt$/;"	c
+MResourceRecordSt	MDataStruct.cpp	/^MResourceRecordSt::MResourceRecordSt(void)$/;"	f	class:MResourceRecordSt
+MResourceRecordSt	MDataStruct.h	/^class MResourceRecordSt : public MObject$/;"	c
+MRuntimeClass	MObject.cpp	/^MRuntimeClass::MRuntimeClass(const char * ClassName,int ClassSize,tagFunInterface_CreateObject * CreateObject,MRuntimeClass * BaseClass)$/;"	f	class:MRuntimeClass
+MRuntimeClass	MObject.h	/^class MRuntimeClass$/;"	c
+MSRVCOMMUNIT_COMMBAND_TIME	MSrvComm.h	60;"	d
+MSRVCOMM_CLOSETYPE_CLIENT	MSrvComm.h	/^	MSRVCOMM_CLOSETYPE_CLIENT,								\/\/客户端主动关闭$/;"	e
+MSRVCOMM_CLOSETYPE_RECV	MSrvComm.h	/^	MSRVCOMM_CLOSETYPE_RECV,								\/\/接收数据包错误$/;"	e
+MSRVCOMM_CLOSETYPE_SEND	MSrvComm.h	/^	MSRVCOMM_CLOSETYPE_SEND,								\/\/发送数据包错误$/;"	e
+MSRVCOMM_CLOSETYPE_SRV	MSrvComm.h	/^	MSRVCOMM_CLOSETYPE_SRV = 0,								\/\/服务器主动关闭$/;"	e
+MSRVCOMM_CLOSETYPE_TIMEOUT	MSrvComm.h	/^	MSRVCOMM_CLOSETYPE_TIMEOUT,								\/\/超时关闭$/;"	e
+MSRVCOMM_LINKMSG_ADD	MSrvComm.h	/^	MSRVCOMM_LINKMSG_ADD = 0,		\/\/添加连接$/;"	e
+MSRVCOMM_LINKMSG_CLOSE	MSrvComm.h	/^	MSRVCOMM_LINKMSG_CLOSE,			\/\/关闭连接$/;"	e
+MSRVCOMM_LINKORDER	MSrvComm.h	62;"	d
+MSRVCOMM_LINKTYPE_ACCEPT	MSrvComm.h	/^	MSRVCOMM_LINKTYPE_ACCEPT = 0,							\/\/客户端主动连接服务器，服务器Accept的连接$/;"	e
+MSRVCOMM_LINKTYPE_CONNECT	MSrvComm.h	/^	MSRVCOMM_LINKTYPE_CONNECT,								\/\/服务器主动连接客户端，调用Connect的连接，但不知连接是否成功$/;"	e
+MSRVCOMM_LINKTYPE_LINKSUC	MSrvComm.h	/^	MSRVCOMM_LINKTYPE_LINKSUC,								\/\/服务器主动连接客户端，调用Connect的连接，且连接成功$/;"	e
+MSRVCOMM_LINKTYPE_NOCONNECT	MSrvComm.h	/^	MSRVCOMM_LINKTYPE_NOCONNECT = 128,						\/\/服务器主动连接客户端，但没有调用Connect的连接$/;"	e
+MSRVCOMM_LINKUNITNO	MSrvComm.h	63;"	d
+MSRVCOMM_LINK_RECVCOUNT	MSrvComm.h	56;"	d
+MSRVCOMM_LINK_RECVSIZE	MSrvComm.h	55;"	d
+MSRVCOMM_LINK_SENDSIZE	MSrvComm.h	57;"	d
+MSRVCOMM_MAX_ACCEPT_COUNT	MSrvComm.h	53;"	d
+MSRVCOMM_SEND_TIMES	MSrvComm.h	58;"	d
+MSRVCOMM_TIMEOUT	MSrvComm.h	54;"	d
+MSRVCOMM_UNIT_LINK_COUNT	MSrvComm.h	52;"	d
+MSTRING_DEFAULT_BUFSIZE	MString.h	55;"	d
+MSemaphore	MMutex.cpp	/^MSemaphore::MSemaphore( void )$/;"	f	class:MSemaphore
+MSemaphore	MMutex.h	/^class MSemaphore : public MObject$/;"	c
+MSocket	MSocket.cpp	/^MSocket::MSocket(void)$/;"	f	class:MSocket
+MSocket	MSocket.h	/^class MSocket : public MObject$/;"	c
+MSrvCommAcceptQueue	MSrvComm.cpp	/^MSrvCommAcceptQueue::MSrvCommAcceptQueue(void)$/;"	f	class:MSrvCommAcceptQueue
+MSrvCommAcceptQueue	MSrvComm.h	/^class MSrvCommAcceptQueue : public MObject$/;"	c
+MSrvCommLinkQueue	MSrvComm.cpp	/^MSrvCommLinkQueue::MSrvCommLinkQueue(void)$/;"	f	class:MSrvCommLinkQueue
+MSrvCommLinkQueue	MSrvComm.h	/^class MSrvCommLinkQueue : public MObject$/;"	c
+MSrvCommRecvGroup	MSrvComm.cpp	/^MSrvCommRecvGroup::MSrvCommRecvGroup(void)$/;"	f	class:MSrvCommRecvGroup
+MSrvCommRecvGroup	MSrvComm.h	/^class MSrvCommRecvGroup : public MObject$/;"	c
+MSrvCommRecvQueue	MSrvComm.cpp	/^MSrvCommRecvQueue::MSrvCommRecvQueue(void)$/;"	f	class:MSrvCommRecvQueue
+MSrvCommRecvQueue	MSrvComm.h	/^class MSrvCommRecvQueue : public MObject$/;"	c
+MSrvCommRecvTable	MSrvComm.cpp	/^MSrvCommRecvTable::MSrvCommRecvTable(void)$/;"	f	class:MSrvCommRecvTable
+MSrvCommRecvTable	MSrvComm.h	/^class MSrvCommRecvTable : public MObject$/;"	c
+MSrvCommSendGroup	MSrvComm.cpp	/^MSrvCommSendGroup::MSrvCommSendGroup(void)$/;"	f	class:MSrvCommSendGroup
+MSrvCommSendGroup	MSrvComm.h	/^class MSrvCommSendGroup : public MObject$/;"	c
+MSrvCommSendQueue	MSrvComm.cpp	/^MSrvCommSendQueue::MSrvCommSendQueue(void)$/;"	f	class:MSrvCommSendQueue
+MSrvCommSendQueue	MSrvComm.h	/^class MSrvCommSendQueue : public MObject$/;"	c
+MSrvCommSubUnit	MSrvComm.cpp	/^MSrvCommSubUnit::MSrvCommSubUnit(void)$/;"	f	class:MSrvCommSubUnit
+MSrvCommSubUnit	MSrvComm.h	/^class MSrvCommSubUnit : public MObject$/;"	c
+MSrvCommUnit	MSrvComm.cpp	/^MSrvCommUnit::MSrvCommUnit(void)$/;"	f	class:MSrvCommUnit
+MSrvCommUnit	MSrvComm.h	/^class MSrvCommUnit : public MObject$/;"	c
+MString	MString.cpp	/^MString::MString(const MString & In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const char * In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const char In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const char In,const unsigned short Count)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const int In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const long In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const short In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const unsigned char In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const unsigned char In,const unsigned short Count)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const unsigned int In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const unsigned long In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(const unsigned short In)$/;"	f	class:MString
+MString	MString.cpp	/^MString::MString(void)$/;"	f	class:MString
+MString	MString.h	/^class MString$/;"	c
+MSystemInfo	MSystemInfo.cpp	/^MSystemInfo::MSystemInfo(void)$/;"	f	class:MSystemInfo
+MSystemInfo	MSystemInfo.h	/^class MSystemInfo : public MObject$/;"	c
+MThread	MThread.cpp	/^MThread::MThread(void)$/;"	f	class:MThread
+MThread	MThread.h	/^class MThread : public MObject$/;"	c
+MWLock	MMutex.cpp	/^MComplexMrSwSection::MWLock::MWLock( MComplexMrSwSection& section, int& nRlt, unsigned long nTO )$/;"	f	class:MComplexMrSwSection::MWLock
+MWLock	MMutex.cpp	/^MMrSwSection::MWLock::MWLock( MMrSwSection& section, int& nRlt,  unsigned short nTry )$/;"	f	class:MMrSwSection::MWLock
+MWLock	MMutex.h	/^	class MWLock$/;"	c	class:MComplexMrSwSection
+MWLock	MMutex.h	/^	class MWLock$/;"	c	class:MMrSwSection
+MWaitEvent	MMutex.cpp	/^MWaitEvent::MWaitEvent(void)$/;"	f	class:MWaitEvent
+MWaitEvent	MMutex.h	/^class MWaitEvent$/;"	c
+MainType	MSrvComm.h	/^    unsigned char	                MainType;				\/\/帧类型$/;"	m
+Market	MDbfFile.h	/^    char                    Market;         \/\/数据库开始标志$/;"	m
+Market	MSrvComm.h	/^	char	                        Market;					\/\/同步标记，为'$'$/;"	m
+MarketFlag	MLogFile.h	/^	char						MarketFlag[20];			\/\/标志[MLOG日志文件]$/;"	m
+MatchingString	MFile.cpp	/^bool MFindFile::MatchingString(const char* lpszSour, const char* lpszMatch, bool bMatchCase)$/;"	f	class:MFindFile
+MaxRecord	MLogFile.h	/^	char						MaxRecord[10];			\/\/最大纪录数$/;"	m
+MaxRecordMarket	MLogFile.h	/^	char						MaxRecordMarket[20];	\/\/最大纪录数：$/;"	m
+MsgType	MSrvComm.h	/^	unsigned char					MsgType;$/;"	m
+Name	MIniFile.h	/^	char						Name[256];$/;"	m	struct:__INIFILEVALUE
+Name	MOptionTree.h	/^	char 					Name[32];		\/\/成员名字$/;"	m
+Next	MDbfFile.cpp	/^int  MMemoryDbfFile::Next(void)$/;"	f	class:MMemoryDbfFile
+Next	MDbfFile.h	/^	struct __DBFRECORD	*	Next;$/;"	m	struct:__DBFRECORD
+Next	MIniFile.h	/^	struct __INIFILESECTION *	Next;$/;"	m	struct:__INIFILESECTION
+Next	MIniFile.h	/^	struct __INIFILEVALUE	*	Next;$/;"	m	struct:__INIFILEVALUE
+Now	MDateTime.cpp	/^MDateTime MDateTime::Now(void)$/;"	f	class:MDateTime
+OPTION_ATTR_DYNAMIC	MOptionTree.h	24;"	d
+OPTION_ATTR_READABLE	MOptionTree.h	21;"	d
+OPTION_ATTR_STATIC	MOptionTree.h	23;"	d
+OPTION_ATTR_WRITEABLE	MOptionTree.h	22;"	d
+OPTION_TYPE_BOOL	MOptionTree.h	/^	OPTION_TYPE_BOOL,					\/\/bool(true,false)$/;"	e
+OPTION_TYPE_CHAR	MOptionTree.h	/^	OPTION_TYPE_CHAR,					\/\/char$/;"	e
+OPTION_TYPE_DOUBLE	MOptionTree.h	/^	OPTION_TYPE_DOUBLE,					\/\/double$/;"	e
+OPTION_TYPE_FLOAT	MOptionTree.h	/^	OPTION_TYPE_FLOAT,					\/\/float$/;"	e
+OPTION_TYPE_INT	MOptionTree.h	/^	OPTION_TYPE_INT,					\/\/int$/;"	e
+OPTION_TYPE_LONG	MOptionTree.h	/^	OPTION_TYPE_LONG,					\/\/long$/;"	e
+OPTION_TYPE_SHORT	MOptionTree.h	/^	OPTION_TYPE_SHORT,					\/\/short$/;"	e
+OPTION_TYPE_STRING	MOptionTree.h	/^	OPTION_TYPE_STRING,					\/\/以 '\\0' 结尾的字符串$/;"	e
+OPTION_TYPE_STRUCT	MOptionTree.h	/^	OPTION_TYPE_STRUCT,					\/\/用户自己定义的类型	$/;"	e
+OPTION_TYPE_UCHAR	MOptionTree.h	/^	OPTION_TYPE_UCHAR = 0,				\/\/unsigned char$/;"	e
+OPTION_TYPE_UINT	MOptionTree.h	/^	OPTION_TYPE_UINT,					\/\/unsigned int$/;"	e
+OPTION_TYPE_ULONG	MOptionTree.h	/^	OPTION_TYPE_ULONG,					\/\/unsigned long$/;"	e
+OPTION_TYPE_USHORT	MOptionTree.h	/^	OPTION_TYPE_USHORT,					\/\/unsigned short$/;"	e
+OSType	MSystemInfo.h	/^	unsigned char		OSType;				\/\/操作系统类型$/;"	m
+Open	MDbfFile.cpp	/^int  MMemoryDbfFile::Open(MString FileName)$/;"	f	class:MMemoryDbfFile
+Open	MFile.cpp	/^int  MFile::Open(MString FileName,unsigned long Mode)$/;"	f	class:MFile
+Open	MIniFile.cpp	/^int  MIniFile::Open(MString FileName)$/;"	f	class:MIniFile
+Open	MIniFile.cpp	/^int  MIniFile::Open(char * InBuf,unsigned long InSize)$/;"	f	class:MIniFile
+OpenKey	MRegister.cpp	/^int  MRegister::OpenKey(HKEY RootKey,MString Key)$/;"	f	class:MRegister
+OptionCode	MExcelFile.h	/^	unsigned short				OptionCode;			\/\/操作码$/;"	m
+OrderRecord	MSrvComm.h	/^	unsigned long					OrderRecord;			\/\/连接顺序纪录$/;"	m
+ParentCode	MLZW.h	/^	short									ParentCode;$/;"	m
+ParentNo	MSrvComm.h	/^	unsigned long					ParentNo;				\/\/父连接号$/;"	m
+ParentNo	MSrvComm.h	/^	unsigned long					ParentNo;$/;"	m
+PauseThread	MThread.cpp	/^int  MThread::PauseThread(void)$/;"	f	class:MThread
+PhyAvailableSize	MSystemInfo.h	/^	unsigned long					PhyAvailableSize;					\/\/可用物理内存大小[M]$/;"	m
+PhyMemoryPercent	MSystemInfo.h	/^	unsigned long		PhyMemoryPercent;	\/\/物理内存利用率$/;"	m
+PhyMemorySize	MSystemInfo.h	/^	unsigned long					PhyMemorySize;						\/\/物理内存大小[M]$/;"	m
+PhyMemorySize	MSystemInfo.h	/^	unsigned long		PhyMemorySize;		\/\/物理内存大小（单位：M）$/;"	m
+Port	MSrvComm.h	/^	unsigned long					Port;					\/\/客户端端口号$/;"	m
+Port	MSrvComm.h	/^	unsigned long					Port;$/;"	m
+Prior	MDbfFile.cpp	/^int  MMemoryDbfFile::Prior(void)$/;"	f	class:MMemoryDbfFile
+ProcessName	MSystemInfo.h	/^    char                            ProcessName[50];                    \/\/处理器名称$/;"	m
+PutBit	MFinanceData.cpp	4;"	d	file:
+PutBit64	MFinanceData.cpp	5;"	d	file:
+PutBitString	MFinanceData.cpp	6;"	d	file:
+PutBitToBuf	MLZW.cpp	/^int  MLZW4096::PutBitToBuf(char * InBuf,unsigned short InSize,unsigned long BitOffset,unsigned long Value,unsigned long BitSize)$/;"	f	class:MLZW4096
+PutChar	MIniFile.cpp	/^int  MIniFile::PutChar(unsigned char Value,char * InBuf,unsigned long No)$/;"	f	class:MIniFile
+PutData	MDataStruct.cpp	/^int  MCharLoopGroupMt::PutData(char * InBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupMt
+PutData	MDataStruct.cpp	/^int  MCharLoopGroupSt::PutData(char * InBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupSt
+PutData	MDataStruct.h	/^template<class templateRecord> int  MHashTableMt<templateRecord>::PutData(unsigned short FindCode,templateRecord Index,unsigned long AddtionData)$/;"	f	class:MHashTableMt
+PutData	MDataStruct.h	/^template<class templateRecord> int  MHashTableSt<templateRecord>::PutData(unsigned short FindCode,templateRecord Index,unsigned long AddtionData)$/;"	f	class:MHashTableSt
+PutData	MDataStruct.h	/^template<class templateRecord> int  MLoopGroupMt<templateRecord>::PutData(templateRecord * In)$/;"	f	class:MLoopGroupMt
+PutData	MDataStruct.h	/^template<class templateRecord> int  MLoopGroupSt<templateRecord>::PutData(templateRecord * In)$/;"	f	class:MLoopGroupSt
+PutData	MSrvComm.cpp	/^int  MSrvCommRecvGroup::PutData(unsigned long LinkNo,char * InBuf,unsigned short InSize)$/;"	f	class:MSrvCommRecvGroup
+PutData	MSrvComm.cpp	/^int  MSrvCommRecvQueue::PutData(unsigned short Serial,unsigned long LinkNo,char * InBuf,unsigned short InSize)$/;"	f	class:MSrvCommRecvQueue
+PutResource	MDataStruct.cpp	/^int  MResourceRecordMt::PutResource(unsigned short ResourceID)$/;"	f	class:MResourceRecordMt
+PutResource	MDataStruct.cpp	/^int  MResourceRecordSt::PutResource(unsigned short ResourceID)$/;"	f	class:MResourceRecordSt
+Read	MFile.cpp	/^int  MFile::Read(char * OutBuf,unsigned long InSize)$/;"	f	class:MFile
+ReadBinary	MRegister.cpp	/^int  MRegister::ReadBinary(MString Name,char * OutBuf,unsigned short InSize)$/;"	f	class:MRegister
+ReadBool	MIniFile.cpp	/^bool MIniFile::ReadBool(MString Section,MString Name,bool Default)$/;"	f	class:MIniFile
+ReadData	MFinanceData.cpp	/^int  MFinanceData::ReadData(char * OutBuf,unsigned long InSize)$/;"	f	class:MFinanceData
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_Amount::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Amount
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_Bool::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Bool
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_Date::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Date
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_MarketID::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_MarketID
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_Price::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Price
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_PriceRate::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_PriceRate
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_Records::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Records
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_SignSubPrice::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SignSubPrice
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_SignSubVolume::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SignSubVolume
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_SubPrice::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SubPrice
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_SubULong::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SubULong
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_SubVolume::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SubVolume
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_Time::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Time
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_TimeZoom::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_TimeZoom
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_TotalVolume::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_TotalVolume
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_WareSerial::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_WareSerial
+ReadDataFromBuf	MFinanceData.cpp	/^void MFD_WareType::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_WareType
+ReadDataFromBuf	MFinanceData.cpp	/^void MFinanceBaseData::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFinanceBaseData
+ReadDataFromBuf	MFinanceData.h	/^template<class templateRecord> void MFD_CStandType<templateRecord>::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_CStandType
+ReadDataFromBuf	MFinanceData.h	/^template<int stringsize> void MFD_String<stringsize>::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_String
+ReadDataFromBuf	MFinanceData.h	/^template<int stringsize> void MFD_ZeroString<stringsize>::ReadDataFromBuf(unsigned long * BitOffset)$/;"	f	class:MFD_ZeroString
+ReadDefaultData	MFinanceData.cpp	/^int  MFinanceBaseData::ReadDefaultData(unsigned long * Offset)$/;"	f	class:MFinanceBaseData
+ReadDefaultData	MFinanceData.h	/^template<class templateRecord> int  MFD_CStandType<templateRecord>::ReadDefaultData(unsigned long * Offset)$/;"	f	class:MFD_CStandType
+ReadDefaultData	MFinanceData.h	/^template<class templateRecord> int  MFinanceNumBaseData<templateRecord>::ReadDefaultData(unsigned long * Offset)$/;"	f	class:MFinanceNumBaseData
+ReadDefaultData	MFinanceData.h	/^template<int stringsize> int  MFD_String<stringsize>::ReadDefaultData(unsigned long * Offset)$/;"	f	class:MFD_String
+ReadDefaultData	MFinanceData.h	/^template<int stringsize> int  MFD_ZeroString<stringsize>::ReadDefaultData(unsigned long * Offset)$/;"	f	class:MFD_ZeroString
+ReadFloat	MDbfFile.cpp	/^int  MMemoryDbfFile::ReadFloat(char * FieldName,float * Value)$/;"	f	class:MMemoryDbfFile
+ReadFloat	MDbfFile.cpp	/^int  MMemoryDbfFile::ReadFloat(unsigned short FieldNo,float * Value)$/;"	f	class:MMemoryDbfFile
+ReadFloat	MIniFile.cpp	/^float MIniFile::ReadFloat(MString Section,MString Name,float Default)$/;"	f	class:MIniFile
+ReadInteger	MDbfFile.cpp	/^int  MMemoryDbfFile::ReadInteger(char * FieldName,int * Value)$/;"	f	class:MMemoryDbfFile
+ReadInteger	MDbfFile.cpp	/^int  MMemoryDbfFile::ReadInteger(unsigned short FieldNo,int * Value)$/;"	f	class:MMemoryDbfFile
+ReadInteger	MIniFile.cpp	/^int	 MIniFile::ReadInteger(MString Section,MString Name,int Default)$/;"	f	class:MIniFile
+ReadInteger	MRegister.cpp	/^int  MRegister::ReadInteger(MString Name,unsigned long * Out)$/;"	f	class:MRegister
+ReadString	MDbfFile.cpp	/^int  MMemoryDbfFile::ReadString(char * FieldName,char * Value,unsigned short InSize)$/;"	f	class:MMemoryDbfFile
+ReadString	MDbfFile.cpp	/^int  MMemoryDbfFile::ReadString(unsigned short FieldNo,char * Value,unsigned short InSize)$/;"	f	class:MMemoryDbfFile
+ReadString	MFile.cpp	/^MString MFile::ReadString(void)$/;"	f	class:MFile
+ReadString	MFile.cpp	/^int  MFile::ReadString(MString * Out)$/;"	f	class:MFile
+ReadString	MIniFile.cpp	/^MString MIniFile::ReadString(MString Section,MString Name,MString Default)$/;"	f	class:MIniFile
+ReadString	MRegister.cpp	/^int  MRegister::ReadString(MString Name,MString * Out)$/;"	f	class:MRegister
+ReadString	MRegister.cpp	/^int  MRegister::ReadString(MString Name,char * OutBuf,unsigned short InSize)$/;"	f	class:MRegister
+RecordContent	MLogFile.h	/^	char						RecordContent[200];	\/\/记录内容$/;"	m
+RecordCount	MDbfFile.h	/^    unsigned long           RecordCount;    \/\/记录数$/;"	m
+RecordData	MDbfFile.h	/^	char				*	RecordData;$/;"	m	struct:__DBFRECORD
+RecordSize	MDbfFile.h	/^    unsigned short          RecordSize;     \/\/每条纪录长度$/;"	m
+RecvBuf	MSrvComm.h	/^	char							RecvBuf[MAX_FRAME_SIZE];$/;"	m
+RecvFrame	MSrvComm.cpp	/^int  MSrvCommRecvQueue::RecvFrame(unsigned long LinkNo,tagFrameHead * OutHead,char * OutBuf,unsigned short InSize)$/;"	f	class:MSrvCommRecvQueue
+RecvFrame	MSrvComm.cpp	/^int  MSrvCommUnit::RecvFrame(unsigned long LinkNo,tagFrameHead * OutHead,char * OutBuf,unsigned short InSize)$/;"	f	class:MSrvCommUnit
+RecvSize	MSrvComm.h	/^	unsigned long					RecvSize;				\/\/接收字节$/;"	m
+RecvSize	MSrvComm.h	/^	unsigned short					RecvSize;$/;"	m
+RecvSocketData	MSrvComm.cpp	/^int  MSrvCommRecvTable::RecvSocketData(unsigned short Serial,unsigned long LinkNo,SOCKET InSocket)$/;"	f	class:MSrvCommRecvTable
+RecvSocketFrame	MSrvComm.cpp	/^int  MSrvCommUnit::RecvSocketFrame(SOCKET InSocket,tagFrameHead * OutHead,char * OutBuf,unsigned short InSize)$/;"	f	class:MSrvCommUnit
+RecvSocketFrameTemp	MSrvComm.cpp	/^int  MSrvCommUnit::RecvSocketFrameTemp(SOCKET InSocket,tagFrameHead * OutHead,char * OutBuf,unsigned short InSize)$/;"	f	class:MSrvCommUnit
+RecvThreadFun	MSrvComm.cpp	/^void * __stdcall MSrvCommSubUnit::RecvThreadFun(void * In)$/;"	f	class:MSrvCommSubUnit
+RecvTime	MSrvComm.h	/^	MCounter						RecvTime;				\/\/最后一次接收时间$/;"	m
+RefreshThread	MThread.cpp	/^void MThread::RefreshThread(void)$/;"	f	class:MThread
+RefreshTimeOutLink	MSrvComm.cpp	/^void MSrvCommLinkQueue::RefreshTimeOutLink(void)$/;"	f	class:MSrvCommLinkQueue
+Release	MDataStruct.cpp	/^void MCharLoopGroupMt::Release(void)$/;"	f	class:MCharLoopGroupMt
+Release	MDataStruct.cpp	/^void MCharLoopGroupSt::Release(void)$/;"	f	class:MCharLoopGroupSt
+Release	MDataStruct.cpp	/^void MResourceRecordMt::Release(void)$/;"	f	class:MResourceRecordMt
+Release	MDataStruct.cpp	/^void MResourceRecordSt::Release(void)$/;"	f	class:MResourceRecordSt
+Release	MDataStruct.h	/^template<class templateRecord> void MHashTableMt<templateRecord>::Release(void)$/;"	f	class:MHashTableMt
+Release	MDataStruct.h	/^template<class templateRecord> void MHashTableSt<templateRecord>::Release(void)$/;"	f	class:MHashTableSt
+Release	MDataStruct.h	/^template<class templateRecord> void MLoopGroupMt<templateRecord>::Release(void)$/;"	f	class:MLoopGroupMt
+Release	MDataStruct.h	/^template<class templateRecord> void MLoopGroupSt<templateRecord>::Release(void)$/;"	f	class:MLoopGroupSt
+Release	MLogFile.cpp	/^void MLogFile::Release(void)$/;"	f	class:MLogFile
+Release	MMutex.cpp	/^void MWaitEvent::Release(void)$/;"	f	class:MWaitEvent
+Release	MOptionTree.cpp	/^void MOptionTree::Release(void)$/;"	f	class:MOptionTree
+Release	MSrvComm.cpp	/^void MSrvCommAcceptQueue::Release(void)$/;"	f	class:MSrvCommAcceptQueue
+Release	MSrvComm.cpp	/^void MSrvCommLinkQueue::Release(void)$/;"	f	class:MSrvCommLinkQueue
+Release	MSrvComm.cpp	/^void MSrvCommRecvGroup::Release(void)$/;"	f	class:MSrvCommRecvGroup
+Release	MSrvComm.cpp	/^void MSrvCommRecvQueue::Release(void)$/;"	f	class:MSrvCommRecvQueue
+Release	MSrvComm.cpp	/^void MSrvCommRecvTable::Release(void)$/;"	f	class:MSrvCommRecvTable
+Release	MSrvComm.cpp	/^void MSrvCommSendGroup::Release(void)$/;"	f	class:MSrvCommSendGroup
+Release	MSrvComm.cpp	/^void MSrvCommSendQueue::Release(void)$/;"	f	class:MSrvCommSendQueue
+Release	MSrvComm.cpp	/^void MSrvCommSubUnit::Release(void)$/;"	f	class:MSrvCommSubUnit
+Release	MSrvComm.cpp	/^void MSrvCommUnit::Release(void)$/;"	f	class:MSrvCommUnit
+ReleaseCommCondition	MSocket.cpp	/^void MSocket::ReleaseCommCondition(void)$/;"	f	class:MSocket
+RenameFileName	MFile.cpp	/^int  MFile::RenameFileName(MString SourceFile,MString NewFile)$/;"	f	class:MFile
+RequestCode	MSrvComm.h	/^    unsigned short                  RequestCode;			\/\/请求编号$/;"	m
+Resert	MSrvComm.cpp	/^void MSrvCommRecvGroup::Resert(unsigned long LinkNo)$/;"	f	class:MSrvCommRecvGroup
+Resert	MSrvComm.cpp	/^void MSrvCommRecvQueue::Resert(unsigned short Serial,unsigned long LinkNo)$/;"	f	class:MSrvCommRecvQueue
+Resert	MSrvComm.cpp	/^void MSrvCommRecvTable::Resert(unsigned short Serial,unsigned long LinkNo)$/;"	f	class:MSrvCommRecvTable
+Resert	MSrvComm.cpp	/^void MSrvCommSendGroup::Resert(unsigned long LinkNo,SOCKET SocketId)$/;"	f	class:MSrvCommSendGroup
+Resert	MSrvComm.cpp	/^void MSrvCommSendQueue::Resert(unsigned short Serial,unsigned long LinkNo,SOCKET SocketId)$/;"	f	class:MSrvCommSendQueue
+Reserved	MDbfFile.h	/^    char                    Reserved[14];   \/\/保留      $/;"	m
+Reserved	MDbfFile.h	/^    char                    Reserved[20];   \/\/保留$/;"	m
+Reserved	MExcelFile.h	/^    unsigned char				Reserved : 6;		\/\/保留$/;"	m
+Reserved	MLogFile.h	/^	char						Reserved[9];			\/\/保留$/;"	m
+Reserved	MSrvComm.h	/^	char							Reserved[8];			\/\/保留$/;"	m
+Reserved	MSrvComm.h	/^	unsigned char                   Reserved[1];			\/\/保留字节(在LinBox系统中,这个字节表示当前上海市场的时间点)$/;"	m
+ResumeThread	MThread.cpp	/^int  MThread::ResumeThread(void)$/;"	f	class:MThread
+Return	MLogFile.h	/^	char						Return[2];				\/\/回车换行$/;"	m
+ReturnFlag	MLogFile.h	/^	char						ReturnFlag[2];		\/\/回车换行标志$/;"	m
+Right_Border	MExcelFile.h	/^    unsigned char				Right_Border : 1;	\/\/边框右线$/;"	m
+RotateL	MDES.cpp	/^void MDES64::RotateL(unsigned char * InBuf,unsigned short InSize,unsigned char Loop)$/;"	f	class:MDES64
+Row	MExcelFile.h	/^	unsigned short				Row;				\/\/行$/;"	m
+SFunction	MDES.cpp	/^void MDES64::SFunction(unsigned char * InBuf,unsigned char * OutBuf)$/;"	f	class:MDES64
+SOCKET	MString.h	31;"	d
+SOCKET_ERROR	MString.h	33;"	d
+SectionName	MIniFile.h	/^	char						SectionName[256];$/;"	m	struct:__INIFILESECTION
+Seek	MFile.cpp	/^int  MFile::Seek(long Offset,unsigned long FromType)$/;"	f	class:MFile
+Select	MSrvComm.cpp	/^int  MSrvCommRecvQueue::Select(tagSrvCommLinkMsgQueue * LinkMsg,tagSrvCommDataMsgQueue * DataMsg)$/;"	f	class:MSrvCommRecvQueue
+Select	MSrvComm.cpp	/^int  MSrvCommUnit::Select(unsigned short UnitNo,tagSrvCommLinkMsgQueue * LinkMsg,tagSrvCommDataMsgQueue * DataMsg)$/;"	f	class:MSrvCommUnit
+SelectSubUnit	MSrvComm.cpp	/^int  MSrvCommUnit::SelectSubUnit(void)$/;"	f	class:MSrvCommUnit
+SendFrame	MSrvComm.cpp	/^int  MSrvCommSendGroup::SendFrame(unsigned long LinkNo,tagFrameHead * InHead,char * InBuf,unsigned short InSize)$/;"	f	class:MSrvCommSendGroup
+SendFrame	MSrvComm.cpp	/^int  MSrvCommSendQueue::SendFrame(unsigned long LinkNo,tagFrameHead * InHead,char * InBuf,unsigned short InSize)$/;"	f	class:MSrvCommSendQueue
+SendFrame	MSrvComm.cpp	/^int  MSrvCommUnit::SendFrame(unsigned long LinkNo,tagFrameHead * InHead,char * InBuf,unsigned short InSize,int SendTimes)$/;"	f	class:MSrvCommUnit
+SendSize	MSrvComm.h	/^	unsigned long					SendSize;				\/\/发送字节$/;"	m
+SendSocketBlockFrame	MSrvComm.cpp	/^int  MSrvCommUnit::SendSocketBlockFrame(SOCKET InSocket,tagFrameHead * InHead,char * InBuf,unsigned short Offset,unsigned short BlockSize,unsigned short BlockCount)$/;"	f	class:MSrvCommUnit
+SendSocketData	MSrvComm.cpp	/^int  MSrvCommSendGroup::SendSocketData(unsigned short Serial,unsigned long LinkNo,SOCKET InSocket)$/;"	f	class:MSrvCommSendGroup
+SendSocketData	MSrvComm.cpp	/^int  MSrvCommSendQueue::SendSocketData(unsigned short Serial,unsigned long LinkNo,SOCKET InSocket)$/;"	f	class:MSrvCommSendQueue
+SendSocketFrame	MSrvComm.cpp	/^int  MSrvCommUnit::SendSocketFrame(SOCKET InSocket,tagFrameHead * InHead,char * InBuf,unsigned short InSize)$/;"	f	class:MSrvCommUnit
+SendThreadFun	MSrvComm.cpp	/^void * __stdcall MSrvCommSubUnit::SendThreadFun(void * In)$/;"	f	class:MSrvCommSubUnit
+SendTime	MSrvComm.h	/^	MCounter						SendTime;				\/\/发送时间$/;"	m
+Serial	MSrvComm.h	/^	unsigned short					Serial;					\/\/序号$/;"	m
+SetAccessDateTime	MFile.cpp	/^int  MFile::SetAccessDateTime(MDateTime In)$/;"	f	class:MFile
+SetAddtionData	MThread.cpp	/^void MThread::SetAddtionData(unsigned long In)$/;"	f	class:MThread
+SetAt	MString.cpp	/^int  MString::SetAt(const unsigned short In,char CharValue)$/;"	f	class:MString
+SetColumnWidth	MExcelFile.cpp	/^int  MExcelFile::SetColumnWidth(unsigned char FirstColumn,unsigned char LastColumn,unsigned char Width)$/;"	f	class:MExcelFile
+SetCreateDateTime	MFile.cpp	/^int  MFile::SetCreateDateTime(MDateTime In)$/;"	f	class:MFile
+SetCurDateTime	MDateTime.cpp	/^void MDateTime::SetCurDateTime(void)$/;"	f	class:MDateTime
+SetCurRecord	MDbfFile.cpp	/^int  MMemoryDbfFile::SetCurRecord(int CurPtr)$/;"	f	class:MMemoryDbfFile
+SetCurrentDirectory	MFile.cpp	/^int  MFile::SetCurrentDirectory(MString In)$/;"	f	class:MFile
+SetData	MFinanceData.h	/^template<class templateRecord> void MFinanceNumBaseData<templateRecord>::SetData (templateRecord In)$/;"	f	class:MFinanceNumBaseData
+SetDateTime	MDateTime.cpp	/^void MDateTime::SetDateTime( const char* szDateTime )$/;"	f	class:MDateTime
+SetDefaultHeight	MExcelFile.cpp	/^int  MExcelFile::SetDefaultHeight(unsigned short Height)$/;"	f	class:MExcelFile
+SetFileAttributes	MFile.cpp	/^int  MFile::SetFileAttributes(MString FileName,unsigned long Attributes)$/;"	f	class:MFile
+SetFileLength	MFile.cpp	/^int  MFile::SetFileLength(unsigned long FileLength)$/;"	f	class:MFile
+SetFileLength	MFile.cpp	/^int  MFile::SetFileLength(void)$/;"	f	class:MFile
+SetFont	MExcelFile.cpp	/^int  MExcelFile::SetFont(unsigned short FontHeight,unsigned short FontAttr,MString FontName)$/;"	f	class:MExcelFile
+SetLinkAddtionData	MSrvComm.cpp	/^int   MSrvCommLinkQueue::SetLinkAddtionData(unsigned short Serial,unsigned long LinkNo,unsigned long AddtionData)$/;"	f	class:MSrvCommLinkQueue
+SetLinkAddtionData	MSrvComm.cpp	/^int  MSrvCommUnit::SetLinkAddtionData(unsigned long LinkNo,unsigned long AddtionData)$/;"	f	class:MSrvCommUnit
+SetSocketAsync	MSocket.cpp	/^int  MSocket::SetSocketAsync(SOCKET InSocket)$/;"	f	class:MSocket
+SetSocketSync	MSocket.cpp	/^int  MSocket::SetSocketSync(SOCKET InSocket)$/;"	f	class:MSocket
+SetUpdateDateTime	MFile.cpp	/^int  MFile::SetUpdateDateTime(MDateTime In)$/;"	f	class:MFile
+Shaded	MExcelFile.h	/^    unsigned char				Shaded : 1;			\/\/阴影标记$/;"	m
+ShrLoop	MCheckCode.cpp	/^DWORD  MMD5::ShrLoop(DWORD Value,unsigned char n)$/;"	f	class:MMD5
+SiftBlank	MDbfFile.cpp	/^void MMemoryDbfFile::SiftBlank(char * InBuf,unsigned short InSize)$/;"	f	class:MMemoryDbfFile
+SiftString	MIniFile.cpp	/^void MIniFile::SiftString(char * InString)$/;"	f	class:MIniFile
+Size	MOptionTree.h	/^	unsigned short 			Size;			\/\/成员大小size$/;"	m
+SizeOfName	MOptionTree.h	/^	char					SizeOfName[32];	\/\/描述数组实际大小的数据成员的名字。$/;"	m
+Sleep	MThread.cpp	/^void MThread::Sleep(unsigned long Time)$/;"	f	class:MThread
+SocketId	MSrvComm.h	/^	SOCKET							SocketId;				\/\/SOCKET$/;"	m
+SocketId	MSrvComm.h	/^	SOCKET							SocketId;				\/\/相关的SOCKET$/;"	m
+SocketId	MSrvComm.h	/^	SOCKET							SocketId;$/;"	m
+Source	MLogFile.h	/^	char						Source[20];			\/\/来源$/;"	m
+SrvPort	MSrvComm.h	/^	unsigned short					SrvPort;				\/\/服务端口号$/;"	m
+SrvPort	MSrvComm.h	/^	unsigned short					SrvPort;$/;"	m
+StartThread	MThread.cpp	/^int  MThread::StartThread(char * ThreadName,void * (__stdcall * ThreadFun)(void *),void * Param,bool PauseFlag)$/;"	f	class:MThread
+StopThread	MThread.cpp	/^void MThread::StopThread(void)$/;"	f	class:MThread
+StringLength	MExcelFile.h	/^	unsigned char				StringLength;		\/\/字符串长度$/;"	m
+StringPosition	MString.cpp	/^int  MString::StringPosition(const MString & In)$/;"	f	class:MString
+StringPosition	MString.cpp	/^int  MString::StringPosition(const char * In)$/;"	f	class:MString
+TRUE	MString.h	43;"	d
+TimeToLong	MDateTime.cpp	/^unsigned long MDateTime::TimeToLong(void)$/;"	f	class:MDateTime
+TimeToString	MDateTime.cpp	/^MString MDateTime::TimeToString(void)$/;"	f	class:MDateTime
+Top_Border	MExcelFile.h	/^    unsigned char				Top_Border : 1;		\/\/边框上线$/;"	m
+TransForm	MDES.cpp	/^void MDES64::TransForm(unsigned char * InBuf,unsigned short InSize,unsigned char * OutBuf,unsigned char * Table)$/;"	f	class:MDES64
+TrimLeft	MString.cpp	/^void MString::TrimLeft(char * String)$/;"	f	class:MString
+TrimLeft	MString.cpp	/^void MString::TrimLeft(void)$/;"	f	class:MString
+TrimRight	MString.cpp	/^void MString::TrimRight(char * String)$/;"	f	class:MString
+TrimRight	MString.cpp	/^void MString::TrimRight(void)$/;"	f	class:MString
+Type	MExcelFile.h	/^	unsigned short				Type;				\/\/纪录类型$/;"	m
+Type	MOptionTree.h	/^	unsigned char			Type;			\/\/成员类型$/;"	m
+UnAttch	MMutex.cpp	/^void MLocalComplexSection::UnAttch(void)$/;"	f	class:MLocalComplexSection
+UnLock	MMutex.cpp	/^void MComplexMrSwSection::UnLock(void)$/;"	f	class:MComplexMrSwSection
+UnLock	MMutex.cpp	/^void MCriticalSection::UnLock(void)$/;"	f	class:MCriticalSection
+UnLock	MMutex.cpp	/^void MLocalSection::UnLock(void)$/;"	f	class:MLocalSection
+UnLock	MMutex.cpp	/^void MMrSwSection::UnLock(void)$/;"	f	class:MMrSwSection
+UnLock	MMutex.cpp	/^void MSemaphore::UnLock( long lCount )$/;"	f	class:MSemaphore
+UnLockFile	MFile.cpp	/^int  MFile::UnLockFile(long Offset,unsigned long Size)$/;"	f	class:MFile
+UpdateDay	MDbfFile.h	/^    unsigned char           UpdateDay;      \/\/更新日期(日)$/;"	m
+UpdateMonth	MDbfFile.h	/^    unsigned char           UpdateMonth;    \/\/更新日期(月)$/;"	m
+UpdateRecvInfo	MSrvComm.cpp	/^int   MSrvCommLinkQueue::UpdateRecvInfo(unsigned short Serial,unsigned long LinkNo,unsigned short In)$/;"	f	class:MSrvCommLinkQueue
+UpdateRecvSize	MSrvComm.cpp	/^void MSrvCommUnit::UpdateRecvSize(unsigned short InSize)$/;"	f	class:MSrvCommUnit
+UpdateSendInfo	MSrvComm.cpp	/^int  MSrvCommLinkQueue::UpdateSendInfo(unsigned short Serial,unsigned long LinkNo,unsigned short In)$/;"	f	class:MSrvCommLinkQueue
+UpdateSendSize	MSrvComm.cpp	/^void MSrvCommUnit::UpdateSendSize(unsigned short InSize)$/;"	f	class:MSrvCommUnit
+UpdateTime	MFile.h	/^	MDateTime				UpdateTime;				\/\/更新时间$/;"	m
+UpdateYear	MDbfFile.h	/^    unsigned char           UpdateYear;     \/\/更新日期(年)$/;"	m
+Upper	MString.cpp	/^void MString::Upper(void)$/;"	f	class:MString
+UserFlag	MDataStruct.h	/^		bool					UserFlag;$/;"	m	struct:MHashTableSt::<anonymous>
+Value	MExcelFile.h	/^	char						Value[256];			\/\/字符串的值$/;"	m
+Value	MExcelFile.h	/^	float						Value;				\/\/值$/;"	m
+Value	MExcelFile.h	/^	unsigned char				Value;				\/\/值$/;"	m
+Value	MExcelFile.h	/^	unsigned short				Value;				\/\/值$/;"	m
+Value	MIniFile.h	/^	char						Value[256];$/;"	m	struct:__INIFILEVALUE
+ValueType	MExcelFile.h	/^	unsigned char				ValueType;			\/\/值类型$/;"	m
+Vendor	MSystemInfo.h	/^    char                            Vendor[30];                         \/\/制造商$/;"	m
+VerifyIP	MSrvComm.cpp	/^bool MSrvCommUnit::VerifyIP(char * IPAddr)$/;"	f	class:MSrvCommUnit
+Version	MExcelFile.h	/^	unsigned short				Version;			\/\/版本$/;"	m
+Version	MLogFile.h	/^	char						Version[10];			\/\/版本$/;"	m
+VersionMarket	MLogFile.h	/^	char						VersionMarket[20];		\/\/版本描述[版本：]$/;"	m
+VideoDate	MSystemInfo.h	/^	char							VideoDate[20];						\/\/显示BIOS日期$/;"	m
+VideoVersion	MSystemInfo.h	/^	char							VideoVersion[30];					\/\/显示BIOS版本$/;"	m
+VirMemoryUserSize	MSystemInfo.h	/^	unsigned long					VirMemoryUserSize;					\/\/本进程所用的虚拟内存大小$/;"	m
+WORD	MString.h	39;"	d
+WSAGetLastError	MString.h	36;"	d
+WaitUntilActive	MMutex.cpp	/^int  MWaitEvent::WaitUntilActive(unsigned long MSec)$/;"	f	class:MWaitEvent
+WarningFlag	MLogFile.h	/^	char						WarningFlag;			\/\/允许警告$/;"	m
+WarningFlagMarket	MLogFile.h	/^	char						WarningFlagMarket[20];	\/\/允许警告纪录：$/;"	m
+Width	MExcelFile.h	/^	unsigned short				Width;				\/\/宽度[1--256]$/;"	m
+Write	MFile.cpp	/^int  MFile::Write(char * InBuf,unsigned long InSize)$/;"	f	class:MFile
+WriteAddtionLog	MLogFile.cpp	/^void MLogFile::WriteAddtionLog(const char * Format,...)$/;"	f	class:MLogFile
+WriteBinary	MRegister.cpp	/^int  MRegister::WriteBinary(MString Name,char * InBuf,unsigned short InSize)$/;"	f	class:MRegister
+WriteBool	MExcelFile.cpp	/^int  MExcelFile::WriteBool(unsigned short Row,unsigned short Column,bool Value,unsigned long CellAttr)$/;"	f	class:MExcelFile
+WriteBool	MIniFile.cpp	/^int  MIniFile::WriteBool(MString Section,MString Name,bool Value)$/;"	f	class:MIniFile
+WriteData	MFinanceData.cpp	/^int  MFinanceData::WriteData(char * InBuf,unsigned long InSize)$/;"	f	class:MFinanceData
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_Amount::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Amount
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_Bool::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Bool
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_Date::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Date
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_MarketID::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_MarketID
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_Price::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Price
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_PriceRate::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_PriceRate
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_Records::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Records
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_SignSubPrice::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SignSubPrice
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_SignSubVolume::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SignSubVolume
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_SubPrice::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SubPrice
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_SubULong::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SubULong
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_SubVolume::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_SubVolume
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_Time::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_Time
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_TimeZoom::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_TimeZoom
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_TotalVolume::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_TotalVolume
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_WareSerial::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_WareSerial
+WriteDataToBuf	MFinanceData.cpp	/^void MFD_WareType::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_WareType
+WriteDataToBuf	MFinanceData.cpp	/^void MFinanceBaseData::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFinanceBaseData
+WriteDataToBuf	MFinanceData.h	/^template<class templateRecord> void MFD_CStandType<templateRecord>::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_CStandType
+WriteDataToBuf	MFinanceData.h	/^template<int stringsize> void MFD_String<stringsize>::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_String
+WriteDataToBuf	MFinanceData.h	/^template<int stringsize> void MFD_ZeroString<stringsize>::WriteDataToBuf(unsigned long * BitOffset)$/;"	f	class:MFD_ZeroString
+WriteDebug	MLogFile.cpp	/^void MLogFile::WriteDebug(char * Source,char * Content,char * DebugInfo,unsigned short InSize)$/;"	f	class:MLogFile
+WriteDefaultData	MFinanceData.cpp	/^int  MFinanceBaseData::WriteDefaultData(char * InBuf,unsigned long * Offset)$/;"	f	class:MFinanceBaseData
+WriteDefaultData	MFinanceData.h	/^template<class templateRecord> int  MFD_CStandType<templateRecord>::WriteDefaultData(char * InBuf,unsigned long * Offset)$/;"	f	class:MFD_CStandType
+WriteDefaultData	MFinanceData.h	/^template<class templateRecord> int  MFinanceNumBaseData<templateRecord>::WriteDefaultData(char * InBuf,unsigned long * Offset)$/;"	f	class:MFinanceNumBaseData
+WriteDefaultData	MFinanceData.h	/^template<int stringsize> int  MFD_String<stringsize>::WriteDefaultData(char * InBuf,unsigned long * Offset)$/;"	f	class:MFD_String
+WriteDefaultData	MFinanceData.h	/^template<int stringsize> int  MFD_ZeroString<stringsize>::WriteDefaultData(char * InBuf,unsigned long * Offset)$/;"	f	class:MFD_ZeroString
+WriteError	MLogFile.cpp	/^void MLogFile::WriteError(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteFloat	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteFloat(char * FieldName,float Value)$/;"	f	class:MMemoryDbfFile
+WriteFloat	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteFloat(unsigned short FieldNo,float Value)$/;"	f	class:MMemoryDbfFile
+WriteFloat	MExcelFile.cpp	/^int  MExcelFile::WriteFloat(unsigned short Row,unsigned short Column,float Value,unsigned long CellAttr)$/;"	f	class:MExcelFile
+WriteFloat	MIniFile.cpp	/^int  MIniFile::WriteFloat(MString Section,MString Name,float Value)$/;"	f	class:MIniFile
+WriteInfo	MLogFile.cpp	/^void MLogFile::WriteInfo(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteInteger	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteInteger(char * FieldName,int Value)$/;"	f	class:MMemoryDbfFile
+WriteInteger	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteInteger(unsigned short FieldNo,int Value)$/;"	f	class:MMemoryDbfFile
+WriteInteger	MExcelFile.cpp	/^int  MExcelFile::WriteInteger(unsigned short Row,unsigned short Column,unsigned short Value,unsigned long CellAttr)$/;"	f	class:MExcelFile
+WriteInteger	MIniFile.cpp	/^int  MIniFile::WriteInteger(MString Section,MString Name,int Value)$/;"	f	class:MIniFile
+WriteLogFal	MLogFile.cpp	/^void MLogFile::WriteLogFal(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteLogSuc	MLogFile.cpp	/^void MLogFile::WriteLogSuc(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteReport	MLogFile.cpp	/^void MLogFile::WriteReport(unsigned char Type,char * Source,char * Content,unsigned short InSize)$/;"	f	class:MLogFile
+WriteString	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteString(char * FieldName,char * Value)$/;"	f	class:MMemoryDbfFile
+WriteString	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteString(unsigned short FieldNo,char * Value)$/;"	f	class:MMemoryDbfFile
+WriteString	MExcelFile.cpp	/^int  MExcelFile::WriteString(unsigned short Row,unsigned short Column,MString Value,unsigned long CellAttr)$/;"	f	class:MExcelFile
+WriteString	MFile.cpp	/^int  MFile::WriteString(MString In)$/;"	f	class:MFile
+WriteString	MIniFile.cpp	/^int  MIniFile::WriteString(MString Section,MString Name,MString Value)$/;"	f	class:MIniFile
+WriteString	MRegister.cpp	/^int  MRegister::WriteString(MString  Name,unsigned long In)$/;"	f	class:MRegister
+WriteString	MRegister.cpp	/^int  MRegister::WriteString(MString Name,MString In)$/;"	f	class:MRegister
+WriteToFile	MDbfFile.cpp	/^int  MMemoryDbfFile::WriteToFile(void)$/;"	f	class:MMemoryDbfFile
+WriteToFile	MIniFile.cpp	/^void MIniFile::WriteToFile(void)$/;"	f	class:MIniFile
+WriteView	MLogFile.cpp	/^void MLogFile::WriteView(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteWarning	MLogFile.cpp	/^void MLogFile::WriteWarning(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+XorFunction	MDES.cpp	/^void MDES64::XorFunction(unsigned char * InBuf,unsigned char * XorBuf,unsigned short InSize)$/;"	f	class:MDES64
+__DBFRECORD	MDbfFile.h	/^typedef struct __DBFRECORD$/;"	s
+__INIFILESECTION	MIniFile.h	/^typedef struct __INIFILESECTION$/;"	s
+__INIFILEVALUE	MIniFile.h	/^typedef struct __INIFILEVALUE$/;"	s
+__LmyUnitMBlockCompressH__	MBlockCompress.h	15;"	d
+__LmyUnitMCheckCodeH__	MCheckCode.h	4;"	d
+__LmyUnitMDESH__	MDES.h	15;"	d
+__LmyUnitMDataStructH__	MDataStruct.h	4;"	d
+__LmyUnitMDateTimeH__	MDateTime.h	4;"	d
+__LmyUnitMDbfFileH__	MDbfFile.h	15;"	d
+__LmyUnitMDll__	MDll.h	4;"	d
+__LmyUnitMExcelFileH__	MExcelFile.h	4;"	d
+__LmyUnitMFileH__	MFile.h	15;"	d
+__LmyUnitMIniFileH__	MIniFile.h	15;"	d
+__LmyUnitMLZW4096H__	MLZW.h	15;"	d
+__LmyUnitMLmyUnitHPP__	MLmyUnit.hpp	15;"	d
+__LmyUnitMLogFileH__	MLogFile.h	15;"	d
+__LmyUnitMMutexH__	MMutex.h	4;"	d
+__LmyUnitMObjectH__	MObject.h	4;"	d
+__LmyUnitMOptionTreeH__	MOptionTree.h	4;"	d
+__LmyUnitMRegisterH__	MRegister.h	4;"	d
+__LmyUnitMSocketH__	MSocket.h	15;"	d
+__LmyUnitMSrvCommH__	MSrvComm.h	15;"	d
+__LmyUnitMStringH__	MString.h	4;"	d
+__LmyUnitMSystemInfo__	MSystemInfo.h	15;"	d
+__LmyUnitMThreadH__	MThread.h	4;"	d
+__MEngine_MFinanceDataH__	MFinanceData.h	15;"	d
+__declspec	MString.h	44;"	d
+__int64	MString.h	45;"	d
+__stdcall	MString.h	35;"	d
+_snprintf	MString.h	27;"	d
+_vsnprintf	MString.h	28;"	d
+c_str	MString.cpp	/^char * MString::c_str(void)$/;"	f	class:MString
+closesocket	MString.h	32;"	d
+fileAttr	MFile.h	/^	unsigned long			fileAttr;				\/\/文件属性$/;"	m
+filename	MFile.h	/^	char					filename[32];			\/\/文件名称$/;"	m
+filesize	MFile.h	/^	unsigned long			filesize;				\/\/文件大小$/;"	m
+inner_getbit	MFinanceData.h	/^	__inline void inner_getbit(unsigned long * BitOffset,unsigned long * Value,unsigned long BitSize)$/;"	f	class:MFinanceBaseData
+inner_getbit64	MFinanceData.h	/^	__inline void inner_getbit64(unsigned long * BitOffset,__int64 * Value,unsigned long BitSize)$/;"	f	class:MFinanceBaseData
+inner_getbitstring	MFinanceData.h	/^	__inline void inner_getbitstring(unsigned long * BitOffset,char * Value,unsigned long BitSize)$/;"	f	class:MFinanceBaseData
+inner_putbit	MFinanceData.h	/^	__inline void inner_putbit(unsigned long * BitOffset,unsigned long Value,unsigned long BitSize)$/;"	f	class:MFinanceBaseData
+inner_putbit64	MFinanceData.h	/^	__inline void inner_putbit64(unsigned long * BitOffset,__int64 Value,unsigned long BitSize)$/;"	f	class:MFinanceBaseData
+inner_putbitstring	MFinanceData.h	/^	__inline void inner_putbitstring(unsigned long * BitOffset,char * Value,unsigned long BitSize)$/;"	f	class:MFinanceBaseData
+inner_realloc	MFinanceData.h	/^	__inline void inner_realloc(unsigned long InSize)$/;"	f	class:MFinanceBaseData
+m_AcceptQueue	MSrvComm.h	/^	MSrvCommAcceptQueue				m_AcceptQueue;$/;"	m	class:MSrvCommUnit
+m_AcceptThread	MSrvComm.h	/^	MThread							m_AcceptThread;$/;"	m	class:MSrvCommUnit
+m_Active	MMutex.h	/^	int									m_Active;$/;"	m	class:MComplexMrSwSection
+m_Active	MMutex.h	/^	int									m_Active;$/;"	m	class:MMrSwSection
+m_ActiveThreadFlag	MThread.h	/^	bool						m_ActiveThreadFlag;$/;"	m	class:MThread
+m_AddtionData	MThread.h	/^	unsigned long				m_AddtionData;$/;"	m	class:MThread
+m_ApplicationPath	MSystemInfo.cpp	/^char			MSystemInfo::m_ApplicationPath[256] = "no initialize";$/;"	m	class:MSystemInfo	file:
+m_ApplicationPath	MSystemInfo.h	/^	static char				m_ApplicationPath[256];$/;"	m	class:MSystemInfo
+m_BaseClass	MObject.h	/^	MRuntimeClass					*	m_BaseClass;						\/\/基类的运行类信息指针$/;"	m	class:MRuntimeClass
+m_ClassName	MObject.h	/^	const char						*	m_ClassName;						\/\/类名称$/;"	m	class:MRuntimeClass
+m_ClassSize	MObject.h	/^	int									m_ClassSize;						\/\/类尺寸$/;"	m	class:MRuntimeClass
+m_CloseFlag	MSrvComm.h	/^	bool							m_CloseFlag;$/;"	m	class:MSrvCommSendGroup
+m_CreateObject	MObject.h	/^	tagFunInterface_CreateObject	*	m_CreateObject;						\/\/类的创建对象函数指针$/;"	m	class:MRuntimeClass
+m_CurBitSize	MFinanceData.h	/^	unsigned long			m_CurBitSize;$/;"	m	class:MFinanceData
+m_CurName	MIniFile.h	/^	tagIniFileValue			*	m_CurName;$/;"	m	class:MIniFile
+m_CurRecordPtr	MDbfFile.h	/^	tagDbfRecord		*	m_CurRecordPtr;$/;"	m	class:MMemoryDbfFile
+m_CurSection	MIniFile.h	/^	tagIniFileSection		*	m_CurSection;$/;"	m	class:MIniFile
+m_CurrentKey	MRegister.h	/^	HKEY						m_CurrentKey;$/;"	m	class:MRegister
+m_DbfField	MDbfFile.h	/^	tagDbfField			*	m_DbfField;$/;"	m	class:MMemoryDbfFile
+m_DbfFieldCount	MDbfFile.h	/^	unsigned short			m_DbfFieldCount;$/;"	m	class:MMemoryDbfFile
+m_DbfHead	MDbfFile.h	/^	tagDbfHead				m_DbfHead;$/;"	m	class:MMemoryDbfFile
+m_DbfRecord	MDbfFile.h	/^	tagDbfRecord		*	m_DbfRecord;$/;"	m	class:MMemoryDbfFile
+m_DefaultBuf	MFinanceData.h	/^	char					m_DefaultBuf[16];$/;"	m	class:MFinanceBaseData
+m_DefaultBuf	MString.h	/^	char						m_DefaultBuf[MSTRING_DEFAULT_BUFSIZE];$/;"	m	class:MString
+m_DefaultData	MFinanceData.h	/^	char					m_DefaultData[MFINANCEDATA_MAX_SIZE];$/;"	m	class:MFinanceData
+m_DefaultSize	MFinanceData.h	/^	unsigned long			m_DefaultSize;$/;"	m	class:MFinanceData
+m_Dictory	MLZW.h	/^	tagLzwDirectInfo						m_Dictory[MLZW4096_TABLESIZE];$/;"	m	class:MLZW4096
+m_DllHandle	MDll.h	/^	HINSTANCE					m_DllHandle;$/;"	m	class:MDll
+m_EditFlag	MDbfFile.h	/^	bool					m_EditFlag;$/;"	m	class:MMemoryDbfFile
+m_EditFlag	MIniFile.h	/^	bool						m_EditFlag;$/;"	m	class:MIniFile
+m_ErrorTable	MObject.h	/^	tagErrorCodeInfo				*	m_ErrorTable;						\/\/该类所有错误信息的指针$/;"	m	class:MErrorCode
+m_FileHandle	MFile.h	/^	HANDLE						m_FileHandle;$/;"	m	class:MFile
+m_FileName	MDbfFile.h	/^	char					m_FileName[256];$/;"	m	class:MMemoryDbfFile
+m_FileName	MIniFile.h	/^	char						m_FileName[256];$/;"	m	class:MIniFile
+m_FreeRecord	MSrvComm.h	/^	MResourceRecordSt				m_FreeRecord;$/;"	m	class:MSrvCommLinkQueue
+m_Handle	MFile.h	/^	HANDLE						m_Handle;$/;"	m	class:MFindFile
+m_Handle	MMutex.h	/^	HANDLE									m_Handle;$/;"	m	class:MWaitEvent
+m_HeadPtr	MDataStruct.h	/^	unsigned short					m_HeadPtr;$/;"	m	class:MLoopGroupSt
+m_HeadPtr	MDataStruct.h	/^	unsigned short					m_HeadPtr;$/;"	m	class:MResourceRecordSt
+m_HeadPtr	MDataStruct.h	/^	unsigned short				m_HeadPtr;$/;"	m	class:MCharLoopGroupSt
+m_HeadPtr	MSrvComm.h	/^	unsigned long					m_HeadPtr;$/;"	m	class:MSrvCommSendGroup
+m_IsFinanceDataFlag	MFinanceData.h	/^	bool					m_IsFinanceDataFlag;$/;"	m	class:MFinanceData
+m_LastRecvBandWidth	MSrvComm.h	/^	unsigned long					m_LastRecvBandWidth;$/;"	m	class:MSrvCommUnit
+m_LastSendBandWidth	MSrvComm.h	/^	unsigned long					m_LastSendBandWidth;$/;"	m	class:MSrvCommUnit
+m_LastThreadId	MMutex.h	/^	unsigned long						m_LastThreadId;$/;"	m	class:MCriticalSection
+m_LinkNo	MSrvComm.h	/^	unsigned long					m_LinkNo;$/;"	m	class:MSrvCommRecvGroup
+m_LinkNo	MSrvComm.h	/^	unsigned long					m_LinkNo;$/;"	m	class:MSrvCommSendGroup
+m_LinkQueue	MSrvComm.h	/^	MSrvCommLinkQueue				m_LinkQueue;$/;"	m	class:MSrvCommSubUnit
+m_LinkTimeOut	MSrvComm.h	/^	unsigned long					m_LinkTimeOut;$/;"	m	class:MSrvCommLinkQueue
+m_LogFileFirst	MLogFile.h	/^	unsigned short						m_LogFileFirst;$/;"	m	class:MLogFile
+m_LogFileHead	MLogFile.h	/^	tagLogFileHeadInfo					m_LogFileHead;$/;"	m	class:MLogFile
+m_LogFileLast	MLogFile.h	/^	unsigned short						m_LogFileLast;$/;"	m	class:MLogFile
+m_LogFileMaxRecord	MLogFile.h	/^	unsigned short						m_LogFileMaxRecord;$/;"	m	class:MLogFile
+m_MaxBitSize	MFinanceData.h	/^	unsigned long			m_MaxBitSize;$/;"	m	class:MFinanceBaseData
+m_MaxRecord	MDataStruct.h	/^	unsigned short					m_MaxRecord;$/;"	m	class:MLoopGroupSt
+m_MaxRecord	MDataStruct.h	/^	unsigned short					m_MaxRecord;$/;"	m	class:MResourceRecordSt
+m_MaxRecord	MDataStruct.h	/^	unsigned short				m_MaxRecord;$/;"	m	class:MCharLoopGroupSt
+m_MaxRecord	MDataStruct.h	/^	unsigned short				m_MaxRecord;$/;"	m	class:MHashTableSt
+m_MaxRecord	MFinanceData.h	/^	unsigned long			m_MaxRecord;$/;"	m	class:MFinanceData
+m_MaxRecord	MOptionTree.h	/^	unsigned short			m_MaxRecord;$/;"	m	class:MOptionTree
+m_MaxRecord	MSrvComm.h	/^	unsigned short					m_MaxRecord;$/;"	m	class:MSrvCommAcceptQueue
+m_MaxRecord	MSrvComm.h	/^	unsigned short					m_MaxRecord;$/;"	m	class:MSrvCommUnit
+m_MaxValueSize	MFinanceData.h	/^	unsigned long			m_MaxValueSize;$/;"	m	class:MFinanceBaseData
+m_MsgRecord	MSrvComm.h	/^	MLoopGroupMt<tagSrvCommLinkMsg>		m_MsgRecord;$/;"	m	class:MSrvCommRecvQueue
+m_Name	MIniFile.h	/^	char						m_Name[256];$/;"	m	class:MIniFile
+m_NameCount	MIniFile.h	/^	unsigned short				m_NameCount;$/;"	m	class:MIniFile
+m_NextClass	MObject.h	/^	MErrorCode						*	m_NextClass;						\/\/下一个错误描述类指针$/;"	m	class:MErrorCode
+m_NextClass	MObject.h	/^	MRuntimeClass					*	m_NextClass;						\/\/下一个运行类信息指针$/;"	m	class:MRuntimeClass
+m_NextThreadPtr	MThread.h	/^	MThread					*	m_NextThreadPtr;$/;"	m	class:MThread
+m_Parent	MSrvComm.h	/^	MSrvCommSendQueue			*	m_Parent;$/;"	m	class:MSrvCommSendGroup
+m_Parent	MSrvComm.h	/^	MSrvCommSubUnit				*	m_Parent;$/;"	m	class:MSrvCommLinkQueue
+m_Parent	MSrvComm.h	/^	MSrvCommSubUnit				*	m_Parent;$/;"	m	class:MSrvCommRecvTable
+m_Parent	MSrvComm.h	/^	MSrvCommSubUnit				*	m_Parent;$/;"	m	class:MSrvCommSendQueue
+m_Parent	MSrvComm.h	/^	MSrvCommUnit				*	m_Parent;$/;"	m	class:MSrvCommSubUnit
+m_PreEndOffset	MIniFile.h	/^	unsigned long				m_PreEndOffset;$/;"	m	class:MIniFile
+m_PreEndType	MIniFile.h	/^	unsigned char				m_PreEndType;$/;"	m	class:MIniFile
+m_RecordCount	MDataStruct.h	/^	unsigned short				m_RecordCount;$/;"	m	class:MHashTableSt
+m_RecordCount	MOptionTree.h	/^	unsigned short			m_RecordCount;$/;"	m	class:MOptionTree
+m_RecordCount	MSrvComm.h	/^	unsigned short					m_RecordCount;$/;"	m	class:MSrvCommLinkQueue
+m_RecordData	MDataStruct.h	/^	char					*	m_RecordData;$/;"	m	class:MCharLoopGroupSt
+m_RecordData	MDataStruct.h	/^	tagHashTableNodeInfo	*	m_RecordData;$/;"	m	class:MHashTableSt
+m_RecordData	MDataStruct.h	/^	templateRecord				*	m_RecordData;$/;"	m	class:MLoopGroupSt
+m_RecordData	MDataStruct.h	/^	unsigned short				*	m_RecordData;$/;"	m	class:MResourceRecordSt
+m_RecordData	MDateTime.h	/^	long							m_RecordData;$/;"	m	class:MDateTime
+m_RecordData	MDateTime.h	/^	unsigned long					m_RecordData;$/;"	m	class:MCounter
+m_RecordData	MFinanceData.h	/^	char				*	m_RecordData;$/;"	m	class:MFinanceBaseData
+m_RecordData	MFinanceData.h	/^	char				*	m_RecordData;$/;"	m	class:MFinanceData
+m_RecordData	MLogFile.h	/^	MCharLoopGroupMt					m_RecordData;$/;"	m	class:MLogFile
+m_RecordData	MOptionTree.h	/^	tagOptionTreeNode	*	m_RecordData;$/;"	m	class:MOptionTree
+m_RecordData	MSrvComm.h	/^	MCharLoopGroupSt				m_RecordData;$/;"	m	class:MSrvCommRecvGroup
+m_RecordData	MSrvComm.h	/^	MSrvCommRecvGroup					m_RecordData[MSRVCOMM_UNIT_LINK_COUNT];$/;"	m	class:MSrvCommRecvQueue
+m_RecordData	MSrvComm.h	/^	MSrvCommSendGroup				m_RecordData[MSRVCOMM_UNIT_LINK_COUNT];$/;"	m	class:MSrvCommSendQueue
+m_RecordData	MSrvComm.h	/^	MSrvCommSubUnit				*	m_RecordData;$/;"	m	class:MSrvCommUnit
+m_RecordData	MSrvComm.h	/^	char							m_RecordData[MSRVCOMM_LINK_SENDSIZE];$/;"	m	class:MSrvCommSendGroup
+m_RecordData	MSrvComm.h	/^	tagSrvCommAcceptQueue		*	m_RecordData;$/;"	m	class:MSrvCommAcceptQueue
+m_RecordData	MSrvComm.h	/^	tagSrvCommLinkQueue				m_RecordData[MSRVCOMM_UNIT_LINK_COUNT];$/;"	m	class:MSrvCommLinkQueue
+m_RecordData	MSrvComm.h	/^	tagSrvCommRecvTable				m_RecordData[MSRVCOMM_UNIT_LINK_COUNT];$/;"	m	class:MSrvCommRecvTable
+m_RecvQueue	MSrvComm.h	/^	MSrvCommRecvQueue				m_RecvQueue;$/;"	m	class:MSrvCommSubUnit
+m_RecvTable	MSrvComm.h	/^	MSrvCommRecvTable				m_RecvTable;$/;"	m	class:MSrvCommSubUnit
+m_RecvThread	MSrvComm.h	/^	MThread							m_RecvThread;$/;"	m	class:MSrvCommSubUnit
+m_RecvWaitEvent	MSrvComm.h	/^	MWaitEvent						m_RecvWaitEvent;$/;"	m	class:MSrvCommSubUnit
+m_RefreshTime	MThread.h	/^	MCounter					m_RefreshTime;$/;"	m	class:MThread
+m_RemainBitSize	MFinanceData.h	/^	unsigned char			m_RemainBitSize;$/;"	m	class:MFinanceData
+m_Root	MIniFile.h	/^	tagIniFileSection			m_Root;$/;"	m	class:MIniFile
+m_RootKey	MRegister.h	/^	HKEY						m_RootKey;$/;"	m	class:MRegister
+m_Section	MDataStruct.h	/^	MCriticalSection				m_Section;$/;"	m	class:MLoopGroupMt
+m_Section	MDataStruct.h	/^	MCriticalSection				m_Section;$/;"	m	class:MResourceRecordMt
+m_Section	MDataStruct.h	/^	MCriticalSection			m_Section;$/;"	m	class:MCharLoopGroupMt
+m_Section	MDataStruct.h	/^	MCriticalSection			m_Section;$/;"	m	class:MHashTableMt
+m_Section	MIniFile.h	/^	char						m_Section[256];$/;"	m	class:MIniFile
+m_Section	MLogFile.h	/^	MCriticalSection					m_Section;$/;"	m	class:MLogFile
+m_Section	MMutex.h	/^	CRITICAL_SECTION					m_Section;$/;"	m	class:MComplexMrSwSection
+m_Section	MMutex.h	/^	CRITICAL_SECTION					m_Section;$/;"	m	class:MCriticalSection
+m_Section	MMutex.h	/^	CRITICAL_SECTION					m_Section;$/;"	m	class:MMrSwSection
+m_Section	MMutex.h	/^	MComplexMrSwSection			*	m_Section;$/;"	m	class:MLocalComplexSection
+m_Section	MMutex.h	/^	pthread_mutex_t						m_Section;$/;"	m	class:MCriticalSection
+m_Section	MMutex.h	/^	pthread_mutex_t						m_Section;$/;"	m	class:MMrSwSection
+m_Section	MMutex.h	/^	pthread_rwlock_t					m_Section;$/;"	m	class:MComplexMrSwSection
+m_Section	MSrvComm.h	/^	MCriticalSection				m_Section;$/;"	m	class:MSrvCommAcceptQueue
+m_Section	MSrvComm.h	/^	MCriticalSection				m_Section;$/;"	m	class:MSrvCommLinkQueue
+m_Section	MSrvComm.h	/^	MCriticalSection				m_Section;$/;"	m	class:MSrvCommRecvGroup
+m_Section	MSrvComm.h	/^	MCriticalSection				m_Section;$/;"	m	class:MSrvCommRecvTable
+m_Section	MSrvComm.h	/^	MCriticalSection				m_Section;$/;"	m	class:MSrvCommSendGroup
+m_SectionCount	MIniFile.h	/^	unsigned short				m_SectionCount;$/;"	m	class:MIniFile
+m_SectionPtr	MMutex.h	/^	MCriticalSection			*		m_SectionPtr;$/;"	m	class:MLocalSection
+m_SelectSubUnit	MSrvComm.h	/^	unsigned short					m_SelectSubUnit;$/;"	m	class:MSrvCommUnit
+m_SendQueue	MSrvComm.h	/^	MSrvCommSendQueue				m_SendQueue;$/;"	m	class:MSrvCommSubUnit
+m_SendThread	MSrvComm.h	/^	MThread							m_SendThread;$/;"	m	class:MSrvCommSubUnit
+m_SendWaitEvent	MSrvComm.h	/^	MWaitEvent						m_SendWaitEvent;$/;"	m	class:MSrvCommSubUnit
+m_SocketId	MSrvComm.h	/^	SOCKET							m_SocketId;$/;"	m	class:MSrvCommSendGroup
+m_StackBuf	MLZW.h	/^	char									m_StackBuf[MLZW4096_TABLESIZE];$/;"	m	class:MLZW4096
+m_Status	MIniFile.h	/^	unsigned char				m_Status;$/;"	m	class:MIniFile
+m_StopCommThreadFlag	MSrvComm.h	/^	bool							m_StopCommThreadFlag;$/;"	m	class:MSrvCommUnit
+m_StringBufSize	MString.h	/^	unsigned int				m_StringBufSize;$/;"	m	class:MString
+m_StringPtr	MString.h	/^	char					*	m_StringPtr;$/;"	m	class:MString
+m_TailPtr	MDataStruct.h	/^	unsigned short					m_TailPtr;$/;"	m	class:MLoopGroupSt
+m_TailPtr	MDataStruct.h	/^	unsigned short					m_TailPtr;$/;"	m	class:MResourceRecordSt
+m_TailPtr	MDataStruct.h	/^	unsigned short				m_TailPtr;$/;"	m	class:MCharLoopGroupSt
+m_TailPtr	MSrvComm.h	/^	unsigned long					m_TailPtr;$/;"	m	class:MSrvCommSendGroup
+m_ThreadHandle	MThread.h	/^	HANDLE						m_ThreadHandle;$/;"	m	class:MThread
+m_ThreadHandle	MThread.h	/^	pthread_t					m_ThreadHandle;$/;"	m	class:MThread
+m_ThreadName	MThread.h	/^	char						m_ThreadName[32];$/;"	m	class:MThread
+m_UnitSerial	MSrvComm.h	/^	unsigned short					m_UnitSerial;$/;"	m	class:MSrvCommSubUnit
+m_Value	MFinanceData.h	/^	char				*	m_Value;$/;"	m	class:MFinanceBaseData
+m_Value	MIniFile.h	/^	char						m_Value[256];$/;"	m	class:MIniFile
+m_ValueCount	MIniFile.h	/^	unsigned short				m_ValueCount;$/;"	m	class:MIniFile
+m_WaitEvent	MSrvComm.h	/^	MWaitEvent							m_WaitEvent;$/;"	m	class:MSrvCommRecvQueue
+m_WaitReadCount	MMutex.h	/^	int									m_WaitReadCount;$/;"	m	class:MComplexMrSwSection
+m_WaitReadSem	MMutex.h	/^	HANDLE								m_WaitReadSem;$/;"	m	class:MComplexMrSwSection
+m_WaitRequestCount	MSrvComm.h	/^	unsigned short					m_WaitRequestCount;$/;"	m	class:MSrvCommRecvGroup
+m_WaitWriteCount	MMutex.h	/^	int									m_WaitWriteCount;$/;"	m	class:MComplexMrSwSection
+m_WaitWriteCount	MMutex.h	/^	unsigned short						m_WaitWriteCount;$/;"	m	class:MMrSwSection
+m_WaitWriteSem	MMutex.h	/^	HANDLE								m_WaitWriteSem;$/;"	m	class:MComplexMrSwSection
+m_bLocked	MMutex.h	/^		bool				 m_bLocked;$/;"	m	class:MComplexMrSwSection::MRLock
+m_bLocked	MMutex.h	/^		bool				 m_bLocked;$/;"	m	class:MComplexMrSwSection::MWLock
+m_bLocked	MMutex.h	/^		bool		  m_bLocked;$/;"	m	class:MMrSwSection::MRLock
+m_bLocked	MMutex.h	/^		bool		  m_bLocked;$/;"	m	class:MMrSwSection::MWLock
+m_bLocked	MMutex.h	/^		bool		m_bLocked;$/;"	m	class:MSemaphore::MLock
+m_hSem	MMutex.h	/^	HANDLE							m_hSem;$/;"	m	class:MSemaphore
+m_iTOCount	MThread.h	/^	unsigned long				m_iTOCount;			$/;"	m	class:MThread
+m_nLockCount	MMutex.h	/^	int									m_nLockCount;			\/\/ 加锁次$/;"	m	class:MCriticalSection
+m_section	MMutex.h	/^		MComplexMrSwSection& m_section;$/;"	m	class:MComplexMrSwSection::MRLock
+m_section	MMutex.h	/^		MComplexMrSwSection& m_section;$/;"	m	class:MComplexMrSwSection::MWLock
+m_section	MMutex.h	/^		MCriticalSection& m_section;$/;"	m	class:MCriticalSection::MLock
+m_section	MMutex.h	/^		MMrSwSection& m_section;$/;"	m	class:MMrSwSection::MRLock
+m_section	MMutex.h	/^		MMrSwSection& m_section;$/;"	m	class:MMrSwSection::MWLock
+m_sem	MMutex.h	/^		MSemaphore& m_sem;$/;"	m	class:MSemaphore::MLock
+main	test.cpp	/^main()$/;"	f
+max	MString.h	/^T1 max( T1 a, T2 b) { return a>b ? a : (T1)b;}$/;"	f
+min	MString.h	/^T1 min( T1 a, T2 b) { return a<b ? a : (T1)b;}$/;"	f
+new	MLmyUnit.hpp	63;"	d
+new	MLmyUnit.hpp	64;"	d
+objects	Makefile	/^objects = test.o MSystemInfo.o MObject.o MString.o MFile.o   MDateTime.o$/;"	m
+operator !=	MDateTime.cpp	/^bool MDateTime::operator != (const MDateTime & In) const$/;"	f	class:MDateTime
+operator !=	MString.cpp	/^bool   operator != (const MString & In1,const MString & In2)$/;"	f
+operator !=	MString.cpp	/^bool   operator != (const MString & In1,const char * In2)$/;"	f
+operator !=	MString.cpp	/^bool   operator != (const char * In1,const MString & In2)$/;"	f
+operator +	MDateTime.cpp	/^MDateTime MDateTime::operator + (unsigned long In)$/;"	f	class:MDateTime
+operator +	MString.cpp	/^MString   MString::operator +  (const MString & In)$/;"	f	class:MString
+operator +	MString.cpp	/^MString   MString::operator +  (const char * In)$/;"	f	class:MString
+operator +	MString.cpp	/^MString operator +  (const char * In1,const MString & In2)$/;"	f
+operator +=	MDateTime.cpp	/^MDateTime & MDateTime::operator += (unsigned long In)$/;"	f	class:MDateTime
+operator +=	MString.cpp	/^MString & MString::operator += (const MString & In)$/;"	f	class:MString
+operator +=	MString.cpp	/^MString & MString::operator += (const char * In)$/;"	f	class:MString
+operator -	MDateTime.cpp	/^MDateTime MDateTime::operator - (MDateTime & In)$/;"	f	class:MDateTime
+operator <	MString.cpp	/^bool   operator <  (const MString & In1,const MString & In2)$/;"	f
+operator <	MString.cpp	/^bool   operator <  (const MString & In1,const char * In2)$/;"	f
+operator <	MString.cpp	/^bool   operator <  (const char * In1,const MString & In2)$/;"	f
+operator <=	MString.cpp	/^bool   operator <= (const MString & In1,const MString & In2)$/;"	f
+operator <=	MString.cpp	/^bool   operator <= (const MString & In1,const char * In2)$/;"	f
+operator <=	MString.cpp	/^bool   operator <= (const char * In1,const MString & In2)$/;"	f
+operator =	MDateTime.cpp	/^MDateTime & MDateTime::operator = (const MDateTime & In)$/;"	f	class:MDateTime
+operator =	MFinanceData.h	/^	virtual void operator = (char In)$/;"	f	class:MFD_TimeZoom
+operator =	MFinanceData.h	/^	virtual void operator = (double In)$/;"	f	class:MFD_SignSubVolume
+operator =	MFinanceData.h	/^	virtual void operator = (double In)$/;"	f	class:MFD_SubVolume
+operator =	MFinanceData.h	/^	virtual void operator = (double In)$/;"	f	class:MFD_TotalVolume
+operator =	MFinanceData.h	/^	virtual void operator = (float In)$/;"	f	class:MFD_Amount
+operator =	MFinanceData.h	/^	virtual void operator = (long In)$/;"	f	class:MFD_SignSubPrice
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned char In)$/;"	f	class:MFD_Bool
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned char In)$/;"	f	class:MFD_MarketID
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned char In)$/;"	f	class:MFD_WareType
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned long In)$/;"	f	class:MFD_Date
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned long In)$/;"	f	class:MFD_Price
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned long In)$/;"	f	class:MFD_Records
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned long In)$/;"	f	class:MFD_SubPrice
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned long In)$/;"	f	class:MFD_SubULong
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned long In)$/;"	f	class:MFD_Time
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned short In)$/;"	f	class:MFD_PriceRate
+operator =	MFinanceData.h	/^	virtual void operator = (unsigned short In)$/;"	f	class:MFD_WareSerial
+operator =	MFinanceData.h	/^template<class templateRecord> void MFD_CStandType<templateRecord>::operator = (templateRecord In)$/;"	f	class:MFD_CStandType
+operator =	MFinanceData.h	/^template<class templateRecord> void MFinanceNumBaseData<templateRecord>::operator = (templateRecord In)$/;"	f	class:MFinanceNumBaseData
+operator =	MFinanceData.h	/^template<int stringsize> void MFD_String<stringsize>::operator = (char * InBuf)$/;"	f	class:MFD_String
+operator =	MFinanceData.h	/^template<int stringsize> void MFD_ZeroString<stringsize>::operator = (char * InBuf)$/;"	f	class:MFD_ZeroString
+operator =	MString.cpp	/^MString & MString::operator =  (const MString & In)$/;"	f	class:MString
+operator =	MString.cpp	/^MString & MString::operator =  (const char * In)$/;"	f	class:MString
+operator ==	MDateTime.cpp	/^bool MDateTime::operator == (const MDateTime & In) const$/;"	f	class:MDateTime
+operator ==	MString.cpp	/^bool   operator == (const MString & In1,const MString & In2)$/;"	f
+operator ==	MString.cpp	/^bool   operator == (const MString & In1,const char * In2)$/;"	f
+operator ==	MString.cpp	/^bool   operator == (const char * In1,const MString & In2)$/;"	f
+operator >	MString.cpp	/^bool   operator >  (const MString & In1,const MString & In2)$/;"	f
+operator >	MString.cpp	/^bool   operator >  (const MString & In1,const char * In2)$/;"	f
+operator >	MString.cpp	/^bool   operator >  (const char * In1,const MString & In2)$/;"	f
+operator >=	MString.cpp	/^bool   operator >= (const MString & In1,const MString & In2)$/;"	f
+operator >=	MString.cpp	/^bool   operator >= (const MString & In1,const char * In2)$/;"	f
+operator >=	MString.cpp	/^bool   operator >= (const char * In1,const MString & In2)$/;"	f
+operator []	MString.cpp	/^char & MString::operator [] (const unsigned short In)$/;"	f	class:MString
+staticActulSendFrameCount	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticActulSendFrameCount = 0;$/;"	m	class:MSrvCommUnit	file:
+staticActulSendFrameCount	MSrvComm.h	/^	static unsigned long			staticActulSendFrameCount;$/;"	m	class:MSrvCommUnit
+staticCheckThreadTime	MThread.cpp	/^MCounter			MThread::staticCheckThreadTime;$/;"	m	class:MThread	file:
+staticCheckThreadTime	MThread.h	/^	static MCounter				staticCheckThreadTime;$/;"	m	class:MThread
+staticFirstThreadPtr	MThread.cpp	/^MThread			*	MThread::staticFirstThreadPtr = NULL;$/;"	m	class:MThread	file:
+staticFirstThreadPtr	MThread.h	/^	static MThread			*	staticFirstThreadPtr;$/;"	m	class:MThread
+staticLostRequestCount	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticLostRequestCount = 0;$/;"	m	class:MSrvCommUnit	file:
+staticLostRequestCount	MSrvComm.h	/^	static unsigned long			staticLostRequestCount;$/;"	m	class:MSrvCommUnit
+staticLostSendCount	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticLostSendCount = 0;$/;"	m	class:MSrvCommUnit	file:
+staticLostSendCount	MSrvComm.h	/^	static unsigned long			staticLostSendCount;$/;"	m	class:MSrvCommUnit
+staticMustSendFrameCount	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticMustSendFrameCount = 0;$/;"	m	class:MSrvCommUnit	file:
+staticMustSendFrameCount	MSrvComm.h	/^	static unsigned long			staticMustSendFrameCount;$/;"	m	class:MSrvCommUnit
+staticOldRecvSizeB	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticOldRecvSizeB = 0;$/;"	m	class:MSrvCommUnit	file:
+staticOldRecvSizeB	MSrvComm.h	/^	static unsigned long			staticOldRecvSizeB;$/;"	m	class:MSrvCommUnit
+staticOldRecvSizeM	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticOldRecvSizeM = 0;$/;"	m	class:MSrvCommUnit	file:
+staticOldRecvSizeM	MSrvComm.h	/^	static unsigned long			staticOldRecvSizeM;$/;"	m	class:MSrvCommUnit
+staticOldSendSizeB	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticOldSendSizeB = 0;$/;"	m	class:MSrvCommUnit	file:
+staticOldSendSizeB	MSrvComm.h	/^	static unsigned long			staticOldSendSizeB;$/;"	m	class:MSrvCommUnit
+staticOldSendSizeM	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticOldSendSizeM = 0;$/;"	m	class:MSrvCommUnit	file:
+staticOldSendSizeM	MSrvComm.h	/^	static unsigned long			staticOldSendSizeM;$/;"	m	class:MSrvCommUnit
+staticRecvCounter	MSrvComm.cpp	/^MCounter				MSrvCommUnit::staticRecvCounter;$/;"	m	class:MSrvCommUnit	file:
+staticRecvCounter	MSrvComm.h	/^	static MCounter					staticRecvCounter;$/;"	m	class:MSrvCommUnit
+staticRecvSection	MSrvComm.cpp	/^MCriticalSection		MSrvCommUnit::staticRecvSection;$/;"	m	class:MSrvCommUnit	file:
+staticRecvSection	MSrvComm.h	/^	static MCriticalSection			staticRecvSection;$/;"	m	class:MSrvCommUnit
+staticRecvSizeB	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticRecvSizeB = 0;$/;"	m	class:MSrvCommUnit	file:
+staticRecvSizeB	MSrvComm.h	/^	static unsigned long			staticRecvSizeB;$/;"	m	class:MSrvCommUnit
+staticRecvSizeM	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticRecvSizeM = 0;$/;"	m	class:MSrvCommUnit	file:
+staticRecvSizeM	MSrvComm.h	/^	static unsigned long			staticRecvSizeM;$/;"	m	class:MSrvCommUnit
+staticSendCounter	MSrvComm.cpp	/^MCounter				MSrvCommUnit::staticSendCounter;$/;"	m	class:MSrvCommUnit	file:
+staticSendCounter	MSrvComm.h	/^	static MCounter					staticSendCounter;$/;"	m	class:MSrvCommUnit
+staticSendFrameCounter	MSrvComm.cpp	/^MCounter				MSrvCommUnit::staticSendFrameCounter;$/;"	m	class:MSrvCommUnit	file:
+staticSendFrameCounter	MSrvComm.h	/^	static MCounter					staticSendFrameCounter;$/;"	m	class:MSrvCommUnit
+staticSendSection	MSrvComm.cpp	/^MCriticalSection		MSrvCommUnit::staticSendSection;$/;"	m	class:MSrvCommUnit	file:
+staticSendSection	MSrvComm.h	/^	static MCriticalSection			staticSendSection;$/;"	m	class:MSrvCommUnit
+staticSendSizeB	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticSendSizeB = 0;$/;"	m	class:MSrvCommUnit	file:
+staticSendSizeB	MSrvComm.h	/^	static unsigned long			staticSendSizeB;$/;"	m	class:MSrvCommUnit
+staticSendSizeM	MSrvComm.cpp	/^unsigned long			MSrvCommUnit::staticSendSizeM = 0;$/;"	m	class:MSrvCommUnit	file:
+staticSendSizeM	MSrvComm.h	/^	static unsigned long			staticSendSizeM;$/;"	m	class:MSrvCommUnit
+static_ErrorCode	MObject.h	/^	static MErrorCode					static_ErrorCode;					\/\/该类的错误描述类$/;"	m	class:MObject
+static_ErrorTable	MObject.cpp	/^tagErrorCodeInfo			MObject::static_ErrorTable[] = $/;"	m	class:MObject	file:
+static_ErrorTable	MObject.h	/^	static tagErrorCodeInfo				static_ErrorTable[];				\/\/该类的错误描述表$/;"	m	class:MObject
+static_FirstErrorCodePtr	MObject.cpp	/^MErrorCode				*	MErrorCode::static_FirstErrorCodePtr = NULL;$/;"	m	class:MErrorCode	file:
+static_FirstErrorCodePtr	MObject.h	/^	static MErrorCode				*	static_FirstErrorCodePtr;			\/\/所有错误描述类的指针$/;"	m	class:MErrorCode
+static_FirstRuntimeClassPtr	MObject.cpp	/^MRuntimeClass			*	MRuntimeClass::static_FirstRuntimeClassPtr = NULL;$/;"	m	class:MRuntimeClass	file:
+static_FirstRuntimeClassPtr	MObject.h	/^	static MRuntimeClass			*	static_FirstRuntimeClassPtr;		\/\/所有运行类信息的起始指针$/;"	m	class:MRuntimeClass
+static_RuntimeClass	MObject.h	/^	static MRuntimeClass				static_RuntimeClass;				\/\/该类的运行时刻类信息对象$/;"	m	class:MObject
+strnicmp	MString.h	29;"	d
+tagDbfField	MDbfFile.h	/^} tagDbfField;$/;"	t
+tagDbfHead	MDbfFile.h	/^} tagDbfHead;$/;"	t
+tagDbfRecord	MDbfFile.h	/^} tagDbfRecord;$/;"	t
+tagErrorCodeInfo	MObject.h	/^} tagErrorCodeInfo;$/;"	t
+tagExcelBlank	MExcelFile.h	/^} tagExcelBlank;$/;"	t
+tagExcelBof	MExcelFile.h	/^} tagExcelBof;$/;"	t
+tagExcelBool	MExcelFile.h	/^} tagExcelBool;$/;"	t
+tagExcelCellAttr	MExcelFile.h	/^} tagExcelCellAttr;$/;"	t
+tagExcelColumnWidth	MExcelFile.h	/^} tagExcelColumnWidth;$/;"	t
+tagExcelConstString	MExcelFile.h	/^} tagExcelConstString;$/;"	t
+tagExcelDefaultHeight	MExcelFile.h	/^} tagExcelDefaultHeight;$/;"	t
+tagExcelDimensions	MExcelFile.h	/^} tagExcelDimensions;$/;"	t
+tagExcelEof	MExcelFile.h	/^} tagExcelEof;$/;"	t
+tagExcelFloat	MExcelFile.h	/^} tagExcelFloat;$/;"	t
+tagExcelFont	MExcelFile.h	/^} tagExcelFont;$/;"	t
+tagExcelInteger	MExcelFile.h	/^} tagExcelInteger;$/;"	t
+tagFileFindFileInfo	MFile.h	/^} tagFileFindFileInfo;$/;"	t
+tagFrameHead	MSrvComm.h	/^} tagFrameHead;$/;"	t
+tagFunInterface_CreateObject	MObject.h	/^typedef MObject * tagFunInterface_CreateObject(void);$/;"	t
+tagFunInterface_ThreadWriteReport	MThread.h	/^typedef void tagFunInterface_ThreadWriteReport(char * InBuf);$/;"	t
+tagHardWareInfo	MSystemInfo.h	/^} tagHardWareInfo;$/;"	t
+tagHashTableNodeInfo	MDataStruct.h	/^	} tagHashTableNodeInfo;$/;"	t	class:MHashTableSt
+tagIniFileSection	MIniFile.h	/^} tagIniFileSection;$/;"	t
+tagIniFileValue	MIniFile.h	/^} tagIniFileValue;$/;"	t
+tagLogFileHeadInfo	MLogFile.h	/^} tagLogFileHeadInfo;$/;"	t
+tagLogFileMemoryInfo	MLogFile.h	/^} tagLogFileMemoryInfo;$/;"	t
+tagLogFileRecordInfo	MLogFile.h	/^} tagLogFileRecordInfo;$/;"	t
+tagLzwDirectInfo	MLZW.h	/^} tagLzwDirectInfo;$/;"	t
+tagOptionTreeNode	MOptionTree.h	/^} tagOptionTreeNode;$/;"	t
+tagSrvCommAcceptQueue	MSrvComm.h	/^} tagSrvCommAcceptQueue;$/;"	t
+tagSrvCommDataMsgQueue	MSrvComm.h	/^} tagSrvCommDataMsgQueue;$/;"	t
+tagSrvCommLinkMsg	MSrvComm.h	/^} tagSrvCommLinkMsg;$/;"	t
+tagSrvCommLinkMsgQueue	MSrvComm.h	/^} tagSrvCommLinkMsgQueue;$/;"	t
+tagSrvCommLinkQueue	MSrvComm.h	/^} tagSrvCommLinkQueue;$/;"	t
+tagSrvCommRecvTable	MSrvComm.h	/^} tagSrvCommRecvTable;$/;"	t
+tagSrvCommSelectLinkInfo	MSrvComm.h	/^} tagSrvCommSelectLinkInfo;$/;"	t
+tagSystemInfoBIOSInfo	MSystemInfo.h	/^} tagSystemInfoBIOSInfo;$/;"	t
+tagSystemInfoCpuInfo	MSystemInfo.h	/^} tagSystemInfoCpuInfo;$/;"	t
+tagSystemInfoMemoryInfo	MSystemInfo.h	/^} tagSystemInfoMemoryInfo;$/;"	t
+~M3DES64	MDES.cpp	/^M3DES64::~M3DES64()$/;"	f	class:M3DES64
+~MBlockDataCompress	MBlockCompress.cpp	/^MBlockDataCompress::~MBlockDataCompress()$/;"	f	class:MBlockDataCompress
+~MCRC16	MCheckCode.cpp	/^MCRC16::~MCRC16()$/;"	f	class:MCRC16
+~MCharLoopGroupMt	MDataStruct.cpp	/^MCharLoopGroupMt::~MCharLoopGroupMt()$/;"	f	class:MCharLoopGroupMt
+~MCharLoopGroupSt	MDataStruct.cpp	/^MCharLoopGroupSt::~MCharLoopGroupSt()$/;"	f	class:MCharLoopGroupSt
+~MComplexMrSwSection	MMutex.cpp	/^MComplexMrSwSection::~MComplexMrSwSection()$/;"	f	class:MComplexMrSwSection
+~MConCheckCode	MCheckCode.cpp	/^MConCheckCode::~MConCheckCode()$/;"	f	class:MConCheckCode
+~MCounter	MDateTime.cpp	/^MCounter::~MCounter()$/;"	f	class:MCounter
+~MCriticalSection	MMutex.cpp	/^MCriticalSection::~MCriticalSection()$/;"	f	class:MCriticalSection
+~MDES64	MDES.cpp	/^MDES64::~MDES64()$/;"	f	class:MDES64
+~MDateTime	MDateTime.cpp	/^MDateTime::~MDateTime()$/;"	f	class:MDateTime
+~MDll	MDll.cpp	/^MDll::~MDll()$/;"	f	class:MDll
+~MErrorCode	MObject.cpp	/^MErrorCode::~MErrorCode()$/;"	f	class:MErrorCode
+~MExcelFile	MExcelFile.cpp	/^MExcelFile::~MExcelFile()$/;"	f	class:MExcelFile
+~MFD_Amount	MFinanceData.cpp	/^MFD_Amount::~MFD_Amount()$/;"	f	class:MFD_Amount
+~MFD_Bool	MFinanceData.cpp	/^MFD_Bool::~MFD_Bool()$/;"	f	class:MFD_Bool
+~MFD_CStandType	MFinanceData.h	/^template<class templateRecord> MFD_CStandType<templateRecord>::~MFD_CStandType(void)$/;"	f	class:MFD_CStandType
+~MFD_Date	MFinanceData.cpp	/^MFD_Date::~MFD_Date()$/;"	f	class:MFD_Date
+~MFD_MarketID	MFinanceData.cpp	/^MFD_MarketID::~MFD_MarketID()$/;"	f	class:MFD_MarketID
+~MFD_Price	MFinanceData.cpp	/^MFD_Price::~MFD_Price()$/;"	f	class:MFD_Price
+~MFD_PriceRate	MFinanceData.cpp	/^MFD_PriceRate::~MFD_PriceRate()$/;"	f	class:MFD_PriceRate
+~MFD_Records	MFinanceData.cpp	/^MFD_Records::~MFD_Records()$/;"	f	class:MFD_Records
+~MFD_SignSubPrice	MFinanceData.cpp	/^MFD_SignSubPrice::~MFD_SignSubPrice()$/;"	f	class:MFD_SignSubPrice
+~MFD_SignSubVolume	MFinanceData.cpp	/^MFD_SignSubVolume::~MFD_SignSubVolume()$/;"	f	class:MFD_SignSubVolume
+~MFD_String	MFinanceData.h	/^template<int stringsize> MFD_String<stringsize>::~MFD_String(void)$/;"	f	class:MFD_String
+~MFD_SubPrice	MFinanceData.cpp	/^MFD_SubPrice::~MFD_SubPrice()$/;"	f	class:MFD_SubPrice
+~MFD_SubULong	MFinanceData.cpp	/^MFD_SubULong::~MFD_SubULong()$/;"	f	class:MFD_SubULong
+~MFD_SubVolume	MFinanceData.cpp	/^MFD_SubVolume::~MFD_SubVolume()$/;"	f	class:MFD_SubVolume
+~MFD_Time	MFinanceData.cpp	/^MFD_Time::~MFD_Time()$/;"	f	class:MFD_Time
+~MFD_TimeZoom	MFinanceData.cpp	/^MFD_TimeZoom::~MFD_TimeZoom()$/;"	f	class:MFD_TimeZoom
+~MFD_TotalVolume	MFinanceData.cpp	/^MFD_TotalVolume::~MFD_TotalVolume()$/;"	f	class:MFD_TotalVolume
+~MFD_WareSerial	MFinanceData.cpp	/^MFD_WareSerial::~MFD_WareSerial()$/;"	f	class:MFD_WareSerial
+~MFD_WareType	MFinanceData.cpp	/^MFD_WareType::~MFD_WareType()$/;"	f	class:MFD_WareType
+~MFD_ZeroString	MFinanceData.h	/^template<int stringsize> MFD_ZeroString<stringsize>::~MFD_ZeroString(void)$/;"	f	class:MFD_ZeroString
+~MFile	MFile.cpp	/^MFile::~MFile()$/;"	f	class:MFile
+~MFinanceBaseData	MFinanceData.cpp	/^MFinanceBaseData::~MFinanceBaseData()$/;"	f	class:MFinanceBaseData
+~MFinanceData	MFinanceData.cpp	/^MFinanceData::~MFinanceData()$/;"	f	class:MFinanceData
+~MFinanceNumBaseData	MFinanceData.h	/^template<class templateRecord> MFinanceNumBaseData<templateRecord>::~MFinanceNumBaseData(void)$/;"	f	class:MFinanceNumBaseData
+~MFindFile	MFile.cpp	/^MFindFile::~MFindFile()$/;"	f	class:MFindFile
+~MHashTableMt	MDataStruct.h	/^template<class templateRecord> MHashTableMt<templateRecord>::~MHashTableMt()$/;"	f	class:MHashTableMt
+~MHashTableSt	MDataStruct.h	/^template<class templateRecord> MHashTableSt<templateRecord>::~MHashTableSt()$/;"	f	class:MHashTableSt
+~MIniFile	MIniFile.cpp	/^MIniFile::~MIniFile()$/;"	f	class:MIniFile
+~MLZW4096	MLZW.cpp	/^MLZW4096::~MLZW4096()$/;"	f	class:MLZW4096
+~MLocalComplexSection	MMutex.cpp	/^MLocalComplexSection::~MLocalComplexSection()$/;"	f	class:MLocalComplexSection
+~MLocalSection	MMutex.cpp	/^MLocalSection::~MLocalSection()$/;"	f	class:MLocalSection
+~MLock	MMutex.cpp	/^MCriticalSection::MLock::~MLock()$/;"	f	class:MCriticalSection::MLock
+~MLock	MMutex.cpp	/^MSemaphore::MLock::~MLock()$/;"	f	class:MSemaphore::MLock
+~MLogFile	MLogFile.cpp	/^MLogFile::~MLogFile()$/;"	f	class:MLogFile
+~MLoopGroupMt	MDataStruct.h	/^template<class templateRecord> MLoopGroupMt<templateRecord>::~MLoopGroupMt()$/;"	f	class:MLoopGroupMt
+~MLoopGroupSt	MDataStruct.h	/^template<class templateRecord> MLoopGroupSt<templateRecord>::~MLoopGroupSt()$/;"	f	class:MLoopGroupSt
+~MMD5	MCheckCode.cpp	/^MMD5::~MMD5()$/;"	f	class:MMD5
+~MMemoryDbfFile	MDbfFile.cpp	/^MMemoryDbfFile::~MMemoryDbfFile()$/;"	f	class:MMemoryDbfFile
+~MMrSwSection	MMutex.cpp	/^MMrSwSection::~MMrSwSection()$/;"	f	class:MMrSwSection
+~MObject	MObject.cpp	/^MObject::~MObject()$/;"	f	class:MObject
+~MOptionTree	MOptionTree.cpp	/^MOptionTree::~MOptionTree()$/;"	f	class:MOptionTree
+~MRLock	MMutex.cpp	/^MComplexMrSwSection::MRLock::~MRLock()$/;"	f	class:MComplexMrSwSection::MRLock
+~MRLock	MMutex.cpp	/^MMrSwSection::MRLock::~MRLock()$/;"	f	class:MMrSwSection::MRLock
+~MRegister	MRegister.cpp	/^MRegister::~MRegister()$/;"	f	class:MRegister
+~MResourceRecordMt	MDataStruct.cpp	/^MResourceRecordMt::~MResourceRecordMt()$/;"	f	class:MResourceRecordMt
+~MResourceRecordSt	MDataStruct.cpp	/^MResourceRecordSt::~MResourceRecordSt()$/;"	f	class:MResourceRecordSt
+~MRuntimeClass	MObject.cpp	/^MRuntimeClass::~MRuntimeClass()$/;"	f	class:MRuntimeClass
+~MSemaphore	MMutex.cpp	/^MSemaphore::~MSemaphore( void )$/;"	f	class:MSemaphore
+~MSocket	MSocket.cpp	/^MSocket::~MSocket()$/;"	f	class:MSocket
+~MSrvCommAcceptQueue	MSrvComm.cpp	/^MSrvCommAcceptQueue::~MSrvCommAcceptQueue()$/;"	f	class:MSrvCommAcceptQueue
+~MSrvCommLinkQueue	MSrvComm.cpp	/^MSrvCommLinkQueue::~MSrvCommLinkQueue()$/;"	f	class:MSrvCommLinkQueue
+~MSrvCommRecvGroup	MSrvComm.cpp	/^MSrvCommRecvGroup::~MSrvCommRecvGroup()$/;"	f	class:MSrvCommRecvGroup
+~MSrvCommRecvQueue	MSrvComm.cpp	/^MSrvCommRecvQueue::~MSrvCommRecvQueue()$/;"	f	class:MSrvCommRecvQueue
+~MSrvCommRecvTable	MSrvComm.cpp	/^MSrvCommRecvTable::~MSrvCommRecvTable()$/;"	f	class:MSrvCommRecvTable
+~MSrvCommSendGroup	MSrvComm.cpp	/^MSrvCommSendGroup::~MSrvCommSendGroup()$/;"	f	class:MSrvCommSendGroup
+~MSrvCommSendQueue	MSrvComm.cpp	/^MSrvCommSendQueue::~MSrvCommSendQueue()$/;"	f	class:MSrvCommSendQueue
+~MSrvCommSubUnit	MSrvComm.cpp	/^MSrvCommSubUnit::~MSrvCommSubUnit()$/;"	f	class:MSrvCommSubUnit
+~MSrvCommUnit	MSrvComm.cpp	/^MSrvCommUnit::~MSrvCommUnit()$/;"	f	class:MSrvCommUnit
+~MString	MString.cpp	/^MString::~MString()$/;"	f	class:MString
+~MSystemInfo	MSystemInfo.cpp	/^MSystemInfo::~MSystemInfo()$/;"	f	class:MSystemInfo
+~MThread	MThread.cpp	/^MThread::~MThread()$/;"	f	class:MThread
+~MWLock	MMutex.cpp	/^MComplexMrSwSection::MWLock::~MWLock()$/;"	f	class:MComplexMrSwSection::MWLock
+~MWLock	MMutex.cpp	/^MMrSwSection::MWLock::~MWLock()$/;"	f	class:MMrSwSection::MWLock
+~MWaitEvent	MMutex.cpp	/^MWaitEvent::~MWaitEvent()$/;"	f	class:MWaitEvent

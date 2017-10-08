@@ -1,0 +1,655 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AccessTime	MFile.hpp	/^	MDateTime<T>				AccessTime;				\/\/访问时间$/;"	m	class:tagFileFindFileInfo
+ActiveEvent	MMutex.hpp	/^ template <typename T> void MWaitEvent<T>::ActiveEvent(void)$/;"	f	class:MWaitEvent
+AddData	BufManage.hpp	/^ template < typename T> long CBufManage<T>::AddData(char *buf, long len)$/;"	f	class:CBufManage
+AddtionData	MDataStruct.hpp	/^		unsigned long			AddtionData;$/;"	m	struct:MHashTableSt::__anon8
+AppendRecord	MDbfFile.hpp	/^int  MMemoryDbfFile::AppendRecord(void)$/;"	f	class:MMemoryDbfFile
+AttchLock	MMutex.hpp	/^ template <typename T> void MLocalSection<T>::AttchLock(MCriticalSection<T> * In)$/;"	f	class:MLocalSection
+AttchLockRead	MMutex.hpp	/^ template <typename T> int  MLocalComplexSection<T>::AttchLockRead(MComplexMrSwSection<T> * section,unsigned long TimeOut)$/;"	f	class:MLocalComplexSection
+AttchLockWrite	MMutex.hpp	/^ template <typename T> int  MLocalComplexSection<T>::AttchLockWrite(MComplexMrSwSection<T> * section,unsigned long TimeOut)$/;"	f	class:MLocalComplexSection
+BOOL	MString.hpp	47;"	d
+BYTE	MString.hpp	44;"	d
+CBufManage	BufManage.hpp	/^ template < typename T> CBufManage<T>::CBufManage(int type)$/;"	f	class:CBufManage
+CBufManage	BufManage.hpp	/^template < typename T> CBufManage<T>::CBufManage()$/;"	f	class:CBufManage
+CBufManage	BufManage.hpp	/^template< typename T> class CBufManage  $/;"	c
+CC	Makefile	/^CC = g++ -g  -Wall $/;"	m
+CheckCode	MCheckCode.hpp	/^ template <typename T> unsigned short MCRC16<T>::CheckCode(char * InBuf,unsigned short InSize)$/;"	f	class:MCRC16
+CheckCode	MCheckCode.hpp	/^ template <typename T> unsigned short MConCheckCode<T>::CheckCode(char * InBuf,unsigned short InSize)$/;"	f	class:MConCheckCode
+CheckThreadRefreshTime	MThread.hpp	/^ template <typename T> void MThread<T>::CheckThreadRefreshTime(tagFunInterface_ThreadWriteReport * In)$/;"	f	class:MThread
+Clear	MDataStruct.hpp	/^ template <typename T> void MCharLoopGroupSt<T>::Clear(void)$/;"	f	class:MCharLoopGroupSt
+Clear	MDataStruct.hpp	/^ template <typename T>void MCharLoopGroupMt<T>::Clear(void)$/;"	f	class:MCharLoopGroupMt
+Clear	MDataStruct.hpp	/^template<typename  templateRecord> void MLoopGroupMt<templateRecord>::Clear(void)$/;"	f	class:MLoopGroupMt
+Clear	MDataStruct.hpp	/^template<typename  templateRecord> void MLoopGroupSt<templateRecord>::Clear(void)$/;"	f	class:MLoopGroupSt
+Close	MDbfFile.hpp	/^void MMemoryDbfFile::Close(void)$/;"	f	class:MMemoryDbfFile
+Close	MFile.hpp	/^ template <typename T>void MFile<T>::Close(void)$/;"	f	class:MFile
+CloseFindFile	MFile.hpp	/^ template <typename T>void MFindFile<T>::CloseFindFile(void)$/;"	f	class:MFindFile
+ContentSize	MLogFile.hpp	/^	unsigned short				ContentSize;		\/\/内容长度$/;"	m	class:tagLogFileMemoryInfo
+CopyFile	MFile.hpp	/^ template <typename T> int  MFile<T>::CopyFile(MString <T> SourceFile,MString<T> NewFile,bool FailIfExists)$/;"	f	class:MFile
+Create	MDbfFile.hpp	/^int	 MMemoryDbfFile::Create( const char* szFileName, unsigned short iRecordSize, $/;"	f	class:MMemoryDbfFile
+Create	MFile.hpp	/^ template <typename T>int  MFile<T>::Create(MString<T> FileName)$/;"	f	class:MFile
+CreateDirectory	MFile.hpp	/^template <typename T> int  MFile<T>::CreateDirectory(MString<T> FileName)$/;"	f	class:MFile
+CreateDirectoryTree	MFile.hpp	/^template <typename T> int  MFile<T>::CreateDirectoryTree(MString<T> DirTreeName)$/;"	f	class:MFile
+CreateTime	MFile.hpp	/^	MDateTime<T>				CreateTime;				\/\/创建时间$/;"	m	class:tagFileFindFileInfo
+DWORD	MString.hpp	36;"	d
+DWORD	MString.hpp	46;"	d
+DataAddr	MDbfFile.hpp	/^    unsigned short          DataAddr;       \/\/数据区开始位置$/;"	m	struct:__anon6
+DateTime	MLogFile.hpp	/^	MDateTime<T>					DateTime;			\/\/纪录时间$/;"	m	class:tagLogFileMemoryInfo
+DateTime	MLogFile.hpp	/^	char						DateTime[21];		\/\/记录时间，如(2004.03.28 15:30:20)$/;"	m	struct:__anon3
+DateTimeToString	MDateTime.hpp	/^  template <typename T> MString<T> MDateTime<T>::DateTimeToString(void)$/;"	f	class:MDateTime
+DateTimeToTimet	MDateTime.hpp	/^  template <typename T> long MDateTime<T>::DateTimeToTimet(void)$/;"	f	class:MDateTime
+DateToLong	MDateTime.hpp	/^  template <typename T> unsigned long MDateTime<T>::DateToLong(void)$/;"	f	class:MDateTime
+DateToString	MDateTime.hpp	/^  template <typename T> MString<T> MDateTime<T>::DateToString(void)$/;"	f	class:MDateTime
+DecSize	MDbfFile.hpp	/^    unsigned char           DecSize;        \/\/小数位数$/;"	m	struct:__anon7
+DecodeDate	MDateTime.hpp	/^  template <typename T>void MDateTime<T>::DecodeDate(unsigned short * year,unsigned short * month,unsigned short * day)$/;"	f	class:MDateTime
+DecodeTime	MDateTime.hpp	/^  template <typename T>void MDateTime<T>::DecodeTime(unsigned short * hour,unsigned short * min,unsigned short * sec)$/;"	f	class:MDateTime
+DelData	BufManage.hpp	/^ template < typename T> long CBufManage<T>::DelData(long del_len, long start)$/;"	f	class:CBufManage
+DelRecord	MDbfFile.hpp	/^int  MMemoryDbfFile::DelRecord(void)$/;"	f	class:MMemoryDbfFile
+DeleteData	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableMt<templateRecord>::DeleteData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableMt
+DeleteData	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableSt<templateRecord>::DeleteData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableSt
+DeleteDirectory	MFile.hpp	/^ template <typename T> int  MFile<T>::DeleteDirectory(MString<T> FileName)$/;"	f	class:MFile
+DeleteFile	MFile.hpp	/^ template <typename T> int  MFile<T>::DeleteFile(MString<T> FileName)$/;"	f	class:MFile
+Dump	IniFile.hpp	/^template <typename T> void IniFile<T>::Dump()$/;"	f	class:IniFile
+ERROR_MCHARLOOPGROUPST_EMPTY	MDataStruct.hpp	115;"	d
+ERROR_MCHARLOOPGROUPST_FULL	MDataStruct.hpp	114;"	d
+ERROR_MCHARLOOPGROUPST_NOMEMORY	MDataStruct.hpp	113;"	d
+ERROR_MCOMPLEXMRSWSECTION_READFAL	MMutex.hpp	110;"	d
+ERROR_MCOMPLEXMRSWSECTION_WRITEFAL	MMutex.hpp	111;"	d
+ERROR_MDATETIME_INVALID	MDateTime.hpp	38;"	d
+ERROR_MLOGFILE_FILEHEAD	MLogFile.hpp	95;"	d
+ERROR_MMEMORYDBFFILE_DBFHEAD	MDbfFile.hpp	67;"	d
+ERROR_MMEMORYDBFFILE_INVALIDFIELD	MDbfFile.hpp	66;"	d
+ERROR_MMEMORYDBFFILE_NOFIND	MDbfFile.hpp	70;"	d
+ERROR_MMEMORYDBFFILE_NOINSTANCE	MDbfFile.hpp	65;"	d
+ERROR_MMEMORYDBFFILE_NOMEMORY	MDbfFile.hpp	68;"	d
+ERROR_MMEMORYDBFFILE_PARAM	MDbfFile.hpp	69;"	d
+ERROR_MMRSWSECTION_READFAL	MMutex.hpp	64;"	d
+ERROR_MMRSWSECTION_WRITEFAL	MMutex.hpp	65;"	d
+ERROR_MRESOURCERECORDST_EMPTY	MDataStruct.hpp	72;"	d
+ERROR_MRESOURCERECORDST_FULL	MDataStruct.hpp	71;"	d
+ERROR_MRESOURCERECORDST_NOMEMORY	MDataStruct.hpp	70;"	d
+ERROR_MSTRING_INVALIDOFFSET	MString.hpp	64;"	d
+ERROR_MSTRING_NOSUBSTRING	MString.hpp	63;"	d
+EXEC	Makefile	/^EXEC = check_free_space$/;"	m
+ErrorFlag	MLogFile.hpp	/^	char						ErrorFlag;				\/\/允许错误$/;"	m	struct:__anon2
+ErrorFlagMarket	MLogFile.hpp	/^	char						ErrorFlagMarket[20];	\/\/允许错误纪录：$/;"	m	struct:__anon2
+F	MCheckCode.hpp	/^ template <typename TT> unsigned long  MMD5<TT>::F(unsigned long x,unsigned long y,unsigned long z)$/;"	f	class:MMD5
+FALSE	MString.hpp	48;"	d
+FF	MCheckCode.hpp	/^ template <typename TT>void  MMD5<TT>::FF(unsigned long &A,unsigned long B,unsigned long C,unsigned long D,unsigned long X,unsigned char S,unsigned long T)$/;"	f	class:MMD5
+FieldName	MDbfFile.hpp	/^    char                    FieldName[11];  \/\/字段名称$/;"	m	struct:__anon7
+FieldOffset	MDbfFile.hpp	/^    unsigned long           FieldOffset;    \/\/对于每一条纪录的偏移量$/;"	m	struct:__anon7
+FieldSize	MDbfFile.hpp	/^    unsigned char           FieldSize;      \/\/字段长度$/;"	m	struct:__anon7
+FieldType	MDbfFile.hpp	/^    char                    FieldType;      \/\/字段类型 C 字符 N 数字 L D 日期$/;"	m	struct:__anon7
+FindData	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableMt<templateRecord>::FindData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableMt
+FindData	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableSt<templateRecord>::FindData(unsigned short FindCode,templateRecord Index)$/;"	f	class:MHashTableSt
+FindFieldName	MDbfFile.hpp	/^int  MMemoryDbfFile::FindFieldName(char * FieldName)$/;"	f	class:MMemoryDbfFile
+FindFirstFile	MFile.hpp	/^ template <typename T> int  MFindFile<T>::FindFirstFile(char * FileName,tagFileFindFileInfo<T> * Out)$/;"	f	class:MFindFile
+FindNextFile	MFile.hpp	/^ template <typename T> int  MFindFile<T>::FindNextFile(tagFileFindFileInfo<T> * Out)$/;"	f	class:MFindFile
+FindRecord	MDbfFile.hpp	/^int  MMemoryDbfFile::FindRecord(char * FieldName,char * Value)$/;"	f	class:MMemoryDbfFile
+FindRecord	MDbfFile.hpp	/^int  MMemoryDbfFile::FindRecord(unsigned short FieldNo,char * Value)$/;"	f	class:MMemoryDbfFile
+FindingString	MFile.hpp	/^ template <typename T>int MFindFile<T>::FindingString(const char* lpszSour, const char* lpszFind, int nStart \/* = 0 *\/)$/;"	f	class:MFindFile
+First	MDbfFile.hpp	/^int  MMemoryDbfFile::First(void)$/;"	f	class:MMemoryDbfFile
+First	MLogFile.hpp	/^	char						First[10];				\/\/第一条纪录$/;"	m	struct:__anon2
+FirstMarket	MLogFile.hpp	/^	char						FirstMarket[20];		\/\/第一条纪录位置：$/;"	m	struct:__anon2
+Flush	MDbfFile.hpp	/^int  MMemoryDbfFile::Flush(void)$/;"	f	class:MMemoryDbfFile
+Flush	MFile.hpp	/^template <typename T>void MFile<T>::Flush(void)$/;"	f	class:MFile
+FormatString	MString.hpp	/^ template  <typename T > void MString<T>::FormatString(const char * Format,...)$/;"	f	class:MString
+Front	MDbfFile.hpp	/^	struct __DBFRECORD	*	Front;$/;"	m	struct:__DBFRECORD	typeref:struct:__DBFRECORD::__DBFRECORD
+G	MCheckCode.hpp	/^ template <typename TT>unsigned long  MMD5<TT>::G(unsigned long x,unsigned long y,unsigned long z)$/;"	f	class:MMD5
+GG	MCheckCode.hpp	/^ template <typename TT>void  MMD5<TT>::GG(unsigned long &A,unsigned long B,unsigned long C,unsigned long D,unsigned long X,unsigned char S,unsigned long T)$/;"	f	class:MMD5
+GetAccessDateTime	MFile.hpp	/^ template <typename T> MDateTime<T> MFile<T>::GetAccessDateTime(void)$/;"	f	class:MFile
+GetAddtionData	MThread.hpp	/^ template <typename T> unsigned long MThread<T>::GetAddtionData(void)$/;"	f	class:MThread
+GetBufPtr	BufManage.hpp	/^ template < typename T> char * CBufManage<T>::GetBufPtr()$/;"	f	class:CBufManage
+GetBufPtr	BufManage.hpp	/^template < typename T> char * CBufManage<T>::GetBufPtr(long &len)$/;"	f	class:CBufManage
+GetCount	MDataStruct.hpp	/^template<typename templateRecord> unsigned short MLoopGroupMt<templateRecord>::GetCount(void)$/;"	f	class:MLoopGroupMt
+GetCount	MDataStruct.hpp	/^template<typename templateRecord> unsigned short MLoopGroupSt<templateRecord>::GetCount(void)$/;"	f	class:MLoopGroupSt
+GetCreateDateTime	MFile.hpp	/^ template <typename T> MDateTime<T> MFile<T>::GetCreateDateTime(void)$/;"	f	class:MFile
+GetCurOffset	MFile.hpp	/^template <typename T>  long long MFile<T>::GetCurOffset()$/;"	f	class:MFile
+GetCurRecord	MDbfFile.hpp	/^int  MMemoryDbfFile::GetCurRecord(void)$/;"	f	class:MMemoryDbfFile
+GetCurTickCount	MDateTime.hpp	/^ template <typename T> void MCounter<T>::GetCurTickCount(void)$/;"	f	class:MCounter
+GetCurrentDirectory	MFile.hpp	/^ template <typename T> MString<T> MFile<T>::GetCurrentDirectory(void)$/;"	f	class:MFile
+GetData	MDataStruct.hpp	/^ template <typename T> int  MCharLoopGroupMt<T>::GetData(char * OutBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupMt
+GetData	MDataStruct.hpp	/^ template <typename T> int  MCharLoopGroupSt<T>::GetData(char * OutBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupSt
+GetData	MDataStruct.hpp	/^template<typename  templateRecord> int  MLoopGroupSt<templateRecord>::GetData(templateRecord * Out)$/;"	f	class:MLoopGroupSt
+GetData	MDataStruct.hpp	/^template<typename templateRecord> int  MLoopGroupMt<templateRecord>::GetData(templateRecord * Out)$/;"	f	class:MLoopGroupMt
+GetDataLen	BufManage.hpp	/^ template < typename T> long CBufManage<T>::GetDataLen()$/;"	f	class:CBufManage
+GetDayOfWork	MDateTime.hpp	/^  template <typename T> int  MDateTime<T>::GetDayOfWork(void)$/;"	f	class:MDateTime
+GetDayOfYear	MDateTime.hpp	/^  template <typename T> int  MDateTime<T>::GetDayOfYear(void)$/;"	f	class:MDateTime
+GetDuration	MDateTime.hpp	/^  template <typename T>long MDateTime<T>::GetDuration(void)$/;"	f	class:MDateTime
+GetDuration	MDateTime.hpp	/^ template <typename T> unsigned long MCounter<T>::GetDuration(void)$/;"	f	class:MCounter
+GetDurationString	MDateTime.hpp	/^  template <typename T> MString<T> MDateTime<T>::GetDurationString(void)$/;"	f	class:MDateTime
+GetDurationString	MDateTime.hpp	/^template <typename T> MString<char>  MCounter<T>::GetDurationString(void)$/;"	f	class:MCounter
+GetFileAttributes	MFile.hpp	/^ template <typename T> unsigned long MFile<T>::GetFileAttributes(MString<T> FileName)$/;"	f	class:MFile
+GetFileLength	MFile.hpp	/^ template <typename T>unsigned long MFile<T>::GetFileLength(void)$/;"	f	class:MFile
+GetLastError	MString.hpp	43;"	d
+GetLogInfo	MLogFile.hpp	/^ template <typename T> int  MLogFile<T>::GetLogInfo(unsigned char * Type,MString<T> * Source,MString<T> * Content,MDateTime<T> * DateTime)$/;"	f	class:MLogFile
+GetResource	MDataStruct.hpp	/^ template <typename T> int  MResourceRecordMt<T>::GetResource(void)$/;"	f	class:MResourceRecordMt
+GetResource	MDataStruct.hpp	/^ template <typename T> int  MResourceRecordSt<T>::GetResource(void)$/;"	f	class:MResourceRecordSt
+GetTickCount	MDateTime.hpp	/^ template <typename T> unsigned long MCounter<T>::GetTickCount()$/;"	f	class:MCounter
+GetUpdateDateTime	MFile.hpp	/^ template <typename T> MDateTime<T> MFile<T>::GetUpdateDateTime(void)$/;"	f	class:MFile
+H	MCheckCode.hpp	/^ template <typename TT>unsigned long  MMD5<TT>::H(unsigned long x,unsigned long y,unsigned long z)$/;"	f	class:MMD5
+HH	MCheckCode.hpp	/^ template <typename TT>void  MMD5<TT>::HH(unsigned long &A,unsigned long B,unsigned long C,unsigned long D,unsigned long X,unsigned char S,unsigned long T)$/;"	f	class:MMD5
+I	MCheckCode.hpp	/^ template <typename TT>unsigned long  MMD5<TT>::I(unsigned long x,unsigned long y,unsigned long z)$/;"	f	class:MMD5
+II	MCheckCode.hpp	/^ template <typename TT> void  MMD5<TT>::II(unsigned long &A,unsigned long B,unsigned long C,unsigned long D,unsigned long X,unsigned char S,unsigned long T)$/;"	f	class:MMD5
+INVALID_SOCKET	MString.hpp	40;"	d
+Index	MDataStruct.hpp	/^		templateRecord			Index;$/;"	m	struct:MHashTableSt::__anon8
+InfoFlag	MLogFile.hpp	/^	char						InfoFlag;				\/\/允许信息$/;"	m	struct:__anon2
+InfoFlagMarket	MLogFile.hpp	/^	char						InfoFlagMarket[20];		\/\/允许信息纪录：$/;"	m	struct:__anon2
+IniFile	IniFile.hpp	/^	IniFile<T>() {}$/;"	f	class:IniFile
+IniFile	IniFile.hpp	/^template <typename T>  class IniFile $/;"	c
+IniFile	IniFile.hpp	/^template <typename T> IniFile<T> ::IniFile(const std::string& filename, bool createFile): m_filename(filename)$/;"	f	class:IniFile
+IniFileError	IniFile.hpp	/^  IniFileError(): m_msg("Unspecified IniFile Error"){}$/;"	f	class:IniFileError
+IniFileError	IniFile.hpp	/^  IniFileError(const char* msg): m_msg(msg){}$/;"	f	class:IniFileError
+IniFileError	IniFile.hpp	/^template <typename T> class IniFileError: public std::exception$/;"	c
+InsertRecord	MDbfFile.hpp	/^int	 MMemoryDbfFile::InsertRecord(void)$/;"	f	class:MMemoryDbfFile
+Instance	MDataStruct.hpp	/^ template <typename T> int  MCharLoopGroupMt<T>::Instance(unsigned short MaxCount)$/;"	f	class:MCharLoopGroupMt
+Instance	MDataStruct.hpp	/^ template <typename T> int  MCharLoopGroupSt<T>::Instance(unsigned short MaxCount)$/;"	f	class:MCharLoopGroupSt
+Instance	MDataStruct.hpp	/^ template <typename T> int  MResourceRecordMt<T>::Instance(unsigned short MaxCount)$/;"	f	class:MResourceRecordMt
+Instance	MDataStruct.hpp	/^ template <typename T> int  MResourceRecordSt<T>::Instance(unsigned short MaxCount)$/;"	f	class:MResourceRecordSt
+Instance	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableMt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MHashTableMt
+Instance	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableSt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MHashTableSt
+Instance	MDataStruct.hpp	/^template<class templateRecord> int  MLoopGroupMt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MLoopGroupMt
+Instance	MDataStruct.hpp	/^template<class templateRecord> int  MLoopGroupSt<templateRecord>::Instance(unsigned short MaxRecord)$/;"	f	class:MLoopGroupSt
+Instance	MLogFile.hpp	/^ template <typename T> int  MLogFile<T>::Instance(MString<T> FileName,unsigned short MaxRecord)$/;"	f	class:MLogFile
+Instance	MMutex.hpp	/^ template <typename T> int	 MSemaphore<T>::Instance( long lInitialCount, long lMaxCount )$/;"	f	class:MSemaphore
+Instance	MMutex.hpp	/^ template <typename T> int  MWaitEvent<T>::Instance(void)$/;"	f	class:MWaitEvent
+IsActive	MThread.hpp	/^ template <typename T> bool MThread<T>::IsActive(void)$/;"	f	class:MThread
+IsDel	MDbfFile.hpp	/^bool MMemoryDbfFile::IsDel(void)$/;"	f	class:MMemoryDbfFile
+IsEmpty	MDataStruct.hpp	/^ template <typename T> bool MCharLoopGroupSt<T>::IsEmpty(void)$/;"	f	class:MCharLoopGroupSt
+IsEmpty	MDataStruct.hpp	/^template<class templateRecord> bool MLoopGroupMt<templateRecord>::IsEmpty(void)$/;"	f	class:MLoopGroupMt
+IsEmpty	MDataStruct.hpp	/^template<typename  templateRecord> bool MLoopGroupSt<templateRecord>::IsEmpty(void)$/;"	f	class:MLoopGroupSt
+IsEmpty	MDateTime.hpp	/^ template <typename T> bool MCounter<T>::IsEmpty(void)$/;"	f	class:MCounter
+IsEmpty	MThread.hpp	/^ template <typename T> bool MThread<T>::IsEmpty(void)$/;"	f	class:MThread
+IsExist	MFile.hpp	/^ template <typename T> bool MFile<T>::IsExist(MString<T> FileName)$/;"	f	class:MFile
+IsFull	MDataStruct.hpp	/^template<typename  templateRecord> bool MLoopGroupMt<templateRecord>::IsFull(void)$/;"	f	class:MLoopGroupMt
+IsFull	MDataStruct.hpp	/^template<typename  templateRecord> bool MLoopGroupSt<templateRecord>::IsFull(void)$/;"	f	class:MLoopGroupSt
+KeyValueMap	IniFile.hpp	/^	typedef std::map<std::string, std::string> KeyValueMap;$/;"	t	class:IniFile
+Last	MDbfFile.hpp	/^int  MMemoryDbfFile::Last(void)$/;"	f	class:MMemoryDbfFile
+Last	MLogFile.hpp	/^	char						Last[10];				\/\/最后一条纪录$/;"	m	struct:__anon2
+LastMarket	MLogFile.hpp	/^	char						LastMarket[20];			\/\/最后一条纪录位置：$/;"	m	struct:__anon2
+Length	MString.hpp	/^ template  <typename T > unsigned int MString<T>::Length(void)$/;"	f	class:MString
+Lock	MMutex.hpp	/^ template <typename T> bool MSemaphore<T>::Lock( unsigned long lTimeOut )$/;"	f	class:MSemaphore
+Lock	MMutex.hpp	/^ template <typename T>void MCriticalSection<T>::Lock(void)$/;"	f	class:MCriticalSection
+LockFile	MFile.hpp	/^ template <typename T> int  MFile<T>::LockFile(long Offset,unsigned long Size)$/;"	f	class:MFile
+LockRead	MMutex.hpp	/^ template <typename T> int  MComplexMrSwSection<T>::LockRead(unsigned long TimeOut)$/;"	f	class:MComplexMrSwSection
+LockRead	MMutex.hpp	/^ template <typename T>int  MMrSwSection<T>::LockRead(unsigned short TryTime)$/;"	f	class:MMrSwSection
+LockWrite	MMutex.hpp	/^ template <typename T> int  MComplexMrSwSection<T>::LockWrite(unsigned long TimeOut)$/;"	f	class:MComplexMrSwSection
+LockWrite	MMutex.hpp	/^ template <typename T> int  MMrSwSection<T>::LockWrite(unsigned short TryTime)$/;"	f	class:MMrSwSection
+LogFalFlag	MLogFile.hpp	/^	char						LogFalFlag;				\/\/允许审核失败$/;"	m	struct:__anon2
+LogFalFlagMarket	MLogFile.hpp	/^	char						LogFalFlagMarket[20];	\/\/允许审核失败纪录：$/;"	m	struct:__anon2
+LogSucFlag	MLogFile.hpp	/^	char						LogSucFlag;				\/\/允许审核成功$/;"	m	struct:__anon2
+LogSucFlagMarket	MLogFile.hpp	/^	char						LogSucFlagMarket[20];	\/\/允许审核成功纪录：$/;"	m	struct:__anon2
+LogType	MLogFile.hpp	/^	char						LogType[10];		\/\/类型$/;"	m	struct:__anon3
+LogType	MLogFile.hpp	/^	unsigned char				LogType;			\/\/类型$/;"	m	class:tagLogFileMemoryInfo
+Lower	MString.hpp	/^ template  <typename T > void MString<T>::Lower(void)$/;"	f	class:MString
+MAX_STEP	BufManage.hpp	8;"	d
+MAX_THREAD_REFRESHTIME	MThread.hpp	22;"	d
+MCRC16	MCheckCode.hpp	/^template <typename T> MCRC16<T>::MCRC16(void)$/;"	f	class:MCRC16
+MCRC16	MCheckCode.hpp	/^template <typename T> class MCRC16\/\/ : public MObject$/;"	c
+MCharLoopGroupMt	MDataStruct.hpp	/^ template <typename T> MCharLoopGroupMt<T>::MCharLoopGroupMt(void)$/;"	f	class:MCharLoopGroupMt
+MCharLoopGroupMt	MDataStruct.hpp	/^template <typename T> class MCharLoopGroupMt : public MCharLoopGroupSt<T>$/;"	c
+MCharLoopGroupSt	MDataStruct.hpp	/^ template <typename T> MCharLoopGroupSt<T>::MCharLoopGroupSt(void)$/;"	f	class:MCharLoopGroupSt
+MCharLoopGroupSt	MDataStruct.hpp	/^template <typename T> class MCharLoopGroupSt \/\/: public MObject$/;"	c
+MComplexMrSwSection	MMutex.hpp	/^ template <typename T> MComplexMrSwSection<T>::MComplexMrSwSection(void)$/;"	f	class:MComplexMrSwSection
+MComplexMrSwSection	MMutex.hpp	/^template <typename T> class MComplexMrSwSection \/\/: public MObject$/;"	c
+MConCheckCode	MCheckCode.hpp	/^ template <typename T> MConCheckCode<T>::MConCheckCode(void)$/;"	f	class:MConCheckCode
+MConCheckCode	MCheckCode.hpp	/^template < typename T> class MConCheckCode\/\/ : public MObject$/;"	c
+MCounter	MDateTime.hpp	/^template <typename T> MCounter<T>::MCounter(void)$/;"	f	class:MCounter
+MCounter	MDateTime.hpp	/^template <typename T>class  MCounter$/;"	c
+MCriticalSection	MMutex.hpp	/^ template <typename T>MCriticalSection<T>::MCriticalSection(void)$/;"	f	class:MCriticalSection
+MCriticalSection	MMutex.hpp	/^template <typename T>  class MCriticalSection \/\/: public MObject$/;"	c
+MD5	MCheckCode.hpp	/^ template <typename TT> int  MMD5<TT>::MD5(const char * InBuf,int InSize,char OutBuf[16])$/;"	f	class:MMD5
+MD5	MCheckCode.hpp	/^template <typename TT> string  MMD5<TT>::MD5(const char * InBuf,int InSize)$/;"	f	class:MMD5
+MDateTime	MDateTime.hpp	/^  template <typename T> MDateTime<T>::MDateTime(const MDateTime & In)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^  template <typename T> MDateTime<T>::MDateTime(unsigned long In)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^  template <typename T>MDateTime<T>::MDateTime(unsigned long Date,unsigned long Time)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^  template <typename T>MDateTime<T>::MDateTime(unsigned short Hour,unsigned short Min,unsigned short Sec,unsigned short MSec)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^  template <typename T>MDateTime<T>::MDateTime(unsigned short Year,unsigned short Month,unsigned short Day)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^  template <typename T>MDateTime<T>::MDateTime(unsigned short Year,unsigned short Month,unsigned short Day,unsigned short Hour,unsigned short Min,unsigned short Sec)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^  template <typename T>MDateTime<T>::MDateTime(void)$/;"	f	class:MDateTime
+MDateTime	MDateTime.hpp	/^template <typename T>class  MDateTime \/\/: public MObject$/;"	c
+MFILE_ATTR_ARCHIVE	MFile.hpp	/^	MFILE_ATTR_ARCHIVE = 0x20,															\/\/存档文件$/;"	e	enum:__anon5
+MFILE_ATTR_DIRECTORY	MFile.hpp	/^	MFILE_ATTR_DIRECTORY = 0x10,														\/\/目录$/;"	e	enum:__anon5
+MFILE_ATTR_HIDDEN	MFile.hpp	/^	MFILE_ATTR_HIDDEN = 0x02,															\/\/隐藏文件$/;"	e	enum:__anon5
+MFILE_ATTR_NORMAL	MFile.hpp	/^	MFILE_ATTR_NORMAL = 0x00,															\/\/普通文件$/;"	e	enum:__anon5
+MFILE_ATTR_READONLY	MFile.hpp	/^	MFILE_ATTR_READONLY = 0x01,															\/\/只读文件$/;"	e	enum:__anon5
+MFILE_ATTR_SYSTEM	MFile.hpp	/^	MFILE_ATTR_SYSTEM = 0x04,															\/\/系统文件$/;"	e	enum:__anon5
+MFILE_ATTR_VOLUME	MFile.hpp	/^	MFILE_ATTR_VOLUME = 0x08,															\/\/卷标$/;"	e	enum:__anon5
+MFILE_OPENMODE_NOTHING	MFile.hpp	/^	MFILE_OPENMODE_NOTHING = 0x00,														\/\/不允许共享$/;"	e	enum:__anon4
+MFILE_OPENMODE_READ	MFile.hpp	/^	MFILE_OPENMODE_READ = 0x01,															\/\/打开文件读取$/;"	e	enum:__anon4
+MFILE_OPENMODE_READWRITE	MFile.hpp	/^	MFILE_OPENMODE_READWRITE = MFILE_OPENMODE_READ | MFILE_OPENMODE_WRITE,				\/\/打开文件读写$/;"	e	enum:__anon4
+MFILE_OPENMODE_SHAREALL	MFile.hpp	/^	MFILE_OPENMODE_SHAREALL = MFILE_OPENMODE_SHAREREAD | MFILE_OPENMODE_SHAREWRITE,		\/\/允许共享读写$/;"	e	enum:__anon4
+MFILE_OPENMODE_SHAREREAD	MFile.hpp	/^	MFILE_OPENMODE_SHAREREAD = 0x04,													\/\/允许共享读$/;"	e	enum:__anon4
+MFILE_OPENMODE_SHAREWRITE	MFile.hpp	/^	MFILE_OPENMODE_SHAREWRITE = 0x08,													\/\/允许共享写$/;"	e	enum:__anon4
+MFILE_OPENMODE_WRITE	MFile.hpp	/^	MFILE_OPENMODE_WRITE = 0x02,														\/\/打开文件写$/;"	e	enum:__anon4
+MFile	MFile.hpp	/^template <typename T> MFile<T>::MFile(void)$/;"	f	class:MFile
+MFile	MFile.hpp	/^template <typename T> class MFile \/\/: public MObject$/;"	c
+MFindFile	MFile.hpp	/^class MFindFile$/;"	c
+MFindFile	MFile.hpp	/^template <typename T >  MFindFile<T>::MFindFile(void)$/;"	f	class:MFindFile
+MHashTableMt	MDataStruct.hpp	/^template<class templateRecord> MHashTableMt<templateRecord>::MHashTableMt(void)$/;"	f	class:MHashTableMt
+MHashTableMt	MDataStruct.hpp	/^template<class templateRecord>class MHashTableMt : public MHashTableSt<templateRecord>$/;"	c
+MHashTableSt	MDataStruct.hpp	/^template<class templateRecord>class MHashTableSt$/;"	c
+MHashTableSt	MDataStruct.hpp	/^template<typename templateRecord> MHashTableSt<templateRecord>::MHashTableSt(void)$/;"	f	class:MHashTableSt
+MLOGFILE_MEMORY_SIZE	MLogFile.hpp	93;"	d
+MLOGTYPE_ERROR	MLogFile.hpp	/^	MLOGTYPE_ERROR,										\/\/错误日志$/;"	e	enum:__anon1
+MLOGTYPE_INFO	MLogFile.hpp	/^	MLOGTYPE_INFO,										\/\/信息日志$/;"	e	enum:__anon1
+MLOGTYPE_LOGFAL	MLogFile.hpp	/^	MLOGTYPE_LOGFAL,									\/\/失败审核$/;"	e	enum:__anon1
+MLOGTYPE_LOGSUC	MLogFile.hpp	/^	MLOGTYPE_LOGSUC,									\/\/成功审核$/;"	e	enum:__anon1
+MLOGTYPE_VIEW	MLogFile.hpp	/^	MLOGTYPE_VIEW = 0,									\/\/流水日志$/;"	e	enum:__anon1
+MLOGTYPE_WARNING	MLogFile.hpp	/^	MLOGTYPE_WARNING,									\/\/警告日志$/;"	e	enum:__anon1
+MLocalComplexSection	MMutex.hpp	/^ template <typename T> MLocalComplexSection<T>::MLocalComplexSection(void)$/;"	f	class:MLocalComplexSection
+MLocalComplexSection	MMutex.hpp	/^template <typename T> class MLocalComplexSection$/;"	c
+MLocalSection	MMutex.hpp	/^ template <typename T> MLocalSection<T>::MLocalSection(void)$/;"	f	class:MLocalSection
+MLocalSection	MMutex.hpp	/^template <typename T> class MLocalSection$/;"	c
+MLock	MMutex.hpp	/^	class MLock$/;"	c	class:MCriticalSection
+MLock	MMutex.hpp	/^	class MLock$/;"	c	class:MSemaphore
+MLock	MMutex.hpp	/^ template <typename T> MSemaphore<T>::MLock::MLock( MSemaphore& sem, bool& rlt, unsigned long lTimeOut ):m_sem( sem )$/;"	f	class:MSemaphore::MLock
+MLock	MMutex.hpp	/^template <typename T> MCriticalSection<T>::MLock::MLock(MCriticalSection& section )$/;"	f	class:MCriticalSection::MLock
+MLogFile	MLogFile.hpp	/^template <typename T> MLogFile<T>::MLogFile(void)$/;"	f	class:MLogFile
+MLogFile	MLogFile.hpp	/^template <typename T> class MLogFile : public MFile<T>$/;"	c
+MLoopGroupMt	MDataStruct.hpp	/^template<class templateRecord> MLoopGroupMt<templateRecord>::MLoopGroupMt(void)$/;"	f	class:MLoopGroupMt
+MLoopGroupMt	MDataStruct.hpp	/^template<class templateRecord>class MLoopGroupMt : public MLoopGroupSt<templateRecord>$/;"	c
+MLoopGroupSt	MDataStruct.hpp	/^template<class templateRecord> MLoopGroupSt<templateRecord>::MLoopGroupSt(void)$/;"	f	class:MLoopGroupSt
+MLoopGroupSt	MDataStruct.hpp	/^template<class templateRecord>class MLoopGroupSt$/;"	c
+MMD5	MCheckCode.hpp	/^ template <typename TT>MMD5<TT>::MMD5(void)$/;"	f	class:MMD5
+MMD5	MCheckCode.hpp	/^template <typename TT> class MMD5 $/;"	c
+MMemoryDbfFile	MDbfFile.hpp	/^MMemoryDbfFile::MMemoryDbfFile(void)$/;"	f	class:MMemoryDbfFile
+MMemoryDbfFile	MDbfFile.hpp	/^class MMemoryDbfFile : public MFile$/;"	c
+MMrSwSection	MMutex.hpp	/^ template <typename T> MMrSwSection<T>::MMrSwSection(void)$/;"	f	class:MMrSwSection
+MMrSwSection	MMutex.hpp	/^template <typename T> class MMrSwSection \/\/: public MObject$/;"	c
+MRLock	MMutex.hpp	/^	class MRLock$/;"	c	class:MComplexMrSwSection
+MRLock	MMutex.hpp	/^	class MRLock$/;"	c	class:MMrSwSection
+MRLock	MMutex.hpp	/^ template <typename T> MComplexMrSwSection<T>::MRLock::MRLock(MComplexMrSwSection& section, int& nRlt, unsigned long nTO ) $/;"	f	class:MComplexMrSwSection::MRLock
+MRLock	MMutex.hpp	/^ template <typename T> MMrSwSection<T>::MRLock::MRLock(MMrSwSection& section, int& nRlt,  unsigned short nTry ) $/;"	f	class:MMrSwSection::MRLock
+MResourceRecordMt	MDataStruct.hpp	/^ template <typename T> MResourceRecordMt<T>::MResourceRecordMt(void)$/;"	f	class:MResourceRecordMt
+MResourceRecordMt	MDataStruct.hpp	/^template <typename T> class MResourceRecordMt : public MResourceRecordSt<T>$/;"	c
+MResourceRecordSt	MDataStruct.hpp	/^template <typename T >class MResourceRecordSt \/\/: public MObject$/;"	c
+MResourceRecordSt	MDataStruct.hpp	/^template <typename T> MResourceRecordSt<T>::MResourceRecordSt(void)$/;"	f	class:MResourceRecordSt
+MSTRING_DEFAULT_BUFSIZE	MString.hpp	61;"	d
+MSemaphore	MMutex.hpp	/^ template <typename T> MSemaphore<T>::MSemaphore( void )$/;"	f	class:MSemaphore
+MSemaphore	MMutex.hpp	/^template <typename T> class MSemaphore \/\/: public MObject$/;"	c
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const MString<T> & In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const char * In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const char In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const char In,const unsigned short Count)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const int In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const short In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const unsigned char In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const unsigned char In,const unsigned short Count)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const unsigned int In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(const unsigned short In)$/;"	f	class:MString
+MString	MString.hpp	/^ template  <typename T > MString<T>::MString(void)$/;"	f	class:MString
+MString	MString.hpp	/^template <typename  T=char> class MString$/;"	c
+MString	MString.hpp	/^template <typename T> MString<T>::MString(const char *in, int length)$/;"	f	class:MString
+MThread	MThread.hpp	/^template <typename T> MThread<T>::MThread(void)$/;"	f	class:MThread
+MThread	MThread.hpp	/^template <typename T> class MThread\/\/ : public MObject$/;"	c
+MWLock	MMutex.hpp	/^	class MWLock$/;"	c	class:MComplexMrSwSection
+MWLock	MMutex.hpp	/^	class MWLock$/;"	c	class:MMrSwSection
+MWLock	MMutex.hpp	/^ template <typename T> MComplexMrSwSection<T>::MWLock::MWLock( MComplexMrSwSection& section, int& nRlt, unsigned long nTO )$/;"	f	class:MComplexMrSwSection::MWLock
+MWLock	MMutex.hpp	/^ template <typename T> MMrSwSection<T>::MWLock::MWLock( MMrSwSection& section, int& nRlt,  unsigned short nTry )$/;"	f	class:MMrSwSection::MWLock
+MWaitEvent	MMutex.hpp	/^ template <typename T> MWaitEvent<T>::MWaitEvent(void)$/;"	f	class:MWaitEvent
+MWaitEvent	MMutex.hpp	/^template <typename T> class MWaitEvent$/;"	c
+Market	MDbfFile.hpp	/^    char                    Market;         \/\/数据库开始标志$/;"	m	struct:__anon6
+MarketFlag	MLogFile.hpp	/^	char						MarketFlag[20];			\/\/标志[MLOG日志文件]$/;"	m	struct:__anon2
+MatchingString	MFile.hpp	/^ template <typename T> bool MFindFile<T>::MatchingString(const char* lpszSour, const char* lpszMatch, bool bMatchCase)$/;"	f	class:MFindFile
+MaxRecord	MLogFile.hpp	/^	char						MaxRecord[10];			\/\/最大纪录数$/;"	m	struct:__anon2
+MaxRecordMarket	MLogFile.hpp	/^	char						MaxRecordMarket[20];	\/\/最大纪录数：$/;"	m	struct:__anon2
+Next	MDbfFile.hpp	/^	struct __DBFRECORD	*	Next;$/;"	m	struct:__DBFRECORD	typeref:struct:__DBFRECORD::__DBFRECORD
+Next	MDbfFile.hpp	/^int  MMemoryDbfFile::Next(void)$/;"	f	class:MMemoryDbfFile
+Now	MDateTime.hpp	/^  template <typename T>MDateTime<T> MDateTime<T>::Now(void)$/;"	f	class:MDateTime
+OBJS	Makefile	/^OBJS = check_free_space.o $/;"	m
+Open	MDbfFile.hpp	/^int  MMemoryDbfFile::Open(MString FileName)$/;"	f	class:MMemoryDbfFile
+Open	MFile.hpp	/^ template <typename T>int  MFile<T>::Open(MString<T> FileName,unsigned long Mode)$/;"	f	class:MFile
+PauseThread	MThread.hpp	/^template <typename T> int  MThread<T>::PauseThread(void)$/;"	f	class:MThread
+Prior	MDbfFile.hpp	/^int  MMemoryDbfFile::Prior(void)$/;"	f	class:MMemoryDbfFile
+PutData	MDataStruct.hpp	/^ template <typename T> int  MCharLoopGroupMt<T>::PutData(char * InBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupMt
+PutData	MDataStruct.hpp	/^ template <typename T> int  MCharLoopGroupSt<T>::PutData(char * InBuf,unsigned short InSize)$/;"	f	class:MCharLoopGroupSt
+PutData	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableMt<templateRecord>::PutData(unsigned short FindCode,templateRecord Index,unsigned long AddtionData)$/;"	f	class:MHashTableMt
+PutData	MDataStruct.hpp	/^template<class templateRecord> int  MHashTableSt<templateRecord>::PutData(unsigned short FindCode,templateRecord Index,unsigned long AddtionData)$/;"	f	class:MHashTableSt
+PutData	MDataStruct.hpp	/^template<typename  templateRecord> int  MLoopGroupMt<templateRecord>::PutData(templateRecord * In)$/;"	f	class:MLoopGroupMt
+PutData	MDataStruct.hpp	/^template<typename  templateRecord> int  MLoopGroupSt<templateRecord>::PutData(templateRecord * In)$/;"	f	class:MLoopGroupSt
+PutResource	MDataStruct.hpp	/^ template <typename T> int  MResourceRecordMt<T>::PutResource(unsigned short ResourceID)$/;"	f	class:MResourceRecordMt
+PutResource	MDataStruct.hpp	/^ template <typename T> int  MResourceRecordSt<T>::PutResource(unsigned short ResourceID)$/;"	f	class:MResourceRecordSt
+RandFilePath	RandString.hpp	/^template <typename T > string RandFilePath (int number)$/;"	f
+RandPath	RandString.hpp	/^template <typename T > string RandPath(int number)$/;"	f
+RandString	RandString.hpp	/^template <typename T> string RandString (int strLen)$/;"	f
+RandVecString	RandString.hpp	/^template <typename T>  vector<string> RandVecString (int strLen, int size)$/;"	f
+RandWord	MFile.hpp	/^template <typename T> string RandWord()$/;"	f
+RandWord	MFile.hpp	/^template <typename T> vector<string>  RandWord(int count)$/;"	f
+Read	MFile.hpp	/^ template <typename T>int  MFile<T>::Read(char * OutBuf,unsigned long InSize)$/;"	f	class:MFile
+ReadFloat	MDbfFile.hpp	/^int  MMemoryDbfFile::ReadFloat(char * FieldName,float * Value)$/;"	f	class:MMemoryDbfFile
+ReadFloat	MDbfFile.hpp	/^int  MMemoryDbfFile::ReadFloat(unsigned short FieldNo,float * Value)$/;"	f	class:MMemoryDbfFile
+ReadInteger	MDbfFile.hpp	/^int  MMemoryDbfFile::ReadInteger(char * FieldName,int * Value)$/;"	f	class:MMemoryDbfFile
+ReadInteger	MDbfFile.hpp	/^int  MMemoryDbfFile::ReadInteger(unsigned short FieldNo,int * Value)$/;"	f	class:MMemoryDbfFile
+ReadString	MDbfFile.hpp	/^int  MMemoryDbfFile::ReadString(char * FieldName,char * Value,unsigned short InSize)$/;"	f	class:MMemoryDbfFile
+ReadString	MDbfFile.hpp	/^int  MMemoryDbfFile::ReadString(unsigned short FieldNo,char * Value,unsigned short InSize)$/;"	f	class:MMemoryDbfFile
+ReadString	MFile.hpp	/^ template <typename T>int  MFile<T>::ReadString(MString <T>* Out)$/;"	f	class:MFile
+ReadString	MFile.hpp	/^template <typename T>MString<T> MFile<T>::ReadString(void)$/;"	f	class:MFile
+ReadWord	MFile.hpp	/^template <typename T>MString<T> MFile<T>::ReadWord()$/;"	f	class:MFile
+RecordContent	MLogFile.hpp	/^	char						RecordContent[200];	\/\/记录内容$/;"	m	struct:__anon3
+RecordCount	MDbfFile.hpp	/^    unsigned long           RecordCount;    \/\/记录数$/;"	m	struct:__anon6
+RecordData	MDbfFile.hpp	/^	char				*	RecordData;$/;"	m	struct:__DBFRECORD
+RecordSize	MDbfFile.hpp	/^    unsigned short          RecordSize;     \/\/每条纪录长度$/;"	m	struct:__anon6
+RefreshThread	MThread.hpp	/^ template <typename T> void MThread<T>::RefreshThread(void)$/;"	f	class:MThread
+Release	MDataStruct.hpp	/^ template <typename T> void MCharLoopGroupMt<T>::Release(void)$/;"	f	class:MCharLoopGroupMt
+Release	MDataStruct.hpp	/^ template <typename T> void MCharLoopGroupSt<T>::Release(void)$/;"	f	class:MCharLoopGroupSt
+Release	MDataStruct.hpp	/^ template <typename T> void MResourceRecordMt<T>::Release(void)$/;"	f	class:MResourceRecordMt
+Release	MDataStruct.hpp	/^ template <typename T> void MResourceRecordSt<T>::Release(void)$/;"	f	class:MResourceRecordSt
+Release	MDataStruct.hpp	/^template<class templateRecord> void MHashTableMt<templateRecord>::Release(void)$/;"	f	class:MHashTableMt
+Release	MDataStruct.hpp	/^template<class templateRecord> void MHashTableSt<templateRecord>::Release(void)$/;"	f	class:MHashTableSt
+Release	MDataStruct.hpp	/^template<class templateRecord> void MLoopGroupSt<templateRecord>::Release(void)$/;"	f	class:MLoopGroupSt
+Release	MDataStruct.hpp	/^template<typename  templateRecord> void MLoopGroupMt<templateRecord>::Release(void)$/;"	f	class:MLoopGroupMt
+Release	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::Release(void)$/;"	f	class:MLogFile
+Release	MMutex.hpp	/^ template <typename T> void MWaitEvent<T>::Release(void)$/;"	f	class:MWaitEvent
+RenameFileName	MFile.hpp	/^ template <typename T> int  MFile<T>::RenameFileName(MString<T> SourceFile,MString<T> NewFile)$/;"	f	class:MFile
+Reserved	MDbfFile.hpp	/^    char                    Reserved[14];   \/\/保留      $/;"	m	struct:__anon7
+Reserved	MDbfFile.hpp	/^    char                    Reserved[20];   \/\/保留$/;"	m	struct:__anon6
+Reserved	MLogFile.hpp	/^	char						Reserved[9];			\/\/保留$/;"	m	struct:__anon2
+ResumeThread	MThread.hpp	/^ template <typename T>int  MThread<T>::ResumeThread(void)$/;"	f	class:MThread
+Return	MLogFile.hpp	/^	char						Return[2];				\/\/回车换行$/;"	m	struct:__anon2
+ReturnFlag	MLogFile.hpp	/^	char						ReturnFlag[2];		\/\/回车换行标志$/;"	m	struct:__anon3
+SOCKET	MString.hpp	37;"	d
+SOCKET_ERROR	MString.hpp	39;"	d
+SectionMap	IniFile.hpp	/^	typedef std::map<std::string, KeyValueMap> SectionMap;$/;"	t	class:IniFile
+Seek	MFile.hpp	/^ template <typename T>int  MFile<T>::Seek(long Offset,unsigned long FromType)$/;"	f	class:MFile
+SetAccessDateTime	MFile.hpp	/^template <typename T>int  MFile<T>::SetAccessDateTime(MDateTime<T> In)$/;"	f	class:MFile
+SetAddtionData	MThread.hpp	/^ template <typename T> void MThread<T>::SetAddtionData(unsigned long In)$/;"	f	class:MThread
+SetAt	MString.hpp	/^ template  <typename T > int  MString<T>::SetAt(const unsigned short In,char CharValue)$/;"	f	class:MString
+SetCreateDateTime	MFile.hpp	/^ template <typename T> int  MFile<T>::SetCreateDateTime(MDateTime <T>In)$/;"	f	class:MFile
+SetCurDateTime	MDateTime.hpp	/^  template <typename T> void MDateTime<T>::SetCurDateTime(void)$/;"	f	class:MDateTime
+SetCurRecord	MDbfFile.hpp	/^int  MMemoryDbfFile::SetCurRecord(int CurPtr)$/;"	f	class:MMemoryDbfFile
+SetCurrentDirectory	MFile.hpp	/^ template <typename T> int  MFile<T>::SetCurrentDirectory(MString<T> In)$/;"	f	class:MFile
+SetDateTime	MDateTime.hpp	/^  template <typename T> void MDateTime<T>::SetDateTime( const char* szDateTime )$/;"	f	class:MDateTime
+SetFileAttributes	MFile.hpp	/^ template <typename T>int  MFile<T>::SetFileAttributes(MString<T> FileName,unsigned long Attributes)$/;"	f	class:MFile
+SetFileLength	MFile.hpp	/^ template <typename T>int  MFile<T>::SetFileLength(unsigned long FileLength)$/;"	f	class:MFile
+SetFileLength	MFile.hpp	/^ template <typename T>int  MFile<T>::SetFileLength(void)$/;"	f	class:MFile
+SetType	BufManage.hpp	/^ template < typename T>int CBufManage<T>::SetType(int type)$/;"	f	class:CBufManage
+SetUpdateDateTime	MFile.hpp	/^ template <typename T>int  MFile<T>::SetUpdateDateTime(MDateTime<T> In)$/;"	f	class:MFile
+ShrLoop	MCheckCode.hpp	/^ template <typename TT>unsigned long  MMD5<TT>::ShrLoop(unsigned long Value,unsigned char n)$/;"	f	class:MMD5
+SiftBlank	MDbfFile.hpp	/^void MMemoryDbfFile::SiftBlank(char * InBuf,unsigned short InSize)$/;"	f	class:MMemoryDbfFile
+Sleep	MThread.hpp	/^ template <typename T> void MThread<T>::Sleep(unsigned long Time)$/;"	f	class:MThread
+Source	MLogFile.hpp	/^	char						Source[20];			\/\/来源$/;"	m	class:tagLogFileMemoryInfo
+StartThread	MThread.hpp	/^ template <typename T>int  MThread<T>::StartThread(char * ThreadName,void * (__stdcall * ThreadFun)(void *),void * Param,bool PauseFlag)$/;"	f	class:MThread
+StopThread	MThread.hpp	/^template <typename T>  void MThread<T>::StopThread(void)$/;"	f	class:MThread
+StringPosition	MString.hpp	/^ template  <typename T > int  MString<T>::StringPosition(const MString <T>& In)$/;"	f	class:MString
+StringPosition	MString.hpp	/^ template  <typename T > int  MString<T>::StringPosition(const char * In)$/;"	f	class:MString
+TRUE	MString.hpp	49;"	d
+TimeToLong	MDateTime.hpp	/^  template <typename T> unsigned long MDateTime<T>::TimeToLong(void)$/;"	f	class:MDateTime
+TimeToString	MDateTime.hpp	/^  template <typename T> MString<T> MDateTime<T>::TimeToString(void)$/;"	f	class:MDateTime
+Trim	MString.hpp	/^template  <typename T> void MString <T> ::Trim()$/;"	f	class:MString
+Trim	MString.hpp	/^template < typename T> void MString<T>::Trim(char * String)$/;"	f	class:MString
+TrimLeft	MString.hpp	/^ template  <typename T > void MString<T>::TrimLeft(void)$/;"	f	class:MString
+TrimLeft	MString.hpp	/^template <typename T > void MString<T>::TrimLeft(char * String)$/;"	f	class:MString
+TrimRight	MString.hpp	/^ template  <typename T > void MString<T>::TrimRight(void)$/;"	f	class:MString
+TrimRight	MString.hpp	/^template < typename T> void MString<T>::TrimRight(char * String)$/;"	f	class:MString
+UnAttch	MMutex.hpp	/^ template <typename T> void MLocalComplexSection<T>::UnAttch(void)$/;"	f	class:MLocalComplexSection
+UnLock	MMutex.hpp	/^ template <typename T> void MComplexMrSwSection<T>::UnLock(void)$/;"	f	class:MComplexMrSwSection
+UnLock	MMutex.hpp	/^ template <typename T> void MCriticalSection<T>::UnLock(void)$/;"	f	class:MCriticalSection
+UnLock	MMutex.hpp	/^ template <typename T> void MLocalSection<T>::UnLock(void)$/;"	f	class:MLocalSection
+UnLock	MMutex.hpp	/^ template <typename T> void MMrSwSection<T>::UnLock(void)$/;"	f	class:MMrSwSection
+UnLock	MMutex.hpp	/^ template <typename T> void MSemaphore<T>::UnLock( long lCount )$/;"	f	class:MSemaphore
+UnLockFile	MFile.hpp	/^ template <typename T>int  MFile<T>::UnLockFile(long Offset,unsigned long Size)$/;"	f	class:MFile
+UpdateDay	MDbfFile.hpp	/^    unsigned char           UpdateDay;      \/\/更新日期(日)$/;"	m	struct:__anon6
+UpdateMonth	MDbfFile.hpp	/^    unsigned char           UpdateMonth;    \/\/更新日期(月)$/;"	m	struct:__anon6
+UpdateTime	MFile.hpp	/^	MDateTime<T>				UpdateTime;				\/\/更新时间$/;"	m	class:tagFileFindFileInfo
+UpdateYear	MDbfFile.hpp	/^    unsigned char           UpdateYear;     \/\/更新日期(年)$/;"	m	struct:__anon6
+Upper	MString.hpp	/^ template  <typename T > void MString<T>::Upper(void)$/;"	f	class:MString
+UserFlag	MDataStruct.hpp	/^		bool					UserFlag;$/;"	m	struct:MHashTableSt::__anon8
+Version	MLogFile.hpp	/^	char						Version[10];			\/\/版本$/;"	m	struct:__anon2
+VersionMarket	MLogFile.hpp	/^	char						VersionMarket[20];		\/\/版本描述[版本：]$/;"	m	struct:__anon2
+WORD	MString.hpp	45;"	d
+WSAGetLastError	MString.hpp	42;"	d
+WaitUntilActive	MMutex.hpp	/^ template <typename T> int  MWaitEvent<T>::WaitUntilActive(unsigned long MSec)$/;"	f	class:MWaitEvent
+WarningFlag	MLogFile.hpp	/^	char						WarningFlag;			\/\/允许警告$/;"	m	struct:__anon2
+WarningFlagMarket	MLogFile.hpp	/^	char						WarningFlagMarket[20];	\/\/允许警告纪录：$/;"	m	struct:__anon2
+Write	MFile.hpp	/^ template <typename T>int  MFile<T>::Write(char * InBuf,unsigned long InSize)$/;"	f	class:MFile
+WriteAddtionLog	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteAddtionLog(const char * Format,...)$/;"	f	class:MLogFile
+WriteDebug	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteDebug(char * Source,char * Content,char * DebugInfo,unsigned int  InSize)$/;"	f	class:MLogFile
+WriteError	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteError(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteFloat	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteFloat(char * FieldName,float Value)$/;"	f	class:MMemoryDbfFile
+WriteFloat	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteFloat(unsigned short FieldNo,float Value)$/;"	f	class:MMemoryDbfFile
+WriteInfo	MLogFile.hpp	/^ template <typename T>void MLogFile<T>::WriteInfo(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteInteger	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteInteger(char * FieldName,int Value)$/;"	f	class:MMemoryDbfFile
+WriteInteger	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteInteger(unsigned short FieldNo,int Value)$/;"	f	class:MMemoryDbfFile
+WriteLogFal	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteLogFal(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteLogSuc	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteLogSuc(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteReport	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteReport(unsigned char Type,char * Source,char * Content,unsigned short InSize)$/;"	f	class:MLogFile
+WriteString	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteString(char * FieldName,char * Value)$/;"	f	class:MMemoryDbfFile
+WriteString	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteString(unsigned short FieldNo,char * Value)$/;"	f	class:MMemoryDbfFile
+WriteString	MFile.hpp	/^ template <typename T>int  MFile<T>::WriteString(MString<T> In)$/;"	f	class:MFile
+WriteString	MFile.hpp	/^ template <typename T>int MFile<T>::WriteString(string in)$/;"	f	class:MFile
+WriteToFile	MDbfFile.hpp	/^int  MMemoryDbfFile::WriteToFile(void)$/;"	f	class:MMemoryDbfFile
+WriteView	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteView(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+WriteWarning	MLogFile.hpp	/^ template <typename T> void MLogFile<T>::WriteWarning(char * Source,const char * Format,...)$/;"	f	class:MLogFile
+__DBFRECORD	MDbfFile.hpp	/^typedef struct __DBFRECORD$/;"	s
+__HEADER__BUFFER_MANGERF_HEADER	BufManage.hpp	2;"	d
+__INI_FILE_HEADER__	IniFile.hpp	2;"	d
+__LmyUnitMCheckCodeH__	MCheckCode.hpp	2;"	d
+__LmyUnitMDataStructH__	MDataStruct.hpp	4;"	d
+__LmyUnitMDateTimeH__	MDateTime.hpp	4;"	d
+__LmyUnitMDbfFileH__	MDbfFile.hpp	15;"	d
+__LmyUnitMFileH__	MFile.hpp	15;"	d
+__LmyUnitMLogFileH__	MLogFile.hpp	15;"	d
+__LmyUnitMMutexH__	MMutex.hpp	4;"	d
+__LmyUnitMStringH__	MString.hpp	3;"	d
+__LmyUnitMThreadH__	MThread.hpp	4;"	d
+__QzjUnit_DIE__	die.hpp	3;"	d
+__QzjUnit_TOOLS__	Tools.hpp	3;"	d
+__RAND_STRING__	RandString.hpp	2;"	d
+__declspec	MString.hpp	50;"	d
+__int64	MString.hpp	51;"	d
+__stdcall	MString.hpp	41;"	d
+_snprintf	MString.hpp	33;"	d
+_vsnprintf	MString.hpp	34;"	d
+add	MString.hpp	/^template <typename T>  MString<T> add   (const char * In1,const MString<T> & In2)$/;"	f
+addSuffix	RandString.hpp	/^        addSuffix(string in):m_suffix(in){};$/;"	f	struct:addSuffix
+addSuffix	RandString.hpp	/^struct  addSuffix$/;"	s
+basename	MString.hpp	/^template < typename T> MString<T>   MString<T>::basename()$/;"	f	class:MString
+c_str	MString.hpp	/^template  <typename T > char * MString<T>::c_str(void)$/;"	f	class:MString
+check_free_space	check_free_space.cpp	/^extern void check_free_space(int* ret, unsigned long long size)$/;"	f
+closesocket	MString.hpp	38;"	d
+die	die.hpp	/^template <typename > void die (char *format,...)$/;"	f
+fileAttr	MFile.hpp	/^	unsigned long			fileAttr;				\/\/文件属性$/;"	m	class:tagFileFindFileInfo
+file_get_content	Tools.hpp	/^template <typename T>int file_get_content(string file, string &out)$/;"	f
+file_put_content	Tools.hpp	/^template < typename T > int file_put_content(string outfile , string in, bool append=0)$/;"	f
+file_seek64_and_read	Tools.hpp	/^template <typename T> char *file_seek64_and_read(FILE * file, int offset, int count, int * readLen)$/;"	f
+filename	MFile.hpp	/^	char					filename[32];			\/\/文件名称$/;"	m	class:tagFileFindFileInfo
+filesize	MFile.hpp	/^	unsigned long			filesize;				\/\/文件大小$/;"	m	class:tagFileFindFileInfo
+filesize	Tools.hpp	/^template < typename T> long long  filesize (string file)$/;"	f
+get	IniFile.hpp	/^template <typename  T> template <typename G > G  IniFile<T>::get(const std::string& section, const std::string& key, G defaultValue) const$/;"	f	class:IniFile
+get	IniFile.hpp	/^template <typename  T> template <typename G> G IniFile<T>::get(const std::string& section, const std::string& key) const$/;"	f	class:IniFile
+getSectionCount	IniFile.hpp	/^template <typename T> int IniFile<T>::getSectionCount() const$/;"	f	class:IniFile
+getSectionMap	IniFile.hpp	/^template <typename T>   int  IniFile<T>::getSectionMap() const$/;"	f	class:IniFile
+hasKey	IniFile.hpp	/^template <typename T> bool IniFile<T>::hasKey(const std::string& section, const std::string& key) const$/;"	f	class:IniFile
+hasSection	IniFile.hpp	/^template <typename T> bool IniFile<T>::hasSection(const std::string& section) const$/;"	f	class:IniFile
+load	IniFile.hpp	/^template <typename T> void IniFile<T>::load(const std::string& filename, bool append)$/;"	f	class:IniFile
+load	IniFile.hpp	/^template <typename T> void IniFile<T>::load(std::istream& in)$/;"	f	class:IniFile
+ltrim	Tools.hpp	/^template < typename T> inline string ltrim(string const &str) $/;"	f
+m_Active	MMutex.hpp	/^	int									m_Active;$/;"	m	class:MComplexMrSwSection
+m_Active	MMutex.hpp	/^	int									m_Active;$/;"	m	class:MMrSwSection
+m_ActiveThreadFlag	MThread.hpp	/^	bool						m_ActiveThreadFlag;$/;"	m	class:MThread
+m_AddtionData	MThread.hpp	/^	unsigned long				m_AddtionData;$/;"	m	class:MThread
+m_Buf	BufManage.hpp	/^	char			*m_Buf;			\/\/缓冲$/;"	m	class:CBufManage
+m_CurRecordPtr	MDbfFile.hpp	/^	tagDbfRecord		*	m_CurRecordPtr;$/;"	m	class:MMemoryDbfFile
+m_DbfField	MDbfFile.hpp	/^	tagDbfField			*	m_DbfField;$/;"	m	class:MMemoryDbfFile
+m_DbfFieldCount	MDbfFile.hpp	/^	unsigned short			m_DbfFieldCount;$/;"	m	class:MMemoryDbfFile
+m_DbfHead	MDbfFile.hpp	/^	tagDbfHead				m_DbfHead;$/;"	m	class:MMemoryDbfFile
+m_DbfRecord	MDbfFile.hpp	/^	tagDbfRecord		*	m_DbfRecord;$/;"	m	class:MMemoryDbfFile
+m_DefaultBuf	MString.hpp	/^	char							m_DefaultBuf[MSTRING_DEFAULT_BUFSIZE];$/;"	m	class:MString
+m_EditFlag	MDbfFile.hpp	/^	bool					m_EditFlag;$/;"	m	class:MMemoryDbfFile
+m_FileHandle	MFile.hpp	/^	HANDLE						m_FileHandle;$/;"	m	class:MFile
+m_FileName	MDbfFile.hpp	/^	char					m_FileName[256];$/;"	m	class:MMemoryDbfFile
+m_Handle	MFile.hpp	/^	HANDLE						m_Handle;$/;"	m	class:MFindFile
+m_Handle	MMutex.hpp	/^	HANDLE									m_Handle;$/;"	m	class:MWaitEvent
+m_HeadPtr	MDataStruct.hpp	/^	unsigned short					m_HeadPtr;$/;"	m	class:MLoopGroupSt
+m_HeadPtr	MDataStruct.hpp	/^	unsigned short					m_HeadPtr;$/;"	m	class:MResourceRecordSt
+m_HeadPtr	MDataStruct.hpp	/^	unsigned short				m_HeadPtr;$/;"	m	class:MCharLoopGroupSt
+m_LastThreadId	MMutex.hpp	/^	unsigned long						m_LastThreadId;$/;"	m	class:MCriticalSection
+m_Len	BufManage.hpp	/^	long			m_Len;			\/\/缓冲大小$/;"	m	class:CBufManage
+m_LogFileFirst	MLogFile.hpp	/^	unsigned short						m_LogFileFirst;$/;"	m	class:MLogFile
+m_LogFileHead	MLogFile.hpp	/^	tagLogFileHeadInfo					m_LogFileHead;$/;"	m	class:MLogFile
+m_LogFileLast	MLogFile.hpp	/^	unsigned short						m_LogFileLast;$/;"	m	class:MLogFile
+m_LogFileMaxRecord	MLogFile.hpp	/^	unsigned short						m_LogFileMaxRecord;$/;"	m	class:MLogFile
+m_MaxLen	BufManage.hpp	/^	long			m_MaxLen;		\/\/当前缓冲分配的最大大小$/;"	m	class:CBufManage
+m_MaxRecord	MDataStruct.hpp	/^	unsigned short					m_MaxRecord;$/;"	m	class:MLoopGroupSt
+m_MaxRecord	MDataStruct.hpp	/^	unsigned short					m_MaxRecord;$/;"	m	class:MResourceRecordSt
+m_MaxRecord	MDataStruct.hpp	/^	unsigned short				m_MaxRecord;$/;"	m	class:MCharLoopGroupSt
+m_MaxRecord	MDataStruct.hpp	/^	unsigned short				m_MaxRecord;$/;"	m	class:MHashTableSt
+m_NextThreadPtr	MThread.hpp	/^	MThread<T>					*	m_NextThreadPtr;$/;"	m	class:MThread
+m_RecordCount	MDataStruct.hpp	/^	unsigned short				m_RecordCount;$/;"	m	class:MHashTableSt
+m_RecordData	MDataStruct.hpp	/^	char					*	m_RecordData;$/;"	m	class:MCharLoopGroupSt
+m_RecordData	MDataStruct.hpp	/^	tagHashTableNodeInfo	*	m_RecordData;$/;"	m	class:MHashTableSt
+m_RecordData	MDataStruct.hpp	/^	templateRecord				*	m_RecordData;$/;"	m	class:MLoopGroupSt
+m_RecordData	MDataStruct.hpp	/^	unsigned short				*	m_RecordData;$/;"	m	class:MResourceRecordSt
+m_RecordData	MDateTime.hpp	/^	long							m_RecordData;$/;"	m	class:MDateTime
+m_RecordData	MDateTime.hpp	/^	unsigned long					m_RecordData;$/;"	m	class:MCounter
+m_RecordData	MLogFile.hpp	/^	MCharLoopGroupMt<T>				m_RecordData;$/;"	m	class:MLogFile
+m_RefreshTime	MThread.hpp	/^	MCounter<T>					m_RefreshTime;$/;"	m	class:MThread
+m_Section	MDataStruct.hpp	/^	MCriticalSection<char>				m_Section;$/;"	m	class:MLoopGroupMt
+m_Section	MDataStruct.hpp	/^	MCriticalSection<char>			m_Section;$/;"	m	class:MHashTableMt
+m_Section	MDataStruct.hpp	/^	MCriticalSection<char>			m_Section;$/;"	m	class:MResourceRecordMt
+m_Section	MDataStruct.hpp	/^	MCriticalSection<char>		m_Section;$/;"	m	class:MCharLoopGroupMt
+m_Section	MLogFile.hpp	/^	MCriticalSection<T>					m_Section;$/;"	m	class:MLogFile
+m_Section	MMutex.hpp	/^	CRITICAL_SECTION					m_Section;$/;"	m	class:MComplexMrSwSection
+m_Section	MMutex.hpp	/^	CRITICAL_SECTION					m_Section;$/;"	m	class:MCriticalSection
+m_Section	MMutex.hpp	/^	CRITICAL_SECTION					m_Section;$/;"	m	class:MMrSwSection
+m_Section	MMutex.hpp	/^	MComplexMrSwSection <T> 			*	m_Section;$/;"	m	class:MLocalComplexSection
+m_Section	MMutex.hpp	/^	pthread_mutex_t						m_Section;$/;"	m	class:MCriticalSection
+m_Section	MMutex.hpp	/^	pthread_mutex_t						m_Section;$/;"	m	class:MMrSwSection
+m_Section	MMutex.hpp	/^	pthread_rwlock_t					m_Section;$/;"	m	class:MComplexMrSwSection
+m_SectionPtr	MMutex.hpp	/^	MCriticalSection	<T>		*		m_SectionPtr;$/;"	m	class:MLocalSection
+m_Step	BufManage.hpp	/^	long			m_Step;			\/\/每次分配的缓冲大小$/;"	m	class:CBufManage
+m_StringBufSize	MString.hpp	/^	unsigned int				m_StringBufSize;$/;"	m	class:MString
+m_StringPtr	MString.hpp	/^	char							*	m_StringPtr;$/;"	m	class:MString
+m_TailPtr	MDataStruct.hpp	/^	unsigned short					m_TailPtr;$/;"	m	class:MLoopGroupSt
+m_TailPtr	MDataStruct.hpp	/^	unsigned short					m_TailPtr;$/;"	m	class:MResourceRecordSt
+m_TailPtr	MDataStruct.hpp	/^	unsigned short				m_TailPtr;$/;"	m	class:MCharLoopGroupSt
+m_ThreadHandle	MThread.hpp	/^	HANDLE						m_ThreadHandle;$/;"	m	class:MThread
+m_ThreadHandle	MThread.hpp	/^	pthread_t					m_ThreadHandle;$/;"	m	class:MThread
+m_ThreadName	MThread.hpp	/^	char						m_ThreadName[32];$/;"	m	class:MThread
+m_WaitReadCount	MMutex.hpp	/^	int									m_WaitReadCount;$/;"	m	class:MComplexMrSwSection
+m_WaitReadSem	MMutex.hpp	/^	HANDLE								m_WaitReadSem;$/;"	m	class:MComplexMrSwSection
+m_WaitWriteCount	MMutex.hpp	/^	int									m_WaitWriteCount;$/;"	m	class:MComplexMrSwSection
+m_WaitWriteCount	MMutex.hpp	/^	unsigned short						m_WaitWriteCount;$/;"	m	class:MMrSwSection
+m_WaitWriteSem	MMutex.hpp	/^	HANDLE								m_WaitWriteSem;$/;"	m	class:MComplexMrSwSection
+m_bLocked	MMutex.hpp	/^		bool				 m_bLocked;$/;"	m	class:MComplexMrSwSection::MRLock
+m_bLocked	MMutex.hpp	/^		bool				 m_bLocked;$/;"	m	class:MComplexMrSwSection::MWLock
+m_bLocked	MMutex.hpp	/^		bool		  m_bLocked;$/;"	m	class:MMrSwSection::MRLock
+m_bLocked	MMutex.hpp	/^		bool		  m_bLocked;$/;"	m	class:MMrSwSection::MWLock
+m_bLocked	MMutex.hpp	/^		bool		m_bLocked;$/;"	m	class:MSemaphore::MLock
+m_dic	IniFile.hpp	/^	SectionMap m_dic;$/;"	m	class:IniFile
+m_filename	IniFile.hpp	/^	std::string m_filename;$/;"	m	class:IniFile
+m_hSem	MMutex.hpp	/^	HANDLE							m_hSem;$/;"	m	class:MSemaphore
+m_iTOCount	MThread.hpp	/^	unsigned long				m_iTOCount;			$/;"	m	class:MThread
+m_msg	IniFile.hpp	/^  const char* m_msg;$/;"	m	class:IniFileError
+m_nLockCount	MMutex.hpp	/^	int									m_nLockCount;			\/\/ 加锁次$/;"	m	class:MCriticalSection
+m_section	MMutex.hpp	/^		MComplexMrSwSection& m_section;$/;"	m	class:MComplexMrSwSection::MRLock
+m_section	MMutex.hpp	/^		MComplexMrSwSection& m_section;$/;"	m	class:MComplexMrSwSection::MWLock
+m_section	MMutex.hpp	/^		MCriticalSection& m_section;$/;"	m	class:MCriticalSection::MLock
+m_section	MMutex.hpp	/^		MMrSwSection& m_section;$/;"	m	class:MMrSwSection::MRLock
+m_section	MMutex.hpp	/^		MMrSwSection& m_section;$/;"	m	class:MMrSwSection::MWLock
+m_sem	MMutex.hpp	/^		MSemaphore& m_sem;$/;"	m	class:MSemaphore::MLock
+m_suffix	RandString.hpp	/^        string m_suffix;$/;"	m	struct:addSuffix
+main	IniFile.hpp	/^int main(int argc, char *argv[])$/;"	f
+main	check_free_space.cpp	/^int main()$/;"	f
+max	MString.hpp	/^T1 max( T1 a, T2 b) { return a>b ? a : (T1)b;}$/;"	f
+min	MString.hpp	/^T1 min( T1 a, T2 b) { return a<b ? a : (T1)b;}$/;"	f
+operator !=	MDateTime.hpp	/^  template <typename T> bool MDateTime<T>::operator != (const MDateTime & In) const$/;"	f	class:MDateTime
+operator !=	MString.hpp	/^ template  <typename T > bool   operator != (const MString <T>& In1,const char * In2)$/;"	f
+operator !=	MString.hpp	/^ template  <typename T > bool   operator != (const MString<T> & In1,const MString <T>& In2)$/;"	f
+operator !=	MString.hpp	/^ template  <typename T > bool   operator != (const char * In1,const MString <T> & In2)$/;"	f
+operator ()	RandString.hpp	/^        int operator() ( string &in)$/;"	f	struct:addSuffix
+operator +	MDateTime.hpp	/^  template <typename T>MDateTime<T> MDateTime<T>::operator + (unsigned long In)$/;"	f	class:MDateTime
+operator +	MString.hpp	/^ template  <typename T > MString<T>  MString<T>::operator +  (const char* In)$/;"	f	class:MString
+operator +	MString.hpp	/^template  <typename T >  MString<T>   MString<T>::operator +  (const MString<T> & In)$/;"	f	class:MString
+operator +	MString.hpp	/^template  <typename T > MString<T> operator +  (const char * In1,const MString<T> & In2)$/;"	f
+operator +=	MDateTime.hpp	/^  template <typename T>MDateTime<T> & MDateTime<T>::operator += (unsigned long In)$/;"	f	class:MDateTime
+operator +=	MString.hpp	/^template  <typename T > MString<T> & MString<T>::operator += (const char * In)$/;"	f	class:MString
+operator +=	MString.hpp	/^template < typename T> MString<T> & MString<T>::operator += (const MString<T> & In)$/;"	f	class:MString
+operator -	MDateTime.hpp	/^  template <typename T> MDateTime<T> MDateTime<T>::operator - (MDateTime & In)$/;"	f	class:MDateTime
+operator <	MString.hpp	/^ template  <typename T > bool   operator <  (const MString <T>& In1,const MString <T>& In2)$/;"	f
+operator <	MString.hpp	/^ template  <typename T > bool   operator <  (const MString <T>& In1,const char * In2)$/;"	f
+operator <	MString.hpp	/^ template  <typename T > bool   operator <  (const char * In1,const MString <T>& In2)$/;"	f
+operator <<	MString.hpp	/^ template  <typename T > ostream & operator << ( ostream &in , const MString <T>&in2)$/;"	f
+operator <=	MString.hpp	/^ template  <typename T > bool   operator <= (const MString <T>& In1,const MString <T>& In2)$/;"	f
+operator <=	MString.hpp	/^ template  <typename T > bool   operator <= (const MString <T>& In1,const char * In2)$/;"	f
+operator <=	MString.hpp	/^ template  <typename T > bool   operator <= (const char * In1,const MString <T>& In2)$/;"	f
+operator =	MDateTime.hpp	/^  template <typename T> MDateTime<T> & MDateTime<T>::operator = (const MDateTime & In)$/;"	f	class:MDateTime
+operator =	MString.hpp	/^ template  <typename T > MString <T>& MString<T>::operator =  (const char * In)$/;"	f	class:MString
+operator =	MString.hpp	/^ template  <typename T > MString<T> & MString<T>::operator =  (const MString<T>& In)$/;"	f	class:MString
+operator ==	MDateTime.hpp	/^  template <typename T>bool MDateTime<T>::operator == (const MDateTime & In) const$/;"	f	class:MDateTime
+operator ==	MString.hpp	/^ template  <typename T > bool   operator == (const MString <T>& In1,const char * In2)$/;"	f
+operator ==	MString.hpp	/^ template  <typename T > bool   operator == (const MString<T> & In1,const MString<T> & In2)$/;"	f
+operator ==	MString.hpp	/^ template  <typename T > bool   operator == (const char * In1,const MString<T> & In2)$/;"	f
+operator >	MString.hpp	/^ template  <typename T > bool   operator >   (const char * In1,const MString <T>& In2)$/;"	f
+operator >	MString.hpp	/^ template  <typename T > bool   operator >  (const MString<T> & In1,const MString <T>& In2)$/;"	f
+operator >	MString.hpp	/^ template  <typename T > bool   operator >  (const MString<T> & In1,const char * In2)$/;"	f
+operator >=	MString.hpp	/^ template  <typename T > bool   operator >= (const MString <T> & In1,const MString <T>& In2)$/;"	f
+operator >=	MString.hpp	/^ template  <typename T > bool   operator >= (const MString <T> & In1,const char * In2)$/;"	f
+operator >=	MString.hpp	/^ template  <typename T > bool   operator >= (const char * In1,const MString <T> & In2)$/;"	f
+operator []	MString.hpp	/^ template  <typename T > char & MString<T>::operator [] (const unsigned short In)$/;"	f	class:MString
+removeSection	IniFile.hpp	/^template <typename T> void IniFile<T>::removeSection(const std::string& section)$/;"	f	class:IniFile
+rtrim	Tools.hpp	/^template < typename T> inline string rtrim(string const &str) $/;"	f
+save	IniFile.hpp	/^template <typename T> void IniFile<T>::save() const$/;"	f	class:IniFile
+save	IniFile.hpp	/^template <typename T> void IniFile<T>::save(const std::string& filename) const$/;"	f	class:IniFile
+save	IniFile.hpp	/^template <typename T> void IniFile<T>::save(std::ostream& out) const$/;"	f	class:IniFile
+set	IniFile.hpp	/^template <typename T> template< typename G> void IniFile<T>::set(const std::string& section, const std::string& key, G value)$/;"	f	class:IniFile
+shell_exec	Tools.hpp	/^template <typename T> string shell_exec(string const command)$/;"	f
+staticCheckThreadTime	MThread.hpp	/^	static MCounter<T>				staticCheckThreadTime;$/;"	m	class:MThread
+staticCheckThreadTime	MThread.hpp	/^template <typename T> MCounter<T>		MThread<T>::staticCheckThreadTime;$/;"	m	class:MThread
+staticFirstThreadPtr	MThread.hpp	/^	static MThread			*	staticFirstThreadPtr;$/;"	m	class:MThread
+staticFirstThreadPtr	MThread.hpp	/^template <typename T> MThread<T>			*	MThread<T>::staticFirstThreadPtr = NULL;$/;"	m	class:MThread
+str_replace	Tools.hpp	/^template < typename T> string str_replace( const string & pattern, const string &replacement, const string & strIn) $/;"	f
+stringFromFile	RandString.hpp	/^template <typename T>  char  * stringFromFile (char *fileName)$/;"	f
+strnicmp	MString.hpp	35;"	d
+tagDbfField	MDbfFile.hpp	/^} tagDbfField;$/;"	t	typeref:struct:__anon7
+tagDbfHead	MDbfFile.hpp	/^} tagDbfHead;$/;"	t	typeref:struct:__anon6
+tagDbfRecord	MDbfFile.hpp	/^} tagDbfRecord;$/;"	t	typeref:struct:__DBFRECORD
+tagFileFindFileInfo	MFile.hpp	/^template <typename T> class  tagFileFindFileInfo$/;"	c
+tagFunInterface_ThreadWriteReport	MThread.hpp	/^typedef void tagFunInterface_ThreadWriteReport(char * InBuf);$/;"	t
+tagHashTableNodeInfo	MDataStruct.hpp	/^	} tagHashTableNodeInfo;$/;"	t	class:MHashTableSt	typeref:struct:MHashTableSt::__anon8
+tagLogFileHeadInfo	MLogFile.hpp	/^} tagLogFileHeadInfo;$/;"	t	typeref:struct:__anon2
+tagLogFileMemoryInfo	MLogFile.hpp	/^template <typename T> class  tagLogFileMemoryInfo$/;"	c
+tagLogFileRecordInfo	MLogFile.hpp	/^} tagLogFileRecordInfo;$/;"	t	typeref:struct:__anon3
+trim	Tools.hpp	/^template < typename T> inline string trim(string const &str) $/;"	f
+ucfirst	Tools.hpp	/^ template <typename T > string  ucfirst(string const &str)$/;"	f
+warn	die.hpp	/^template <typename > void warn(char *format,...)$/;"	f
+what	IniFile.hpp	/^  const char* what() const throw()$/;"	f	class:IniFileError
+~CBufManage	BufManage.hpp	/^ template < typename T> CBufManage<T>::~CBufManage()$/;"	f	class:CBufManage
+~IniFile	IniFile.hpp	/^template <typename T> IniFile<T>::~IniFile()$/;"	f	class:IniFile
+~MCRC16	MCheckCode.hpp	/^template <typename T> MCRC16<T>::~MCRC16()$/;"	f	class:MCRC16
+~MCharLoopGroupMt	MDataStruct.hpp	/^ template <typename T> MCharLoopGroupMt<T>::~MCharLoopGroupMt()$/;"	f	class:MCharLoopGroupMt
+~MCharLoopGroupSt	MDataStruct.hpp	/^ template <typename T> MCharLoopGroupSt<T>::~MCharLoopGroupSt()$/;"	f	class:MCharLoopGroupSt
+~MComplexMrSwSection	MMutex.hpp	/^ template <typename T> MComplexMrSwSection<T>::~MComplexMrSwSection()$/;"	f	class:MComplexMrSwSection
+~MConCheckCode	MCheckCode.hpp	/^ template <typename T> MConCheckCode<T>::~MConCheckCode()$/;"	f	class:MConCheckCode
+~MCounter	MDateTime.hpp	/^ template <typename T> MCounter<T>::~MCounter()$/;"	f	class:MCounter
+~MCriticalSection	MMutex.hpp	/^ template <typename T>MCriticalSection<T>::~MCriticalSection()$/;"	f	class:MCriticalSection
+~MDateTime	MDateTime.hpp	/^  template <typename T> MDateTime<T>::~MDateTime()$/;"	f	class:MDateTime
+~MFile	MFile.hpp	/^template <typename T> MFile<T>::~MFile()$/;"	f	class:MFile
+~MFindFile	MFile.hpp	/^template <typename T> MFindFile<T>::~MFindFile()$/;"	f	class:MFindFile
+~MHashTableMt	MDataStruct.hpp	/^template<class templateRecord> MHashTableMt<templateRecord>::~MHashTableMt()$/;"	f	class:MHashTableMt
+~MHashTableSt	MDataStruct.hpp	/^template<class templateRecord> MHashTableSt<templateRecord>::~MHashTableSt()$/;"	f	class:MHashTableSt
+~MLocalComplexSection	MMutex.hpp	/^ template <typename T> MLocalComplexSection<T>::~MLocalComplexSection()$/;"	f	class:MLocalComplexSection
+~MLocalSection	MMutex.hpp	/^ template <typename T> MLocalSection<T>::~MLocalSection()$/;"	f	class:MLocalSection
+~MLock	MMutex.hpp	/^ template <typename T> MCriticalSection<T>::MLock::~MLock()$/;"	f	class:MCriticalSection::MLock
+~MLock	MMutex.hpp	/^ template <typename T> MSemaphore<T>::MLock::~MLock()$/;"	f	class:MSemaphore::MLock
+~MLogFile	MLogFile.hpp	/^ template <typename T> MLogFile<T>::~MLogFile()$/;"	f	class:MLogFile
+~MLoopGroupMt	MDataStruct.hpp	/^template<class templateRecord> MLoopGroupMt<templateRecord>::~MLoopGroupMt()$/;"	f	class:MLoopGroupMt
+~MLoopGroupSt	MDataStruct.hpp	/^template<class templateRecord> MLoopGroupSt<templateRecord>::~MLoopGroupSt()$/;"	f	class:MLoopGroupSt
+~MMD5	MCheckCode.hpp	/^ template <typename TT> MMD5<TT>::~MMD5()$/;"	f	class:MMD5
+~MMemoryDbfFile	MDbfFile.hpp	/^MMemoryDbfFile::~MMemoryDbfFile()$/;"	f	class:MMemoryDbfFile
+~MMrSwSection	MMutex.hpp	/^ template <typename T> MMrSwSection<T>::~MMrSwSection()$/;"	f	class:MMrSwSection
+~MRLock	MMutex.hpp	/^ template <typename T> MComplexMrSwSection<T>::MRLock::~MRLock()$/;"	f	class:MComplexMrSwSection::MRLock
+~MRLock	MMutex.hpp	/^ template <typename T> MMrSwSection<T>::MRLock::~MRLock()$/;"	f	class:MMrSwSection::MRLock
+~MResourceRecordMt	MDataStruct.hpp	/^ template <typename T> MResourceRecordMt<T>::~MResourceRecordMt()$/;"	f	class:MResourceRecordMt
+~MResourceRecordSt	MDataStruct.hpp	/^template <typename T> MResourceRecordSt<T>::~MResourceRecordSt()$/;"	f	class:MResourceRecordSt
+~MSemaphore	MMutex.hpp	/^ template <typename T> MSemaphore<T>::~MSemaphore( void )$/;"	f	class:MSemaphore
+~MString	MString.hpp	/^template< typename T> MString<T>::~MString()$/;"	f	class:MString
+~MThread	MThread.hpp	/^template <typename T> MThread<T>::~MThread()$/;"	f	class:MThread
+~MWLock	MMutex.hpp	/^ template <typename T> MMrSwSection<T>::MWLock::~MWLock()$/;"	f	class:MMrSwSection::MWLock
+~MWLock	MMutex.hpp	/^ template <typename T>MComplexMrSwSection<T>::MWLock::~MWLock()$/;"	f	class:MComplexMrSwSection::MWLock
+~MWaitEvent	MMutex.hpp	/^ template <typename T> MWaitEvent<T>::~MWaitEvent()$/;"	f	class:MWaitEvent

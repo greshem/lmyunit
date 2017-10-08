@@ -1,0 +1,316 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+Abs	Comm.hpp	/^Abs(const T& x)$/;"	f
+AdamsInterval	OrdinaryDifferentialEguation.hpp	/^void AdamsInterval(_Ty t, _Ty h, valarray<_Ty>& y, _Ty eps)$/;"	f
+AddBoostLIB	gen_makefile_from_file.pl	/^sub AddBoostLIB$/;"	s
+AddToCOMP	gen_makefile_from_file.pl	/^sub AddToCOMP$/;"	s
+ApproximationRemez	FittingApproximation.hpp	/^void ApproximationRemez(_Ty a, _Ty b, valarray<_Ty>& p, _Ty eps)$/;"	f
+Assert	Comm.hpp	17;"	d
+Assert	Comm.hpp	20;"	d
+BothSidesInterval	OrdinaryDifferentialEguation.hpp	/^void BothSidesInterval(_Ty t, _Ty h, valarray<_Ty>& y, _Ty eps)$/;"	f
+CC	Makefile	/^CC = g++ -g  -Wall $/;"	m
+CosineIntegralFunction	SpecialFunction.hpp	/^_Ty CosineIntegralFunction(_Ty x)$/;"	f
+DOUBLEERROR	Comm.hpp	/^ const double DOUBLEERROR = 1.0e-15;$/;"	v
+DeSuffix	gen_makefile_from_file.pl	/^sub DeSuffix$/;"	s
+EXEC	Makefile	/^EXEC = Extremum$/;"	m
+EigenvalueVectorHessenbergQR	EigenvalueVector.hpp	/^int EigenvalueVectorHessenbergQR(matrix<_Ty>& a,  $/;"	f
+EigenvalueVectorRealSymmetryJacobi	EigenvalueVector.hpp	/^int EigenvalueVectorRealSymmetryJacobi(matrix<_Ty>& a,  $/;"	f
+EigenvalueVectorRealSymmetryJacobiB	EigenvalueVector.hpp	/^int EigenvalueVectorRealSymmetryJacobiB(matrix<_Ty>& a,  $/;"	f
+EigenvalueVectorRealTriangleQR	EigenvalueVector.hpp	/^int EigenvalueVectorRealTriangleQR(valarray<_Ty>& b, $/;"	f
+Ellipse1stIntegral	SpecialFunction.hpp	/^_Ty Ellipse1stIntegral(_Ty k, _Ty f)$/;"	f
+Ellipse2ndIntegral	SpecialFunction.hpp	/^_Ty Ellipse2ndIntegral(_Ty k, _Ty f)$/;"	f
+ErrorFunction	SpecialFunction.hpp	/^_Ty ErrorFunction(_Ty x)$/;"	f
+ExponentIntegralFunction	SpecialFunction.hpp	/^_Ty ExponentIntegralFunction(_Ty x)$/;"	f
+ExtremumBrentNonDerivative1D	Extremum.hpp	/^_Ty ExtremumBrentNonDerivative1D(_Ty ax, _Ty bx, _Ty cx, int sign, $/;"	f
+ExtremumComplexND	Extremum.hpp	/^int ExtremumComplexND(int m, valarray<_Ty>& a, valarray<_Ty>& b,$/;"	f
+ExtremumFraction1D	Extremum.hpp	/^void ExtremumFraction1D(valarray<_Ty>& x, _Ty eps, $/;"	f
+ExtremumFractionND	Extremum.hpp	/^void ExtremumFractionND(valarray<_Ty>& x, _Ty eps, $/;"	f
+ExtremumGold1D	Extremum.hpp	/^_Ty ExtremumGold1D(_Ty ax, _Ty bx, _Ty cx, int sign, _Ty tol, _Ty& xmin)$/;"	f
+ExtremumLinePrograming	Extremum.hpp	/^int ExtremumLinePrograming(matrix<_Ty>& a, valarray<_Ty>& b, $/;"	f
+ExtremumSimplexND	Extremum.hpp	/^int ExtremumSimplexND(_Ty d, _Ty u, _Ty v, valarray<_Ty>& x,  $/;"	f
+FDistributionFunction	SpecialFunction.hpp	/^_Ty FDistributionFunction(_Ty f, int n1, int n2)$/;"	f
+FLOATERROR	Comm.hpp	/^ const float  FLOATERROR = 1.0e-6F;$/;"	v
+FitCurveChebyshev	FittingApproximation.hpp	/^void FitCurveChebyshev(valarray<_Ty>& x, valarray<_Ty>& y, valarray<_Ty>& a)$/;"	f
+FitCurveLeastSquares	FittingApproximation.hpp	/^void FitCurveLeastSquares(valarray<_Ty>& x, valarray<_Ty>& y, $/;"	f
+FitSurfaceLeastSquares	FittingApproximation.hpp	/^void FitSurfaceLeastSquares(valarray<_Ty>& x, valarray<_Ty>& y, $/;"	f
+FloatEqual	Comm.hpp	/^FloatEqual(double lhs, double rhs)$/;"	f
+FloatEqual	Comm.hpp	/^FloatEqual(float lhs, float rhs)$/;"	f
+FloatEqual	Comm.hpp	/^FloatEqual(long double lhs, long double rhs)$/;"	f
+FloatNotEqual	Comm.hpp	/^FloatNotEqual(double lhs, double rhs)$/;"	f
+FloatNotEqual	Comm.hpp	/^FloatNotEqual(float lhs, float rhs)$/;"	f
+FloatNotEqual	Comm.hpp	/^FloatNotEqual(long double lhs, long double rhs)$/;"	f
+FourierSeriesApproach	Transform.hpp	/^void FourierSeriesApproach(valarray<_Ty>& f,  $/;"	f
+FourierTransform	Transform.hpp	/^void FourierTransform(valarray<complex<_Ty> >& pp, $/;"	f
+Fraction1	OrdinaryDifferentialEguation.hpp	/^void Fraction1(_Ty t, _Ty h, valarray<_Ty>& y, valarray<_Ty>& b, $/;"	f
+Fraction2	OrdinaryDifferentialEguation.hpp	/^void Fraction2(_Ty t, _Ty h, valarray<_Ty>& y, valarray<_Ty>& b, $/;"	f
+FractionValue	Polynomials.hpp	/^FractionValue(valarray<T>& dXpara, valarray<T>& dCoff, T dX)$/;"	f
+GammaFunction	SpecialFunction.hpp	/^_Ty GammaFunction(_Ty x)$/;"	f
+GeneralizedInversionSingularValue	Matrix.hpp	/^int GeneralizedInversionSingularValue(matrix<_Ty>& a, matrix<_Ty>& aa, $/;"	f
+GetCName	gen_makefile_from_file.pl	/^sub GetCName$/;"	s
+GetColNum	Matrix.hpp	/^	size_t GetColNum() const	\/\/返回矩阵列数的函数$/;"	f	class:matrix
+GetCppName	gen_makefile_from_file.pl	/^sub GetCppName$/;"	s
+GetObjName	gen_makefile_from_file.pl	/^sub GetObjName$/;"	s
+GetRowNum	Matrix.hpp	/^	size_t GetRowNum() const	\/\/返回矩阵行数的函数$/;"	f	class:matrix
+GoldNo	Comm.hpp	/^ const double GoldNo = 0.618033399;		\/\/黄金分割常数(1.0-0.381966)$/;"	v
+HalfLogarithmCorrelation	Statistic.hpp	/^void HalfLogarithmCorrelation(valarray<_Ty>& x, valarray<_Ty>& y, $/;"	f
+HammingInterval	OrdinaryDifferentialEguation.hpp	/^void HammingInterval(_Ty t, _Ty h, valarray<_Ty>& y, _Ty eps)$/;"	f
+HessenbergTransform	EigenvalueVector.hpp	/^int HessenbergTransform(matrix<_Ty>& a)$/;"	f
+HouseholderTransform	EigenvalueVector.hpp	/^int HouseholderTransform(matrix<_Ty>& a, matrix<_Ty>& q, $/;"	f
+ITSA	Integral.hpp	/^int ITSA(_Ty x0, _Ty x1, _Ty h, _Ty f0, _Ty f1, _Ty t0, $/;"	f
+IncompleteBetaFunction	SpecialFunction.hpp	/^_Ty IncompleteBetaFunction(_Ty a, _Ty b, _Ty x)$/;"	f
+IncompleteGammaFunction	SpecialFunction.hpp	/^_Ty IncompleteGammaFunction(_Ty a, _Ty x)$/;"	f
+IntegerBessel1stFunction	SpecialFunction.hpp	/^_Ty IntegerBessel1stFunction(int n, _Ty x)$/;"	f
+IntegerBessel2ndFunction	SpecialFunction.hpp	/^_Ty IntegerBessel2ndFunction(int n, _Ty x)$/;"	f
+IntegralChebyshev	Integral.hpp	/^_Ty IntegralChebyshev(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralFraction1D	Integral.hpp	/^_Ty IntegralFraction1D(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralFraction2D	Integral.hpp	/^_Ty IntegralFraction2D(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralFraction2D2	Integral.hpp	/^_Ty IntegralFraction2D2(_Ty x, _Ty eps)$/;"	f
+IntegralGaussMD	Integral.hpp	/^_Ty IntegralGaussMD(valarray<_Ty>& js)$/;"	f
+IntegralHermiteGauss	Integral.hpp	/^void IntegralHermiteGauss(_Ty& dValue)$/;"	f
+IntegralLaguerreGauss	Integral.hpp	/^void IntegralLaguerreGauss(_Ty& dValue)$/;"	f
+IntegralLegendreGauss	Integral.hpp	/^_Ty IntegralLegendreGauss(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralMonteCarlo1D	Integral.hpp	/^_Ty IntegralMonteCarlo1D(_Ty a, _Ty b)$/;"	f
+IntegralMonteCarlo2D	Integral.hpp	/^_Ty IntegralMonteCarlo2D(valarray<_Ty>& a, valarray<_Ty>& b)$/;"	f
+IntegralRomberg	Integral.hpp	/^_Ty IntegralRomberg(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralSimp2	Integral.hpp	/^_Ty IntegralSimp2(_Ty x, _Ty eps)$/;"	f
+IntegralSimpson1D	Integral.hpp	/^_Ty IntegralSimpson1D(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralSimpson2D	Integral.hpp	/^_Ty IntegralSimpson2D(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralSurge	Integral.hpp	/^void IntegralSurge(_Ty a, _Ty b, int m, valarray<_Ty>& fa, $/;"	f
+IntegralTrapezia	Integral.hpp	/^_Ty IntegralTrapezia(_Ty a, _Ty b, _Ty eps)$/;"	f
+IntegralTrapeziaSelfAdapt	Integral.hpp	/^_Ty IntegralTrapeziaSelfAdapt(_Ty a, _Ty b, _Ty eps, _Ty d)$/;"	f
+Interpolation1Variable3PointsIsometry	Interpolation.hpp	/^_Ty Interpolation1Variable3PointsIsometry(_Ty x0, _Ty h, $/;"	f
+Interpolation1Variable3PointsNotIsometry	Interpolation.hpp	/^_Ty Interpolation1Variable3PointsNotIsometry(valarray<_Ty>& x, $/;"	f
+Interpolation1VariableIsometry	Interpolation.hpp	/^_Ty Interpolation1VariableIsometry(_Ty x0, _Ty h, valarray<_Ty>& y, _Ty t)$/;"	f
+Interpolation1VariableNotIsometry	Interpolation.hpp	/^_Ty Interpolation1VariableNotIsometry(valarray<_Ty>& x, $/;"	f
+Interpolation2Variable3Points	Interpolation.hpp	/^_Ty Interpolation2Variable3Points(valarray<_Ty>& x, valarray<_Ty>& y, $/;"	f
+Interpolation2VariableWholeInterval	Interpolation.hpp	/^_Ty Interpolation2VariableWholeInterval(valarray<_Ty>& x, $/;"	f
+Interpolation3Spooling1stBoundary	Interpolation.hpp	/^_Ty Interpolation3Spooling1stBoundary(valarray<_Ty>& x, $/;"	f
+Interpolation3Spooling2ndBoundary	Interpolation.hpp	/^_Ty Interpolation3Spooling2ndBoundary(valarray<_Ty>& x, $/;"	f
+Interpolation3Spooling3thBoundary	Interpolation.hpp	/^_Ty Interpolation3Spooling3thBoundary(valarray<_Ty>& x, $/;"	f
+InterpolationAitkenIsometry	Interpolation.hpp	/^_Ty InterpolationAitkenIsometry(_Ty x, _Ty h, $/;"	f
+InterpolationAitkenNotIsometry	Interpolation.hpp	/^_Ty InterpolationAitkenNotIsometry(valarray<_Ty>& x, $/;"	f
+InterpolationFractionIsometry	Interpolation.hpp	/^_Ty InterpolationFractionIsometry(_Ty x0, _Ty h, valarray<_Ty>& y, _Ty t)$/;"	f
+InterpolationFractionNotIsometry	Interpolation.hpp	/^_Ty InterpolationFractionNotIsometry(valarray<_Ty>& x, $/;"	f
+InterpolationHermiteIsometry	Interpolation.hpp	/^_Ty InterpolationHermiteIsometry(_Ty x0, _Ty h, $/;"	f
+InterpolationHermiteNotIsometry	Interpolation.hpp	/^_Ty InterpolationHermiteNotIsometry(valarray<_Ty>& x, $/;"	f
+InterpolationSmoothIsometry	Interpolation.hpp	/^void InterpolationSmoothIsometry(_Ty x0, _Ty h, $/;"	f
+InterpolationSmoothNotIsometry	Interpolation.hpp	/^void InterpolationSmoothNotIsometry(valarray<_Ty>& x, valarray<_Ty>& y, $/;"	f
+LE_GaussSeidelIteration	LinearEquation.hpp	/^int LE_GaussSeidelIteration(matrix<_Ty>& a, valarray<_Ty>& b, $/;"	f
+LE_IllConditionedEquation	LinearEquation.hpp	/^int LE_IllConditionedEquation(matrix<_Ty> & a, valarray<_Ty> & b, _Ty eps, valarray<_Ty> & x)$/;"	f
+LE_LinearLeastSquareGeneralizedInverse	LinearEquation.hpp	/^int LE_LinearLeastSquareGeneralizedInverse(matrix<_Ty>& a, $/;"	f
+LE_LinearLeastSquareHouseholder	LinearEquation.hpp	/^int LE_LinearLeastSquareHouseholder(matrix<_Ty>& a, valarray<_Ty>& b, matrix<_Ty>& q)$/;"	f
+LE_SparseEuationTotalChoiceGaussJordan	LinearEquation.hpp	/^int LE_SparseEuationTotalChoiceGaussJordan(matrix<_Ty> & a, valarray<_Ty> & b)$/;"	f
+LE_StrapEquationGauss	LinearEquation.hpp	/^int LE_StrapEquationGauss(matrix<_Ty>& b, matrix<_Ty>& d, int l, int il)$/;"	f
+LE_SymmetryEquation	LinearEquation.hpp	/^int LE_SymmetryEquation(matrix<_Ty>& a, matrix<_Ty>& c)$/;"	f
+LE_SymmetryRegularEuationConjugateGradient	LinearEquation.hpp	/^int LE_SymmetryRegularEuationConjugateGradient(matrix<_Ty> & a, $/;"	f
+LE_SymmetryRegularEuationSquareRoot	LinearEquation.hpp	/^int LE_SymmetryRegularEuationSquareRoot(matrix<_Ty> & a, matrix<_Ty> & d)$/;"	f
+LE_ToeplitzEuationLevinson	LinearEquation.hpp	/^int LE_ToeplitzEuationLevinson(valarray<_Ty>& t,  valarray<_Ty>& b, valarray<_Ty>& x)$/;"	f
+LE_TotalChoiceGauss	LinearEquation.hpp	/^int LE_TotalChoiceGauss(matrix<_Ty>& a, valarray<_Ty>& b)  $/;"	f
+LE_TotalChoiceGaussJordan	LinearEquation.hpp	/^int LE_TotalChoiceGaussJordan(matrix<_Ty> & a, matrix<_Ty> & b)$/;"	f
+LE_TridiagonalEquationGauss	LinearEquation.hpp	/^int LE_TridiagonalEquationGauss(valarray<_Ty>& b, valarray<_Ty>& d)$/;"	f
+LONGDOUBLEERROR	Comm.hpp	/^ const long double LONGDOUBLEERROR = 1.0e-30;$/;"	v
+LinearRegression1D	Statistic.hpp	/^void LinearRegression1D(valarray<_Ty>& x, valarray<_Ty>& y, $/;"	f
+LinearRegressionND	Statistic.hpp	/^void LinearRegressionND(matrix<_Ty>& x, valarray<_Ty>& y, $/;"	f
+LogarithmCorrelation	Statistic.hpp	/^void LogarithmCorrelation(valarray<_Ty>& x, $/;"	f
+MODUL65536	Random.hpp	11;"	d
+MODUL65536	old/Random.h	11;"	d
+MatrixDeterminant	Matrix.hpp	/^long double MatrixDeterminant(const matrix<_Ty>& rhs)		$/;"	f
+MatrixInversionGS	Matrix.hpp	/^int MatrixInversionGS(matrix<_Ty >& rhs)$/;"	f
+MatrixLU	Matrix.hpp	/^int MatrixLU(const matrix<_Ty>& rhs, matrix<_Ty>& lhs, matrix<_Ty>& uhs)$/;"	f
+MatrixLinePrint	Matrix.hpp	/^void MatrixLinePrint(const matrix<_Ty>& mOut)$/;"	f
+MatrixLinePrint	Matrix.hpp	/^void MatrixLinePrint(const matrix<_Ty>& mOut, size_t LineNo)$/;"	f
+MatrixMultiply	Matrix.hpp	/^matrix<_Tyout>& MatrixMultiply(matrix<_Tyout>& mOut, const matrix<_Tylhs>& lhs, const matrix<_Tyrhs>& rhs)$/;"	f
+MatrixQR	Matrix.hpp	/^int MatrixQR(matrix<_Ty>& rhs, matrix<_Ty>& rhq)$/;"	f
+MatrixRank	Matrix.hpp	/^size_t MatrixRank(const matrix<_Ty>& rhs)$/;"	f
+MatrixSingularValue	Matrix.hpp	/^int MatrixSingularValue(matrix<_Ty>& a, matrix<_Ty>& u, $/;"	f
+MatrixSymmetry	Matrix.hpp	/^bool MatrixSymmetry(const matrix<_Ty>& rhs)$/;"	f
+MatrixSymmetryRegular	Matrix.hpp	/^int MatrixSymmetryRegular(const matrix<_Ty>& rhs, int sym)$/;"	f
+MatrixSymmetryRegularCholesky	Matrix.hpp	/^long double MatrixSymmetryRegularCholesky(matrix<_Ty>& rhs)$/;"	f
+MatrixSymmetryRegularInversion	Matrix.hpp	/^int MatrixSymmetryRegularInversion(matrix<_Ty>& rhs)$/;"	f
+MatrixToeplitzInversionTrench	Matrix.hpp	/^int MatrixToeplitzInversionTrench(const valarray<_Ty>& t, const valarray<_Ty>& tuo, matrix<_Ty>& rhs)$/;"	f
+MatrixTranspose	Matrix.hpp	/^void MatrixTranspose(matrix<_Ty>& mIn, matrix<_Ty>& mOut)$/;"	f
+Max	Comm.hpp	/^T Max(const T& x, const T& y)		\/\/求x与y的最大值，返回大者$/;"	f
+Min	Comm.hpp	/^Min(const T& x, const T& y)			\/\/比较x与y，返回小者$/;"	f
+MinimizerInterval	Extremum.hpp	/^int MinimizerInterval(_Ty& ax, _Ty& bx, _Ty& cx, int& sign, $/;"	f
+MinimizerInterval	Extremum.hpp	/^void MinimizerInterval(_Ty& ax, _Ty& bx, _Ty& cx, _Ty& fa, _Ty& fb, _Ty& fc)$/;"	f
+NormalDistributionFunction	SpecialFunction.hpp	/^_Ty NormalDistributionFunction(_Ty a, _Ty d, _Ty x)$/;"	f
+OBJS	Makefile	/^OBJS = Extremum.o $/;"	m
+ODE_AdamsInterval	OrdinaryDifferentialEguation.hpp	/^void ODE_AdamsInterval(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_BothSidesInterval	OrdinaryDifferentialEguation.hpp	/^void ODE_BothSidesInterval(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_EulerContentStep	OrdinaryDifferentialEguation.hpp	/^void ODE_EulerContentStep(_Ty t, valarray<_Ty>& y,  $/;"	f
+ODE_EulerVariationalStep	OrdinaryDifferentialEguation.hpp	/^void ODE_EulerVariationalStep(_Ty t, _Ty h, valarray<_Ty>& y, _Ty eps)$/;"	f
+ODE_Fraction	OrdinaryDifferentialEguation.hpp	/^void ODE_Fraction(_Ty t, _Ty h, valarray<_Ty>& y, _Ty eps)$/;"	f
+ODE_FractionInterval	OrdinaryDifferentialEguation.hpp	/^void ODE_FractionInterval(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_Gear	OrdinaryDifferentialEguation.hpp	/^int ODE_Gear(_Ty a, _Ty b, _Ty hmin, _Ty hmax, _Ty h, _Ty eps, $/;"	f
+ODE_GillVariationalStep	OrdinaryDifferentialEguation.hpp	/^void ODE_GillVariationalStep(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_GillVariationalStepInterval	OrdinaryDifferentialEguation.hpp	/^void ODE_GillVariationalStepInterval(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_HammingInterval	OrdinaryDifferentialEguation.hpp	/^void ODE_HammingInterval(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_LinearBoundaryValude	OrdinaryDifferentialEguation.hpp	/^void ODE_LinearBoundaryValude(_Ty a, _Ty b, _Ty ya, _Ty yb, int n, $/;"	f
+ODE_MersonVariationalStep	OrdinaryDifferentialEguation.hpp	/^void ODE_MersonVariationalStep(_Ty t, _Ty h, int n, valarray<_Ty>& y,$/;"	f
+ODE_RungeKuttaContentStep	OrdinaryDifferentialEguation.hpp	/^void ODE_RungeKuttaContentStep(_Ty t, valarray<_Ty>& y,  $/;"	f
+ODE_RungeKuttaVariationalStep	OrdinaryDifferentialEguation.hpp	/^void ODE_RungeKuttaVariationalStep(_Ty t, _Ty h, $/;"	f
+ODE_Treanor	OrdinaryDifferentialEguation.hpp	/^void ODE_Treanor(_Ty t, _Ty h, valarray<_Ty>& y)$/;"	f
+ODE_TreanorInterval	OrdinaryDifferentialEguation.hpp	/^void ODE_TreanorInterval(_Ty t, _Ty h, valarray<_Ty>& y,$/;"	f
+ODE_WittyContentStep	OrdinaryDifferentialEguation.hpp	/^void ODE_WittyContentStep(_Ty t, valarray<_Ty>& y,  $/;"	f
+ParseFile	gen_makefile_from_file.pl	/^sub ParseFile$/;"	s
+PolyDiv	Polynomials.hpp	/^PolyDiv(valarray<T>& dCoffP, valarray<T>& dCoffQ, valarray<T>& dCoffS, valarray<T>& dCoffR)$/;"	f
+PolyMultip	Polynomials.hpp	/^PolyMultip(valarray<T>& dCoffP, valarray<T>& dCoffQ, valarray<T>& dCoffS)$/;"	f
+PolyValueOneDim	Polynomials.hpp	/^PolyValueOneDim(valarray<T>& dCoff, size_t stNo, U dX)$/;"	f
+PolyValueOneDimGroup	Polynomials.hpp	/^PolyValueOneDimGroup(valarray<T>& dCoff, valarray<V>& dX, valarray<U>& dValue)$/;"	f
+PolyValueTwoDim	Polynomials.hpp	/^PolyValueTwoDim(matrix<T>& dCoff, U dX, U dY)$/;"	f
+RandCoef13849	Random.hpp	10;"	d
+RandCoef13849	old/Random.h	10;"	d
+RandCoef2053	Random.hpp	9;"	d
+RandCoef2053	old/Random.h	9;"	d
+RootAitken	NonLinearEquation.hpp	/^RootAitken( _Ty& x, _Ty eps, size_t js)$/;"	f
+RootFraction	NonLinearEquation.hpp	/^RootFraction(_Ty& x, _Ty eps)$/;"	f
+RootGradient	NonLinearEquation.hpp	/^RootGradient(_Ty eps, valarray<_Ty>& x, size_t js)$/;"	f
+RootHalves	NonLinearEquation.hpp	/^RootHalves(_Ty a, _Ty b, _Ty step, _Ty eps, valarray<_Ty>& x, size_t m)$/;"	f
+RootLeastSquareGeneralizedInverse	NonLinearEquation.hpp	/^int RootLeastSquareGeneralizedInverse(int m, _Ty eps1, _Ty eps2, valarray<_Ty>& x, int ka)$/;"	f
+RootMonteCarloComplex	NonLinearEquation.hpp	/^RootMonteCarloComplex(_Tz& cxy, _Ty b, int m, _Ty eps)$/;"	f
+RootMonteCarloGroupReal	NonLinearEquation.hpp	/^RootMonteCarloGroupReal(valarray<_Ty>& x, _Ty b, int m, _Ty eps)$/;"	f
+RootMonteCarloReal	NonLinearEquation.hpp	/^RootMonteCarloReal(_Ty& x, _Ty b, int m, _Ty eps)$/;"	f
+RootNewton	NonLinearEquation.hpp	/^RootNewton( _Ty& x, _Ty eps, size_t js)$/;"	f
+RootNewtonHillDown	NonLinearEquation.hpp	/^RootNewtonHillDown(complex<_Ty> a[], valarray<complex<_Ty> >& cx)$/;"	f
+RootNewtonHillDown	NonLinearEquation.hpp	/^RootNewtonHillDown(valarray<_Ty>& a, valarray<_Tz>& cx)$/;"	f
+RootQR	NonLinearEquation.hpp	/^RootQR(valarray<_Ty>& a, valarray<_Tz>& x, _Ty eps, size_t jt)$/;"	f
+RootQuasiNewton	NonLinearEquation.hpp	/^RootQuasiNewton(_Ty eps, _Ty t, _Ty h, valarray<_Ty>& x, int k)$/;"	f
+Sgn	Comm.hpp	/^Sgn(const T& x)$/;"	f
+SievingABR	Transform.hpp	/^void SievingABR(valarray<_Ty>& x, _Ty t, _Ty a, _Ty b,$/;"	f
+SievingKalman	Transform.hpp	/^int SievingKalman(matrix<_Ty>& f, matrix<_Ty>& q, matrix<_Ty>& r, $/;"	f
+SineIntegralFunction	SpecialFunction.hpp	/^_Ty SineIntegralFunction(_Ty x)$/;"	f
+Smooth5_3	Transform.hpp	/^void Smooth5_3(valarray<_Ty>& y, valarray<_Ty>& yy)$/;"	f
+StatRandomSample	Statistic.hpp	/^void StatRandomSample(valarray<_Ty>& x, _Ty x0, _Ty h, int l, $/;"	f
+StepwiseRegression	Statistic.hpp	/^void StepwiseRegression(matrix<_Ty>& x, _Ty f1, _Ty f2, $/;"	f
+TransformativeIntegerBessel1stFunction	SpecialFunction.hpp	/^_Ty TransformativeIntegerBessel1stFunction(int n,_Ty x)$/;"	f
+TransformativeIntegerBessel2ndFunction	SpecialFunction.hpp	/^_Ty TransformativeIntegerBessel2ndFunction(int n, _Ty x)$/;"	f
+ValarrayPrint	Comm.hpp	/^void ValarrayPrint(const valarray<T>& vOut)$/;"	f
+ValarrayPrint	Comm.hpp	/^void ValarrayPrint(const valarray<T>& vOut, size_t sPosition)$/;"	f
+WalshTransform	Transform.hpp	/^void WalshTransform(valarray<_Ty>& p, valarray<_Ty>& x)$/;"	f
+WriteMakefile	gen_makefile_from_file.pl	/^sub WriteMakefile$/;"	s
+X2DistributionFunction	SpecialFunction.hpp	/^_Ty X2DistributionFunction(_Ty x, int n)$/;"	f
+_COMM_H	Comm.hpp	6;"	d
+_COMM_INL	Comm.hpp	78;"	d
+_EIGENVALUEVECTOR_H	EigenvalueVector.hpp	8;"	d
+_EIGENVALUEVECTOR_H	old/EigenvalueVector.h	8;"	d
+_EIGENVALUEVECTOR_INL	EigenvalueVector.hpp	55;"	d
+_EXTREMUM_H	Extremum.hpp	7;"	d
+_EXTREMUM_H	old/Extremum.h	7;"	d
+_EXTREMUM_INL	Extremum.hpp	65;"	d
+_FITTINGAPPROXIMATION_H	FittingApproximation.hpp	7;"	d
+_FITTINGAPPROXIMATION_H	old/FittingApproximation.h	7;"	d
+_FITTINGAPPROXIMATION_INL	FittingApproximation.hpp	43;"	d
+_INTEGRAL_H	Integral.hpp	8;"	d
+_INTEGRAL_H	old/Integral.h	8;"	d
+_INTEGRAL_INL	Integral.hpp	85;"	d
+_INTERPOLATION_H	Interpolation.hpp	8;"	d
+_INTERPOLATION_H	old/Interpolation.h	8;"	d
+_INTERPOLATION_INL	Interpolation.hpp	115;"	d
+_LINEAREQUATION_H	LinearEquation.hpp	7;"	d
+_LINEAREQUATION_H	old/LinearEquation.h	7;"	d
+_LINEAREQUATION_INL	LinearEquation.hpp	73;"	d
+_MATRIX_H	Matrix.hpp	7;"	d
+_MATRIX_INL	Matrix.hpp	401;"	d
+_MSV_1	Matrix.hpp	/^void _MSV_1(matrix<_Ty>& a, valarray<_Ty>& e, valarray<_Ty>& s, $/;"	f
+_MSV_2	Matrix.hpp	/^void _MSV_2(valarray<_Ty>& fg, valarray<_Ty>& cs)$/;"	f
+_Myt	Matrix.hpp	/^	typedef matrix<_Ty> _Myt;$/;"	t	class:matrix
+_NONLINEAREQUATION_H	NonLinearEquation.hpp	7;"	d
+_NONLINEAREQUATION_H	old/NonLinearEquation.h	7;"	d
+_NONLINEAREQUATION_INL	NonLinearEquation.hpp	95;"	d
+_ORDINARYDIFFERENTIALEGUATION_H	OrdinaryDifferentialEguation.hpp	7;"	d
+_ORDINARYDIFFERENTIALEGUATION_H	old/OrdinaryDifferentialEguation.h	7;"	d
+_ORDINARYDIFFERENTIALEGUATION_INL	OrdinaryDifferentialEguation.hpp	106;"	d
+_POLYNOMIALS_H	Polynomials.hpp	7;"	d
+_POLYNOMIALS_H	old/Polynomials.h	7;"	d
+_POLYNOMIALS_INL	Polynomials.hpp	51;"	d
+_RANDOM_H	Random.hpp	7;"	d
+_RANDOM_H	old/Random.h	7;"	d
+_RANDOM_INL	Random.hpp	42;"	d
+_SPECIALFUNCTION_H	SpecialFunction.hpp	7;"	d
+_SPECIALFUNCTION_H	old/SpecialFunction.h	7;"	d
+_SPECIALFUNCTION_INL	SpecialFunction.hpp	91;"	d
+_STATISTIC_H	Statistic.hpp	7;"	d
+_STATISTIC_H	old/Statistic.h	7;"	d
+_STATISTIC_INL	Statistic.hpp	56;"	d
+_TRANSFORM_H	Transform.hpp	7;"	d
+_TRANSFORM_H	old/Transform.h	7;"	d
+_TRANSFORM_INL	Transform.hpp	54;"	d
+beta	SpecialFunction.hpp	/^_Ty beta(_Ty a, _Ty b, _Ty x)$/;"	f
+ek	SpecialFunction.hpp	/^_Ty ek(_Ty k, _Ty f)$/;"	f
+fk	SpecialFunction.hpp	/^_Ty fk(_Ty k, _Ty f)$/;"	f
+g60	NonLinearEquation.hpp	/^g60(_Ty& t, _Ty& x, _Ty& y, _Ty& x1, _Ty& y1, _Ty& dx, _Ty& dy, $/;"	f
+g65	NonLinearEquation.hpp	/^g65(_Ty& x, _Ty& y, _Ty& x1, _Ty& y1, _Ty& dx, _Ty& dy, _Ty& dd, _Ty& dc, _Ty& c, $/;"	f
+g90	NonLinearEquation.hpp	/^g90(valarray<_Tz> &cx, valarray<_Ty> &a, _Ty& x, _Ty& y, _Ty& p, _Ty& q, _Ty& w, int &k)$/;"	f
+gg60	NonLinearEquation.hpp	/^gg60(_Ty& t, _Ty& x, _Ty& y, _Ty& x1, _Ty& y1, _Ty& dx, _Ty& dy, $/;"	f
+gg90	NonLinearEquation.hpp	/^gg90(valarray<_Tz> &cx, complex<_Ty> a[], _Ty& x, _Ty& y, _Ty& p, _Ty& q, _Ty& w, int &k)$/;"	f
+m_Datas	Matrix.hpp	/^	std::valarray<_Ty> m_Datas;	\/\/定义一维数组对象m_Datas$/;"	m	class:matrix
+m_stCol	Matrix.hpp	/^	size_t m_stCol;		\/\/矩阵列数变量$/;"	m	class:matrix
+m_stRow	Matrix.hpp	/^	size_t m_stRow;		\/\/矩阵行数变量$/;"	m	class:matrix
+main	EigenvalueVector.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Extremum.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	FittingApproximation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Integral.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Interpolation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	LinearEquation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Matrix.cpp	/^int main()				\/\/ 定义控制台应用程序的入口点$/;"	f
+main	NonLinearEquation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	OrdinaryDifferentialEguation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Polynomials.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Random.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Statistic.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	Transform.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/EigenvalueVector.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Extremum.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/FittingApproximation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Integral.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Interpolation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/LinearEquation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Matrix.cpp	/^int main()				\/\/ 定义控制台应用程序的入口点$/;"	f
+main	nouse/NonLinearEquation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/OrdinaryDifferentialEguation.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Polynomials.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Random.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Statistic.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	nouse/Transform.cpp	/^int main(int argc, char *argv[])$/;"	f
+matrix	Matrix.hpp	/^	matrix(const _Myt& rhs)$/;"	f	class:matrix
+matrix	Matrix.hpp	/^	matrix(const _Ty* rhs, size_t stRow, size_t stCol)$/;"	f	class:matrix
+matrix	Matrix.hpp	/^	matrix(size_t stRow, size_t stCol)$/;"	f	class:matrix
+matrix	Matrix.hpp	/^class matrix			\/\/矩阵类matrix$/;"	c
+matrixd	Matrix.hpp	/^typedef matrix<double> matrixd;$/;"	t
+matrixf	Matrix.hpp	/^typedef matrix<float> matrixf;$/;"	t
+matrixld	Matrix.hpp	/^typedef matrix<long double> matrixld;$/;"	t
+operator !=	Matrix.hpp	/^	friend bool operator != (const _Myt& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator ()	Matrix.hpp	/^	_Ty& operator () (size_t stRow, size_t stCol)$/;"	f	class:matrix
+operator ()	Matrix.hpp	/^	const _Ty operator () (size_t stRow, size_t stCol) const$/;"	f	class:matrix
+operator *	Matrix.hpp	/^	friend _Myt operator * (const _Myt& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator *	Matrix.hpp	/^	friend _Myt operator * (const _Myt& lhs, const _Ty& rhs)$/;"	f	class:matrix
+operator *	Matrix.hpp	/^	friend _Myt operator * (const _Ty& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator *=	Matrix.hpp	/^	_Myt& operator *= (const _Myt& rhs)		\/\/矩阵与矩阵的自反*$/;"	f	class:matrix
+operator *=	Matrix.hpp	/^	_Myt& operator *= (const _Ty& rhs)		\/\/矩阵自乘数$/;"	f	class:matrix
+operator +	Matrix.hpp	/^	_Myt operator + () const	\/\/赋+号$/;"	f	class:matrix
+operator +	Matrix.hpp	/^	friend _Myt operator + (const _Myt& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator +	Matrix.hpp	/^	friend _Myt operator + (const _Myt& lhs, const _Ty& rhs)$/;"	f	class:matrix
+operator +	Matrix.hpp	/^	friend _Myt operator + (const _Ty& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator +=	Matrix.hpp	/^	_Myt& operator += (const _Myt& rhs)		\/\/矩阵与矩阵的自反+$/;"	f	class:matrix
+operator +=	Matrix.hpp	/^	_Myt& operator += (const _Ty& rhs)		\/\/矩阵自加数$/;"	f	class:matrix
+operator -	Matrix.hpp	/^	_Myt operator - () const	\/\/赋-号$/;"	f	class:matrix
+operator -	Matrix.hpp	/^	friend _Myt operator - (const _Myt& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator -	Matrix.hpp	/^	friend _Myt operator - (const _Myt& lhs, const _Ty& rhs)$/;"	f	class:matrix
+operator -	Matrix.hpp	/^	friend _Myt operator - (const _Ty& lhs, const _Myt& rhs)$/;"	f	class:matrix
+operator -=	Matrix.hpp	/^	_Myt& operator -= (const _Myt& rhs)		\/\/矩阵与矩阵的自反-$/;"	f	class:matrix
+operator -=	Matrix.hpp	/^	_Myt& operator -= (const _Ty& rhs)		\/\/矩阵自减数$/;"	f	class:matrix
+operator /	Matrix.hpp	/^	friend _Myt operator \/ (const _Myt& lhs, const _Ty& rhs)$/;"	f	class:matrix
+operator /=	Matrix.hpp	/^	_Myt& operator \/= (const _Ty& rhs)		\/\/矩阵自除以数$/;"	f	class:matrix
+operator ==	Matrix.hpp	/^	friend bool operator == (const _Myt& lhs, const _Myt& rhs)$/;"	f	class:matrix
+rand_01_One	Random.hpp	/^rand_01_One(double& seed)$/;"	f
+rand_01_Series	Random.hpp	/^rand_01_Series(double& seed, valarray<double>& dp, const size_t stCount)$/;"	f
+rand_NormalDistributing_One	Random.hpp	/^rand_NormalDistributing_One(double mu, double ro, double& seed)$/;"	f
+rand_NormalDistributing_Series	Random.hpp	/^rand_NormalDistributing_Series(double mu, double ro, double seed, valarray<double>& dp, size_t stCount)$/;"	f
+rand_ab_One	Random.hpp	/^rand_ab_One(size_t a, size_t b, size_t& seed)$/;"	f
+rand_ab_Series	Random.hpp	/^rand_ab_Series(size_t a, size_t b, size_t& seed, valarray<size_t>& sp, size_t stCount)$/;"	f
+tDistributionFunction	SpecialFunction.hpp	/^_Ty tDistributionFunction(_Ty t, int n)$/;"	f
+value_type	Matrix.hpp	/^	typedef _Ty value_type;$/;"	t	class:matrix
